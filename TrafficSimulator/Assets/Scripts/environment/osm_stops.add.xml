@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/30/20 17:34:44 by Eclipse SUMO netconvert Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Users\LICS\sumo-1.7.0\data\typemap\osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-287321417" name="성신여대입구(돈암)" lane="-379994121#0_0" startPos="913.42" endPos="1113.42" friendlyPos="true">
+        <access lane="-37401789_0" pos="7.16" length="19.23" friendlyPos="1"/>
+        <access lane="-536149444#0_0" pos="0.00" length="8.29" friendlyPos="1"/>
+        <access lane="37401789_0" pos="0.00" length="24.62" friendlyPos="1"/>
+        <access lane="536149444#0_0" pos="15.99" length="19.50" friendlyPos="1"/>
+        <access lane="536149445#0_0" pos="0.00" length="27.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-287323400" lane="-192247534#1_0" startPos="4414.48" endPos="4614.48" friendlyPos="true">
+        <access lane="-218769245#0_0" pos="110.69" length="8.31" friendlyPos="1"/>
+        <access lane="183521163#0_0" pos="0.00" length="15.36" friendlyPos="1"/>
+        <access lane="183895353#2_0" pos="32.88" length="12.19" friendlyPos="1"/>
+        <access lane="183895355#0_0" pos="0.00" length="14.95" friendlyPos="1"/>
+        <access lane="218769245#0_0" pos="0.00" length="5.40" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3426724601" name="청량리" lane="-782891445#4_0" startPos="0.00" endPos="100.00" friendlyPos="true">
+        <access lane="-379724030#0_0" pos="42.07" length="18.67" friendlyPos="1"/>
+        <access lane="183521154#2_0" pos="57.95" length="22.29" friendlyPos="1"/>
+        <access lane="379724030#0_0" pos="0.00" length="20.20" friendlyPos="1"/>
+        <access lane="516643230#3_0" pos="30.36" length="19.90" friendlyPos="1"/>
+        <access lane="516643230#4_0" pos="0.00" length="10.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-353186868" name="길음" lane="-379994121#0_0" startPos="2318.89" endPos="2518.89" friendlyPos="true"/>
+    <busStop id="-355172924" name="용두" lane="-180192151#0_0" startPos="805.51" endPos="1005.51" friendlyPos="true">
+        <access lane="-218835375_0" pos="0.19" length="13.75" friendlyPos="1"/>
+        <access lane="218835375_0" pos="0.01" length="10.25" friendlyPos="1"/>
+        <access lane="481393626#2_0" pos="4.86" length="23.81" friendlyPos="1"/>
+        <access lane="802402472#0_0" pos="0.00" length="25.38" friendlyPos="1"/>
+        <access lane="815640306#1_0" pos="9.36" length="25.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-355173138" name="수유(강북구청)" lane="-379994121#0_0" startPos="6508.57" endPos="6708.57" friendlyPos="true"/>
+    <busStop id="-355173140" name="미아(서울사이버대학)" lane="-379994121#0_0" startPos="5119.98" endPos="5319.98" friendlyPos="true"/>
+    <busStop id="-355173148" name="쌍문" lane="-379994121#0_0" startPos="7915.73" endPos="8115.73" friendlyPos="true"/>
+    <busStop id="-355173201" name="혜화(서울대학교병원)" lane="-379994121#1_0" startPos="1228.77" endPos="1428.77" friendlyPos="true">
+        <access lane="-232594130#6_0" pos="0.00" length="37.57" friendlyPos="1"/>
+        <access lane="-517641042#5_0" pos="15.06" length="1.58" friendlyPos="1"/>
+        <access lane="-517641042#6_0" pos="6.60" length="44.32" friendlyPos="1"/>
+        <access lane="232594130#6_0" pos="91.06" length="33.11" friendlyPos="1"/>
+        <access lane="517641042#5_0" pos="38.87" length="6.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-355173208" name="동대문역사문화공원" lane="-785130604_0" startPos="439.67" endPos="639.67" friendlyPos="true">
+        <access lane="-218923171#0_0" pos="0.00" length="42.17" friendlyPos="1"/>
+        <access lane="-218923171#1_0" pos="86.80" length="44.44" friendlyPos="1"/>
+        <access lane="-651694689_0" pos="59.46" length="17.07" friendlyPos="1"/>
+        <access lane="218923171#0_0" pos="52.44" length="46.96" friendlyPos="1"/>
+        <access lane="651694689_0" pos="20.82" length="12.27" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-357860122" name="퇴계로6가" lane="-218773868#5_0" startPos="5.08" endPos="20.08" friendlyPos="true" lines="507"/>
+    <busStop id="-3833429765" name="동대문" lane="-379994122_0" startPos="97.62" endPos="297.62" friendlyPos="true">
+        <access lane="183521049#1_0" pos="39.61" length="22.02" friendlyPos="1"/>
+        <access lane="760127120#1_0" pos="43.51" length="22.12" friendlyPos="1"/>
+        <access lane="760259688#0_0" pos="160.53" length="21.56" friendlyPos="1"/>
+        <access lane="770890583#2_0" pos="27.72" length="19.65" friendlyPos="1"/>
+        <access lane="773060741#0_0" pos="0.00" length="14.85" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3835922764" name="미아사거리" lane="-379994121#0_0" startPos="3588.53" endPos="3788.53" friendlyPos="true"/>
+    <busStop id="-4852979526" name="북한산보국문" lane="-192247534#1_0" startPos="1245.55" endPos="1445.55" friendlyPos="true"/>
+    <busStop id="-5549718797" name="광희동" lane="-218923171#1_0" startPos="69.97" endPos="84.97" friendlyPos="true" lines="507"/>
+    <busStop id="-5694832466" name="신답" lane="-623046654#0_0" startPos="15.32" endPos="215.32" friendlyPos="true">
+        <access lane="183521197#0-AddedOffRampEdge_0" pos="62.76" length="101.06" friendlyPos="1"/>
+        <access lane="203491742#3_0" pos="119.22" length="59.00" friendlyPos="1"/>
+        <access lane="238163917_0" pos="130.89" length="22.27" friendlyPos="1"/>
+        <access lane="482140286#1_0" pos="76.75" length="102.73" friendlyPos="1"/>
+        <access lane="482140286#2_0" pos="2.05" length="99.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5754623761" name="성신여대입구" lane="-192247534#1_0" startPos="3530.83" endPos="3730.83" friendlyPos="true">
+        <access lane="-37401789_0" pos="7.16" length="23.38" friendlyPos="1"/>
+        <access lane="-536149444#0_0" pos="0.00" length="17.67" friendlyPos="1"/>
+        <access lane="-536149444#1_0" pos="12.24" length="21.70" friendlyPos="1"/>
+        <access lane="37401789_0" pos="0.00" length="22.78" friendlyPos="1"/>
+        <access lane="536149444#0_0" pos="15.99" length="20.70" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5887905548" name="청량리" lane="-405403200#0_0" startPos="0.00" endPos="100.00" friendlyPos="true">
+        <access lane="416580152_0" pos="72.34" length="131.99" friendlyPos="1"/>
+        <access lane="416580153_0" pos="102.93" length="111.49" friendlyPos="1"/>
+        <access lane="538210514_0" pos="129.30" length="163.92" friendlyPos="1"/>
+        <access lane="550974490_0" pos="49.82" length="112.97" friendlyPos="1"/>
+        <access lane="550974493_0" pos="34.61" length="100.33" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5887905549" name="청량리" lane="-405047378#1_0" startPos="148.71" endPos="337.43" friendlyPos="true">
+        <access lane="416580152_0" pos="72.62" length="117.45" friendlyPos="1"/>
+        <access lane="416580153_0" pos="99.45" length="97.13" friendlyPos="1"/>
+        <access lane="550481003_0" pos="64.54" length="156.36" friendlyPos="1"/>
+        <access lane="550974490_0" pos="49.82" length="107.85" friendlyPos="1"/>
+        <access lane="550974493_0" pos="24.45" length="101.42" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5890636980" name="왕십리" lane="-778783886#1_0" startPos="45.62" endPos="245.62" friendlyPos="true">
+        <access lane="-419735655#0_0" pos="123.83" length="69.72" friendlyPos="1"/>
+        <access lane="188174589#1_0" pos="113.63" length="65.41" friendlyPos="1"/>
+        <access lane="188174594_0" pos="22.64" length="51.34" friendlyPos="1"/>
+        <access lane="188174597_0" pos="23.76" length="60.71" friendlyPos="1"/>
+        <access lane="188174605_0" pos="0.00" length="72.70" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5899527462" name="신설동" lane="-192247534#0_0" startPos="0.00" endPos="102.54" friendlyPos="true">
+        <access lane="-218660683#3_0" pos="0.00" length="22.20" friendlyPos="1"/>
+        <access lane="-518362761#0_0" pos="14.74" length="3.74" friendlyPos="1"/>
+        <access lane="183521037#1_0" pos="11.85" length="3.51" friendlyPos="1"/>
+        <access lane="183521054#0_0" pos="0.75" length="17.59" friendlyPos="1"/>
+        <access lane="518362761#0_0" pos="2.42" length="8.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5899527463" name="신설동" lane="-180192151#3_0" startPos="0.00" endPos="33.87" friendlyPos="true">
+        <access lane="-318883566_0" pos="0.00" length="31.73" friendlyPos="1"/>
+        <access lane="183521201#2_0" pos="7.75" length="11.35" friendlyPos="1"/>
+        <access lane="318883566_0" pos="38.54" length="28.09" friendlyPos="1"/>
+        <access lane="379589786_0" pos="0.00" length="32.14" friendlyPos="1"/>
+        <access lane="538878501#4_0" pos="76.82" length="17.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5899527478" name="회기" lane="-405047385#0_0" startPos="117.50" endPos="317.50" friendlyPos="true">
+        <access lane="-505884870#6_0" pos="0.00" length="27.05" friendlyPos="1"/>
+        <access lane="-516636553#3_0" pos="0.00" length="38.25" friendlyPos="1"/>
+        <access lane="379782002#0_0" pos="0.00" length="40.92" friendlyPos="1"/>
+        <access lane="505884870#6_0" pos="51.31" length="31.85" friendlyPos="1"/>
+        <access lane="516636553#3_0" pos="44.52" length="34.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5899527480" name="외대앞" lane="-405047385#1_0" startPos="492.03" endPos="692.03" friendlyPos="true"/>
+    <busStop id="-5902127690" name="청량리" lane="-768714278#0_0" startPos="23.86" endPos="123.86" friendlyPos="true">
+        <access lane="-379724030#0_0" pos="42.07" length="29.28" friendlyPos="1"/>
+        <access lane="183521154#2_0" pos="58.07" length="11.45" friendlyPos="1"/>
+        <access lane="379724030#0_0" pos="0.00" length="30.17" friendlyPos="1"/>
+        <access lane="516643230#3_0" pos="30.36" length="26.68" friendlyPos="1"/>
+        <access lane="516643230#4_0" pos="0.00" length="20.82" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5914829686" name="한성대입구(삼선교)" lane="-379994121#1_0" startPos="2162.87" endPos="2275.97" friendlyPos="true">
+        <access lane="536149361#5_0" pos="15.30" length="16.24" friendlyPos="1"/>
+        <access lane="632698279#0_0" pos="0.00" length="20.70" friendlyPos="1"/>
+        <access lane="632698280#3_0" pos="0.15" length="21.07" friendlyPos="1"/>
+        <access lane="632698280#4_0" pos="1.83" length="18.82" friendlyPos="1"/>
+        <access lane="632698280#5_0" pos="0.00" length="21.67" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5933896997" name="충무로" lane="-379994123#0_0" startPos="0.00" endPos="191.25" friendlyPos="true">
+        <access lane="218773869#6_0" pos="107.39" length="0.99" friendlyPos="1"/>
+        <access lane="768088525#0_0" pos="29.44" length="34.48" friendlyPos="1"/>
+        <access lane="768088525#1_0" pos="68.19" length="73.40" friendlyPos="1"/>
+        <access lane="773159859#2_0" pos="51.15" length="82.20" friendlyPos="1"/>
+        <access lane="785130598#0_0" pos="76.95" length="17.53" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6033544411" name="금호" lane="-640473006#2_0" startPos="288.33" endPos="488.33" friendlyPos="true">
+        <access lane="97537672_0" pos="0.00" length="213.11" friendlyPos="1"/>
+        <access lane="97537673_0" pos="348.06" length="207.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6033544415" name="약수" lane="-640473006#2_0" startPos="1183.56" endPos="1383.56" friendlyPos="true">
+        <access lane="-218681380#6_0" pos="0.00" length="4.86" friendlyPos="1"/>
+        <access lane="-218960891#14_0" pos="0.00" length="10.26" friendlyPos="1"/>
+        <access lane="218681380#6_0" pos="15.98" length="9.64" friendlyPos="1"/>
+        <access lane="218960891#14_0" pos="31.50" length="5.49" friendlyPos="1"/>
+        <access lane="519097168#3_0" pos="16.97" length="29.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6033544418" name="동대입구" lane="-640473006#2_0" startPos="1842.49" endPos="2042.49" friendlyPos="true">
+        <access lane="-218662402_0" pos="66.14" length="5.49" friendlyPos="1"/>
+        <access lane="-37403487#0_0" pos="32.90" length="11.57" friendlyPos="1"/>
+        <access lane="-37928420#0_0" pos="23.49" length="16.81" friendlyPos="1"/>
+        <access lane="218662402_0" pos="0.00" length="7.33" friendlyPos="1"/>
+        <access lane="37403487#0_0" pos="0.00" length="8.86" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6033544421" name="충무로" lane="-640473006#0_0" startPos="0.00" endPos="194.32" friendlyPos="true">
+        <access lane="218773869#6_0" pos="96.04" length="11.41" friendlyPos="1"/>
+        <access lane="768088525#0_0" pos="29.44" length="15.87" friendlyPos="1"/>
+        <access lane="768088525#1_0" pos="68.19" length="54.60" friendlyPos="1"/>
+        <access lane="773159859#2_0" pos="51.15" length="72.80" friendlyPos="1"/>
+        <access lane="785130598#0_0" pos="87.70" length="31.06" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6033544425" name="안국" lane="-640473006#0_0" startPos="2166.93" endPos="2366.93" friendlyPos="true"/>
+    <busStop id="-6033544430" name="경복궁" lane="-640473006#0_0" startPos="3313.74" endPos="3513.74" friendlyPos="true"/>
+    <busStop id="-6033544433" name="독립문" lane="-640473006#0_0" startPos="4914.72" endPos="5114.72" friendlyPos="true"/>
+    <busStop id="-6033544441" name="무악재" lane="-640473006#0_0" startPos="6010.05" endPos="6210.05" friendlyPos="true"/>
+    <busStop id="-6033544469" name="불광" lane="-640473006#0_0" startPos="9618.58" endPos="9818.58" friendlyPos="true"/>
+    <busStop id="-6033544618" name="을지로3가 역" lane="-640473006#0_0" startPos="579.96" endPos="779.96" friendlyPos="true">
+        <access lane="-381456453#0_0" pos="50.47" length="293.61" friendlyPos="1"/>
+        <access lane="184083181#4_0" pos="163.21" length="13.68" friendlyPos="1"/>
+        <access lane="184083183#0_0" pos="3.76" length="12.78" friendlyPos="1"/>
+        <access lane="381456453#0_0" pos="0.00" length="295.39" friendlyPos="1"/>
+        <access lane="770894972_0" pos="1416.36" length="0.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6033544620" name="종로3가" lane="-640473006#0_0" startPos="1213.65" endPos="1413.65" friendlyPos="true"/>
+    <busStop id="-6033544670" name="홍제" lane="-640473006#0_0" startPos="6907.43" endPos="7107.43" friendlyPos="true"/>
+    <busStop id="-6033544681" name="녹번" lane="-640473006#0_0" startPos="8496.79" endPos="8696.79" friendlyPos="true"/>
+    <busStop id="-6033544692" name="연신내" lane="-640473006#0_0" startPos="10982.42" endPos="11182.42" friendlyPos="true"/>
+    <busStop id="-6033544706" name="구파발" lane="-640473006#0_0" startPos="12940.01" endPos="13040.01" friendlyPos="true"/>
+    <busStop id="-6036160322" name="한성대입구" lane="-640794440#1_0" startPos="2154.40" endPos="2268.01" friendlyPos="true">
+        <access lane="183521064#0_0" pos="0.00" length="26.11" friendlyPos="1"/>
+        <access lane="536149361#5_0" pos="14.74" length="22.07" friendlyPos="1"/>
+        <access lane="632698279#0_0" pos="0.00" length="26.67" friendlyPos="1"/>
+        <access lane="632698280#4_0" pos="20.90" length="22.61" friendlyPos="1"/>
+        <access lane="632698280#5_0" pos="0.20" length="22.98" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6036160329" name="동대문" lane="-640794402_0" startPos="5.52" endPos="205.52" friendlyPos="true">
+        <access lane="183272548#2_0" pos="0.00" length="24.36" friendlyPos="1"/>
+        <access lane="760127120#1_0" pos="42.79" length="15.88" friendlyPos="1"/>
+        <access lane="770890583#2_0" pos="27.72" length="22.43" friendlyPos="1"/>
+        <access lane="773060741#0_0" pos="0.00" length="19.71" friendlyPos="1"/>
+        <access lane="800200228#6_0" pos="37.00" length="19.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6036160332" name="동대문역사문화공원" lane="-640794409#0_0" startPos="1070.30" endPos="1270.30" friendlyPos="true">
+        <access lane="-218923171#0_0" pos="0.00" length="48.88" friendlyPos="1"/>
+        <access lane="-218923171#1_0" pos="86.80" length="50.55" friendlyPos="1"/>
+        <access lane="-651694689_0" pos="56.27" length="21.83" friendlyPos="1"/>
+        <access lane="218923171#0_0" pos="52.44" length="53.68" friendlyPos="1"/>
+        <access lane="651694689_0" pos="24.01" length="17.03" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6036160335" name="충무로" lane="-640794419_0" startPos="30.25" endPos="230.25" friendlyPos="true">
+        <access lane="218773869#6_0" pos="107.60" length="8.63" friendlyPos="1"/>
+        <access lane="768088525#0_0" pos="30.63" length="37.78" friendlyPos="1"/>
+        <access lane="768088525#1_0" pos="68.19" length="75.83" friendlyPos="1"/>
+        <access lane="773159859#2_0" pos="51.70" length="80.14" friendlyPos="1"/>
+        <access lane="785130598#0_0" pos="77.08" length="9.88" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6036160827" name="쌍문" lane="-640794440#0_0" startPos="7918.26" endPos="8118.26" friendlyPos="true"/>
+    <busStop id="-6036160831" name="수유" lane="-640794440#0_0" startPos="6509.67" endPos="6709.67" friendlyPos="true"/>
+    <busStop id="-6036160836" name="미아" lane="-640794440#0_0" startPos="5126.08" endPos="5326.08" friendlyPos="true"/>
+    <busStop id="-6036160839" name="미아사거리" lane="-640794440#0_0" startPos="3593.39" endPos="3793.39" friendlyPos="true"/>
+    <busStop id="-6036160849" name="길음" lane="-640794440#0_0" startPos="2321.92" endPos="2521.92" friendlyPos="true"/>
+    <busStop id="-6036160858" name="성신여대입구" lane="-640794440#0_0" startPos="911.70" endPos="1111.70" friendlyPos="true">
+        <access lane="-37401789_0" pos="7.16" length="24.62" friendlyPos="1"/>
+        <access lane="-536149444#0_0" pos="0.00" length="12.20" friendlyPos="1"/>
+        <access lane="-536149445#0_0" pos="31.68" length="23.64" friendlyPos="1"/>
+        <access lane="536149444#0_0" pos="15.99" length="14.24" friendlyPos="1"/>
+        <access lane="536149445#0_0" pos="0.00" length="21.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6036160873" name="혜화" lane="-640794440#1_0" startPos="1225.77" endPos="1425.77" friendlyPos="true">
+        <access lane="-232594130#6_0" pos="0.00" length="39.49" friendlyPos="1"/>
+        <access lane="-517641042#5_0" pos="15.18" length="4.89" friendlyPos="1"/>
+        <access lane="232594130#6_0" pos="91.06" length="35.39" friendlyPos="1"/>
+        <access lane="517641042#5_0" pos="38.74" length="0.09" friendlyPos="1"/>
+        <access lane="517641042#6_0" pos="0.00" length="44.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1797587546" name="신당" lane="168498720#2_0" startPos="580.55" endPos="780.55" friendlyPos="true">
+        <access lane="-117770547#0_0" pos="43.41" length="17.14" friendlyPos="1"/>
+        <access lane="-218684411#8_0" pos="68.05" length="6.47" friendlyPos="1"/>
+        <access lane="117770547#0_0" pos="0.00" length="21.69" friendlyPos="1"/>
+        <access lane="218684411#8_0" pos="5.06" length="1.67" friendlyPos="1"/>
+        <access lane="229028006#0_0" pos="0.00" length="23.02" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2111825348" name="중계" lane="396816937_0" startPos="5035.09" endPos="5235.09" friendlyPos="true"/>
+    <busStop id="287321417" name="성신여대입구(돈암)" lane="379994121#0_0" startPos="7771.26" endPos="7709.12" friendlyPos="true" lines="4">
+        <access lane="-37401789_0" pos="7.16" length="19.23" friendlyPos="1"/>
+        <access lane="-536149444#0_0" pos="0.00" length="8.29" friendlyPos="1"/>
+        <access lane="37401789_0" pos="0.00" length="24.62" friendlyPos="1"/>
+        <access lane="536149444#0_0" pos="15.99" length="19.50" friendlyPos="1"/>
+        <access lane="536149445#0_0" pos="0.00" length="27.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="287323400" lane="192247534#1_0" startPos="921.45" endPos="1121.45" friendlyPos="true">
+        <access lane="-218769245#0_0" pos="110.69" length="8.31" friendlyPos="1"/>
+        <access lane="183521163#0_0" pos="0.00" length="15.36" friendlyPos="1"/>
+        <access lane="183895353#2_0" pos="32.88" length="12.19" friendlyPos="1"/>
+        <access lane="183895355#0_0" pos="0.00" length="14.95" friendlyPos="1"/>
+        <access lane="218769245#0_0" pos="0.00" length="5.40" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3279010892" name="신당" lane="469657938_0" startPos="18207.63" endPos="15647.11" friendlyPos="true">
+        <access lane="-218684408#0_0" pos="0.00" length="8.47" friendlyPos="1"/>
+        <access lane="-229028340#0_0" pos="56.81" length="11.10" friendlyPos="1"/>
+        <access lane="218684408#0_0" pos="105.44" length="5.95" friendlyPos="1"/>
+        <access lane="218684408#1_0" pos="0.00" length="15.93" friendlyPos="1"/>
+        <access lane="229028340#0_0" pos="0.00" length="8.75" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3279010922" name="동묘앞" lane="469657938_0" startPos="18900.22" endPos="15647.11" friendlyPos="true">
+        <access lane="-333725872#5_0" pos="25.85" length="5.93" friendlyPos="1"/>
+        <access lane="180192153#6_0" pos="154.43" length="47.70" friendlyPos="1"/>
+        <access lane="183521185#0_0" pos="0.00" length="56.71" friendlyPos="1"/>
+        <access lane="333725872#5_0" pos="42.43" length="1.13" friendlyPos="1"/>
+        <access lane="788674858_0" pos="0.00" length="57.73" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3426724596" name="제기동" lane="782891445#2_0" startPos="944.90" endPos="1144.90" friendlyPos="true" lines="1">
+        <access lane="-37400668#5_0" pos="5.94" length="14.56" friendlyPos="1"/>
+        <access lane="183521143#11_0" pos="1.12" length="22.72" friendlyPos="1"/>
+        <access lane="37400668#5_0" pos="381.92" length="9.76" friendlyPos="1"/>
+        <access lane="550974509_0" pos="0.00" length="28.26" friendlyPos="1"/>
+        <access lane="816487877_0" pos="0.70" length="16.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3426724597" name="종로3가" lane="637016283_0" startPos="204.29" endPos="404.29" friendlyPos="true" lines="1">
+        <access lane="220027347#0_0" pos="411.82" length="6.40" friendlyPos="1"/>
+        <access lane="517641011#3_0" pos="245.86" length="26.64" friendlyPos="1"/>
+        <access lane="732213463#14_0" pos="224.52" length="316.65" friendlyPos="1"/>
+        <access lane="771233459#0_0" pos="143.19" length="209.35" friendlyPos="1"/>
+        <access lane="771233459#1_0" pos="2.89" length="207.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3426724601" name="청량리" lane="782891445#4_0" startPos="24.86" endPos="124.86" friendlyPos="true" lines="1">
+        <access lane="-379724030#0_0" pos="42.07" length="18.67" friendlyPos="1"/>
+        <access lane="183521154#2_0" pos="57.95" length="22.29" friendlyPos="1"/>
+        <access lane="379724030#0_0" pos="0.00" length="20.20" friendlyPos="1"/>
+        <access lane="516643230#3_0" pos="30.36" length="19.90" friendlyPos="1"/>
+        <access lane="516643230#4_0" pos="0.00" length="10.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3429566621" name="합정" lane="469657938_0" startPos="6174.85" endPos="6374.85" friendlyPos="true"/>
+    <busStop id="3438345419" name="동대문역사문화공원" lane="396816939_0" startPos="7748.70" endPos="7902.45" friendlyPos="true">
+        <access lane="-218773868#0_0" pos="28.29" length="16.51" friendlyPos="1"/>
+        <access lane="-218923171#2_0" pos="0.00" length="12.67" friendlyPos="1"/>
+        <access lane="-520307306#10_0" pos="0.00" length="20.69" friendlyPos="1"/>
+        <access lane="218773868#0_0" pos="0.00" length="13.95" friendlyPos="1"/>
+        <access lane="218923171#2_0" pos="33.95" length="8.02" friendlyPos="1"/>
+    </busStop>
+    <busStop id="353186868" name="길음" lane="379994121#0_0" startPos="6365.79" endPos="6565.79" friendlyPos="true" lines="4"/>
+    <busStop id="355172742" name="종로5가" lane="768714278#4_0" startPos="1745.62" endPos="1945.62" friendlyPos="true" lines="1">
+        <access lane="-482167260#2_0" pos="0.00" length="22.09" friendlyPos="1"/>
+        <access lane="183521181#0_0" pos="0.00" length="17.72" friendlyPos="1"/>
+        <access lane="184083202#0_0" pos="0.00" length="22.03" friendlyPos="1"/>
+        <access lane="218835937#6_0" pos="122.68" length="16.16" friendlyPos="1"/>
+        <access lane="482167260#2_0" pos="16.20" length="22.84" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355172774" name="석계" lane="469657938_0" startPos="26211.73" endPos="15647.11" friendlyPos="true"/>
+    <busStop id="355172924" name="용두" lane="180192151#0_0" startPos="377.32" endPos="577.32" friendlyPos="true">
+        <access lane="-218835375_0" pos="0.19" length="13.75" friendlyPos="1"/>
+        <access lane="218835375_0" pos="0.01" length="10.25" friendlyPos="1"/>
+        <access lane="481393626#2_0" pos="4.86" length="23.81" friendlyPos="1"/>
+        <access lane="802402472#0_0" pos="0.00" length="25.38" friendlyPos="1"/>
+        <access lane="815640306#1_0" pos="9.36" length="25.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355172962" name="을지로입구" lane="672454243#1_0" startPos="1839.97" endPos="2039.97" friendlyPos="true">
+        <access lane="770894972_0" pos="2307.72" length="3.26" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355172983" name="상왕십리" lane="168498720#1_0" startPos="435.06" endPos="635.06" friendlyPos="true">
+        <access lane="-218684409#0_0" pos="69.24" length="2.50" friendlyPos="1"/>
+        <access lane="-379962854#1_0" pos="0.00" length="70.54" friendlyPos="1"/>
+        <access lane="-420073636_0" pos="99.75" length="71.62" friendlyPos="1"/>
+        <access lane="218684409#0_0" pos="73.93" length="7.30" friendlyPos="1"/>
+        <access lane="379962854#1_0" pos="38.29" length="75.32" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173018" name="홍제" lane="379994119_0" startPos="5937.75" endPos="6137.75" friendlyPos="true"/>
+    <busStop id="355173021" name="녹번" lane="379994119_0" startPos="4344.46" endPos="4544.46" friendlyPos="true"/>
+    <busStop id="355173026" name="무악재" lane="379994119_0" startPos="6831.41" endPos="7031.41" friendlyPos="true"/>
+    <busStop id="355173044" name="동대입구" lane="379994119_0" startPos="13950.73" endPos="13398.80" friendlyPos="true">
+        <access lane="-244384770#14_0" pos="0.00" length="8.32" friendlyPos="1"/>
+        <access lane="-37403487#0_0" pos="32.90" length="9.98" friendlyPos="1"/>
+        <access lane="244384770#14_0" pos="114.31" length="9.59" friendlyPos="1"/>
+        <access lane="37403487#0_0" pos="0.00" length="11.74" friendlyPos="1"/>
+        <access lane="37928420#0_0" pos="0.00" length="13.63" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173059" name="경복궁" lane="379994119_0" startPos="9535.13" endPos="9735.13" friendlyPos="true"/>
+    <busStop id="355173067" name="금호" lane="379994119_0" startPos="15497.03" endPos="13398.80" friendlyPos="true">
+        <access lane="97537672_0" pos="0.00" length="213.27" friendlyPos="1"/>
+        <access lane="97537673_0" pos="348.06" length="206.58" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173107" name="삼각지" lane="469657938_0" startPos="11913.31" endPos="12113.31" friendlyPos="true"/>
+    <busStop id="355173138" name="수유(강북구청)" lane="379994121#0_0" startPos="2176.11" endPos="2376.11" friendlyPos="true" lines="4"/>
+    <busStop id="355173140" name="미아(서울사이버대학)" lane="379994121#0_0" startPos="3564.70" endPos="3764.70" friendlyPos="true" lines="4"/>
+    <busStop id="355173148" name="쌍문" lane="379994121#0_0" startPos="768.96" endPos="968.96" friendlyPos="true" lines="4"/>
+    <busStop id="355173201" name="혜화(서울대학교병원)" lane="379994121#1_0" startPos="847.56" endPos="1047.56" friendlyPos="true" lines="4">
+        <access lane="-232594130#6_0" pos="0.00" length="37.57" friendlyPos="1"/>
+        <access lane="-517641042#5_0" pos="15.06" length="1.58" friendlyPos="1"/>
+        <access lane="-517641042#6_0" pos="6.60" length="44.32" friendlyPos="1"/>
+        <access lane="232594130#6_0" pos="91.06" length="33.11" friendlyPos="1"/>
+        <access lane="517641042#5_0" pos="38.87" length="6.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173208" name="동대문역사문화공원" lane="785130604_0" startPos="501.80" endPos="701.80" friendlyPos="true">
+        <access lane="-218923171#0_0" pos="0.00" length="42.17" friendlyPos="1"/>
+        <access lane="-218923171#1_0" pos="86.80" length="44.44" friendlyPos="1"/>
+        <access lane="-651694689_0" pos="59.46" length="17.07" friendlyPos="1"/>
+        <access lane="218923171#0_0" pos="52.44" length="46.96" friendlyPos="1"/>
+        <access lane="651694689_0" pos="20.82" length="12.27" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173364" name="신금호" lane="396816939_0" startPos="6081.46" endPos="6281.46" friendlyPos="true">
+        <access lane="-37400066#0_0" pos="373.94" length="30.57" friendlyPos="1"/>
+        <access lane="-381730930#0_0" pos="0.00" length="33.26" friendlyPos="1"/>
+        <access lane="-519066140#0_0" pos="71.11" length="7.29" friendlyPos="1"/>
+        <access lane="37400066#0_0" pos="11.34" length="25.77" friendlyPos="1"/>
+        <access lane="519066140#0_0" pos="15.74" length="12.09" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173365" name="행당" lane="396816939_0" startPos="5136.10" endPos="5336.10" friendlyPos="true">
+        <access lane="-379962802#3_0" pos="0.00" length="6.70" friendlyPos="1"/>
+        <access lane="-519066123#1_0" pos="0.00" length="9.27" friendlyPos="1"/>
+        <access lane="-519066123#2_0" pos="32.09" length="12.82" friendlyPos="1"/>
+        <access lane="379962802#3_0" pos="191.35" length="5.19" friendlyPos="1"/>
+        <access lane="519066123#1_0" pos="15.53" length="11.72" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173368" name="마장" lane="396816939_0" startPos="3650.03" endPos="3850.03" friendlyPos="true">
+        <access lane="-218797184#1_0" pos="42.50" length="0.57" friendlyPos="1"/>
+        <access lane="-379923356_0" pos="0.00" length="68.07" friendlyPos="1"/>
+        <access lane="218797184#1_0" pos="39.61" length="5.37" friendlyPos="1"/>
+        <access lane="379923340_0" pos="47.86" length="72.83" friendlyPos="1"/>
+        <access lane="379923359#1_0" pos="36.94" length="69.53" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173370" name="답십리" lane="396816939_0" startPos="2566.89" endPos="2766.89" friendlyPos="true">
+        <access lane="-375139588#1_0" pos="0.00" length="25.30" friendlyPos="1"/>
+        <access lane="-516643190#0_0" pos="61.20" length="12.57" friendlyPos="1"/>
+        <access lane="375139588#1_0" pos="47.18" length="21.01" friendlyPos="1"/>
+        <access lane="416599157#0_0" pos="0.00" length="27.68" friendlyPos="1"/>
+        <access lane="516643190#0_0" pos="6.47" length="1.83" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173372" name="장한평" lane="396816939_0" startPos="1316.60" endPos="1516.60" friendlyPos="true">
+        <access lane="-175357581#7_0" pos="56.52" length="13.28" friendlyPos="1"/>
+        <access lane="-37402554#0_0" pos="39.99" length="13.85" friendlyPos="1"/>
+        <access lane="175357581#6_0" pos="46.35" length="18.03" friendlyPos="1"/>
+        <access lane="175357581#7_0" pos="0.00" length="7.38" friendlyPos="1"/>
+        <access lane="37402554#0_0" pos="0.00" length="15.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173381" name="증산" lane="469657938_0" startPos="1595.55" endPos="1795.55" friendlyPos="true"/>
+    <busStop id="355173400" name="안암" lane="469657938_0" startPos="21383.35" endPos="15647.11" friendlyPos="true">
+        <access lane="-172670186#5_0" pos="0.00" length="16.12" friendlyPos="1"/>
+        <access lane="172670186#5_0" pos="5.73" length="14.37" friendlyPos="1"/>
+        <access lane="183895344#6_0" pos="6.95" length="7.65" friendlyPos="1"/>
+        <access lane="518705243#8_0" pos="1.74" length="13.58" friendlyPos="1"/>
+        <access lane="816482160#1_0" pos="0.00" length="14.65" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173402" name="창신" lane="469657938_0" startPos="19696.38" endPos="15647.11" friendlyPos="true">
+        <access lane="-416209843#2_0" pos="24.81" length="17.83" friendlyPos="1"/>
+        <access lane="183895351_0" pos="69.50" length="7.10" friendlyPos="1"/>
+        <access lane="183895354_0" pos="14.89" length="0.13" friendlyPos="1"/>
+        <access lane="37399642#0_0" pos="17.01" length="15.12" friendlyPos="1"/>
+        <access lane="37399642#1_0" pos="0.00" length="16.18" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173404" name="돌곶이" lane="469657938_0" startPos="25254.91" endPos="15647.11" friendlyPos="true"/>
+    <busStop id="355173405" name="상월곡" lane="469657938_0" startPos="24383.61" endPos="15647.11" friendlyPos="true"/>
+    <busStop id="355173406" name="월곡" lane="469657938_0" startPos="23613.45" endPos="15647.11" friendlyPos="true"/>
+    <busStop id="355173408" name="고려대" lane="469657938_0" startPos="22223.06" endPos="15647.11" friendlyPos="true">
+        <access lane="-218975374#1_0" pos="64.04" length="17.04" friendlyPos="1"/>
+        <access lane="218975374#0_0" pos="80.15" length="16.43" friendlyPos="1"/>
+        <access lane="218975374#1_0" pos="0.00" length="9.11" friendlyPos="1"/>
+        <access lane="560435745_0" pos="0.00" length="10.37" friendlyPos="1"/>
+        <access lane="810622932#3_0" pos="109.97" length="18.57" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173411" name="봉화산" lane="469657938_0" startPos="28612.99" endPos="15647.11" friendlyPos="true"/>
+    <busStop id="355173413" name="화랑대" lane="469657938_0" startPos="27891.15" endPos="15647.11" friendlyPos="true"/>
+    <busStop id="355173424" name="마포구청" lane="469657938_0" startPos="4328.98" endPos="4528.98" friendlyPos="true"/>
+    <busStop id="355173426" name="망원" lane="469657938_0" startPos="5356.09" endPos="5556.09" friendlyPos="true"/>
+    <busStop id="355173429" name="월드컵경기장" lane="469657938_0" startPos="3462.16" endPos="3662.16" friendlyPos="true"/>
+    <busStop id="355173431" name="광흥창" lane="469657938_0" startPos="7845.32" endPos="8045.32" friendlyPos="true"/>
+    <busStop id="355173433" name="대흥" lane="469657938_0" startPos="8806.67" endPos="9006.67" friendlyPos="true"/>
+    <busStop id="355173436" name="상수" lane="469657938_0" startPos="7042.40" endPos="7242.40" friendlyPos="true"/>
+    <busStop id="355173438" name="녹사평" lane="469657938_0" startPos="13068.10" endPos="13268.10" friendlyPos="true"/>
+    <busStop id="355173440" name="이태원" lane="469657938_0" startPos="13783.03" endPos="13983.03" friendlyPos="true"/>
+    <busStop id="355173443" name="효창공원앞" lane="469657938_0" startPos="10729.12" endPos="10929.12" friendlyPos="true"/>
+    <busStop id="355173445" name="청구" lane="396816939_0" startPos="7007.69" endPos="7207.69" friendlyPos="true">
+        <access lane="-183272309#10_0" pos="2.31" length="1.08" friendlyPos="1"/>
+        <access lane="-37399924#7_0" pos="0.00" length="18.34" friendlyPos="1"/>
+        <access lane="183272309#10_0" pos="67.85" length="5.88" friendlyPos="1"/>
+        <access lane="218960891#0_0" pos="0.00" length="19.55" friendlyPos="1"/>
+        <access lane="37399924#7_0" pos="46.92" length="14.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="355173448" name="한강진" lane="469657938_0" startPos="14784.49" endPos="14984.49" friendlyPos="true"/>
+    <busStop id="355173451" name="버티고개" lane="469657938_0" startPos="15957.51" endPos="15647.11" friendlyPos="true">
+        <access lane="-218910324#5_0" pos="240.13" length="0.20" friendlyPos="1"/>
+        <access lane="-239357573#0_0" pos="248.99" length="236.24" friendlyPos="1"/>
+        <access lane="218910324#5_0" pos="319.80" length="5.00" friendlyPos="1"/>
+        <access lane="239357573#0_0" pos="0.00" length="237.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="357830150" name="청계4가배오개다리" lane="218924602#5_0" startPos="66.58" endPos="81.58" friendlyPos="true"/>
+    <busStop id="357849854" name="대한극장앞" lane="218773869#3_0" startPos="19.66" endPos="34.66" friendlyPos="true" lines="507"/>
+    <busStop id="357858137" name="퇴계로5가" lane="785130600#2_0" startPos="90.64" endPos="105.64" friendlyPos="true" lines="507"/>
+    <busStop id="357862924" name="고려대이공대.고대병원" lane="803710525#0_0" startPos="24.69" endPos="39.69" friendlyPos="true"/>
+    <busStop id="357868774" name="동대문역사문화공원" lane="218923178#1_0" startPos="34.28" endPos="49.28" friendlyPos="true" lines="507"/>
+    <busStop id="357871757" name="고려대이공대.고대병원" lane="816482169#2_0" startPos="115.68" endPos="130.68" friendlyPos="true"/>
+    <busStop id="357875453" name="국민은행장안동지점" lane="258863056#0_0" startPos="466.98" endPos="422.53" friendlyPos="true"/>
+    <busStop id="3823777524" name="용마산" lane="396816937_0" startPos="13483.35" endPos="13683.35" friendlyPos="true"/>
+    <busStop id="3833429765" name="동대문" lane="379994122_0" startPos="3.54" endPos="203.54" friendlyPos="true">
+        <access lane="183521049#1_0" pos="39.61" length="22.02" friendlyPos="1"/>
+        <access lane="760127120#1_0" pos="43.51" length="22.12" friendlyPos="1"/>
+        <access lane="760259688#0_0" pos="160.53" length="21.56" friendlyPos="1"/>
+        <access lane="770890583#2_0" pos="27.72" length="19.65" friendlyPos="1"/>
+        <access lane="773060741#0_0" pos="0.00" length="14.85" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3833429767" name="종로3가" lane="379994119_0" startPos="11621.22" endPos="11821.22" friendlyPos="true"/>
+    <busStop id="3833430100" name="동대문역" lane="379994109_0" startPos="1110.03" endPos="1310.03" friendlyPos="true" lines="1">
+        <access lane="180192153#1_0" pos="1.90" length="15.98" friendlyPos="1"/>
+        <access lane="183521178#4_0" pos="5.27" length="7.75" friendlyPos="1"/>
+        <access lane="380096909#4_0" pos="6.87" length="18.71" friendlyPos="1"/>
+        <access lane="760127120#10_0" pos="65.00" length="18.61" friendlyPos="1"/>
+        <access lane="770890591#0_0" pos="4.83" length="13.64" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3833430103" name="종로3가" lane="637016278_0" startPos="843.35" endPos="1043.35" friendlyPos="true" lines="1">
+        <access lane="220027347#0_0" pos="411.90" length="17.27" friendlyPos="1"/>
+        <access lane="517641011#3_0" pos="246.02" length="15.77" friendlyPos="1"/>
+        <access lane="732213463#14_0" pos="224.53" length="327.53" friendlyPos="1"/>
+        <access lane="771233459#0_0" pos="143.19" length="208.05" friendlyPos="1"/>
+        <access lane="771233459#1_0" pos="2.89" length="206.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3833430104" name="종로5가" lane="379994109_0" startPos="450.26" endPos="650.26" friendlyPos="true" lines="1">
+        <access lane="-517323578#0_0" pos="26.92" length="21.60" friendlyPos="1"/>
+        <access lane="183521181#0_0" pos="0.00" length="21.85" friendlyPos="1"/>
+        <access lane="184083202#0_0" pos="0.00" length="16.03" friendlyPos="1"/>
+        <access lane="517323578#0_0" pos="0.00" length="22.27" friendlyPos="1"/>
+        <access lane="517932073#4_0" pos="156.75" length="19.49" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3835922764" name="미아사거리" lane="379994121#0_0" startPos="5096.16" endPos="5296.16" friendlyPos="true" lines="4"/>
+    <busStop id="3846532985" name="약수" lane="469657938_0" startPos="16742.45" endPos="15647.11" friendlyPos="true">
+        <access lane="-218910324#1_0" pos="3.81" length="2.28" friendlyPos="1"/>
+        <access lane="-218910324#2_0" pos="28.48" length="27.37" friendlyPos="1"/>
+        <access lane="-458731949_0" pos="89.31" length="15.60" friendlyPos="1"/>
+        <access lane="218910324#1_0" pos="17.21" length="7.08" friendlyPos="1"/>
+        <access lane="458731949_0" pos="0.00" length="20.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4076814733" name="응봉" lane="405431935#0_0" startPos="1551.52" endPos="1751.52" friendlyPos="true" lines="G·J">
+        <access lane="-26965302_0" pos="359.09" length="100.54" friendlyPos="1"/>
+        <access lane="-379955984#3_0" pos="0.00" length="171.65" friendlyPos="1"/>
+        <access lane="26965306_0" pos="353.29" length="95.74" friendlyPos="1"/>
+        <access lane="840019180_0" pos="51.74" length="170.65" friendlyPos="1"/>
+        <access lane="840019183_0" pos="85.13" length="139.26" friendlyPos="1"/>
+    </busStop>
+    <busStop id="414683380" name="새절" lane="469657938_0" startPos="558.35" endPos="758.35" friendlyPos="true"/>
+    <busStop id="414685965" name="안국" lane="379994119_0" startPos="10687.49" endPos="10887.49" friendlyPos="true"/>
+    <busStop id="4246459937" name="신이문" lane="712248060#0_0" startPos="0.00" endPos="191.16" friendlyPos="true" lines="1"/>
+    <busStop id="4706526694" name="중화" lane="396816937_0" startPos="10113.10" endPos="10313.10" friendlyPos="true"/>
+    <busStop id="4852979526" name="북한산보국문" lane="192247534#1_0" startPos="4090.38" endPos="4290.38" friendlyPos="true"/>
+    <busStop id="5281680295" name="구파발" lane="379994119_0" startPos="0.00" endPos="100.00" friendlyPos="true"/>
+    <busStop id="5349724970" name="을지로4가 역" lane="672454243#1_0" startPos="477.87" endPos="677.87" friendlyPos="true">
+        <access lane="184083183#3_0" pos="128.27" length="12.60" friendlyPos="1"/>
+        <access lane="184083252_0" pos="44.04" length="25.00" friendlyPos="1"/>
+        <access lane="218769257_0" pos="4.92" length="7.23" friendlyPos="1"/>
+        <access lane="333555370#0_0" pos="0.00" length="28.13" friendlyPos="1"/>
+        <access lane="770894972_0" pos="945.51" length="4.65" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5548859163" name="광희문.광희동사거리" lane="180368918#6_0" startPos="15.45" endPos="30.45" friendlyPos="true" lines="507"/>
+    <busStop id="5694832466" name="신답" lane="623046654#0_0" startPos="373.28" endPos="570.35" friendlyPos="true" lines="2">
+        <access lane="183521197#0-AddedOffRampEdge_0" pos="62.76" length="101.06" friendlyPos="1"/>
+        <access lane="203491742#3_0" pos="119.22" length="59.00" friendlyPos="1"/>
+        <access lane="238163917_0" pos="130.89" length="22.27" friendlyPos="1"/>
+        <access lane="482140286#1_0" pos="76.75" length="102.73" friendlyPos="1"/>
+        <access lane="482140286#2_0" pos="2.05" length="99.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5694839797" name="용답" lane="598334266#6_0" startPos="213.21" endPos="413.21" friendlyPos="true" lines="2">
+        <access lane="203491742#7_0" pos="4.63" length="46.97" friendlyPos="1"/>
+        <access lane="238163913#0_0" pos="52.32" length="41.97" friendlyPos="1"/>
+        <access lane="238163913#1_0" pos="0.00" length="46.17" friendlyPos="1"/>
+        <access lane="238163915#0_0" pos="16.73" length="23.93" friendlyPos="1"/>
+        <access lane="425073108_0" pos="4.92" length="43.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5747397251" name="보문" lane="469657938_0" startPos="20473.55" endPos="15647.11" friendlyPos="true">
+        <access lane="-218769245#0_0" pos="110.69" length="13.08" friendlyPos="1"/>
+        <access lane="183895353#2_0" pos="32.88" length="7.65" friendlyPos="1"/>
+        <access lane="183895355#0_0" pos="0.00" length="10.16" friendlyPos="1"/>
+        <access lane="218769245#0_0" pos="0.00" length="9.33" friendlyPos="1"/>
+        <access lane="518702967#2_0" pos="117.49" length="15.56" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5754623761" name="성신여대입구" lane="192247534#1_0" startPos="1805.10" endPos="2005.10" friendlyPos="true">
+        <access lane="-37401789_0" pos="7.16" length="23.38" friendlyPos="1"/>
+        <access lane="-536149444#0_0" pos="0.00" length="17.67" friendlyPos="1"/>
+        <access lane="-536149444#1_0" pos="12.24" length="21.70" friendlyPos="1"/>
+        <access lane="37401789_0" pos="0.00" length="22.78" friendlyPos="1"/>
+        <access lane="536149444#0_0" pos="15.99" length="20.70" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5767417129" name="동대문역" lane="768714278#4_0" startPos="1083.85" endPos="1283.85" friendlyPos="true" lines="1">
+        <access lane="180192153#0_0" pos="2.77" length="20.82" friendlyPos="1"/>
+        <access lane="180192153#1_0" pos="2.63" length="9.03" friendlyPos="1"/>
+        <access lane="183521178#4_0" pos="4.66" length="14.73" friendlyPos="1"/>
+        <access lane="760127120#10_0" pos="64.61" length="11.60" friendlyPos="1"/>
+        <access lane="770890591#0_0" pos="3.83" length="20.51" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5801302007" name="왕십리" lane="396816939_0" startPos="4495.35" endPos="4695.35" friendlyPos="true">
+        <access lane="226903402#1_0" pos="0.40" length="8.87" friendlyPos="1"/>
+        <access lane="247789683#1_0" pos="2.30" length="3.72" friendlyPos="1"/>
+        <access lane="247789696#0_0" pos="0.85" length="7.01" friendlyPos="1"/>
+        <access lane="247789704#0_0" pos="0.00" length="7.88" friendlyPos="1"/>
+        <access lane="247789706#2_0" pos="6.44" length="11.69" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5801559319" name="왕십리" lane="168498720#0_0" startPos="846.00" endPos="996.53" friendlyPos="true">
+        <access lane="226903434-AddedOnRampEdge_0" pos="93.87" length="31.06" friendlyPos="1"/>
+        <access lane="226903434_0" pos="11.14" length="7.07" friendlyPos="1"/>
+        <access lane="247789686#3_0" pos="23.14" length="20.26" friendlyPos="1"/>
+        <access lane="247789689#0_0" pos="28.86" length="4.68" friendlyPos="1"/>
+        <access lane="247789695#1_0" pos="117.57" length="18.90" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5852580182" name="종각" lane="637016278_0" startPos="20.13" endPos="220.13" friendlyPos="true" lines="1">
+        <access lane="732213463#14_0" pos="1100.16" length="207.19" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5856128334" name="용답" lane="623046654#1_0" startPos="690.70" endPos="890.70" friendlyPos="true" lines="2">
+        <access lane="203491742#7_0" pos="4.54" length="41.77" friendlyPos="1"/>
+        <access lane="203491742#8_0" pos="0.00" length="42.51" friendlyPos="1"/>
+        <access lane="238163913#0_0" pos="54.14" length="41.91" friendlyPos="1"/>
+        <access lane="238163915#0_0" pos="16.73" length="19.32" friendlyPos="1"/>
+        <access lane="425073108_0" pos="4.92" length="42.02" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5864568510" name="성수" lane="619733912_0" startPos="396.12" endPos="596.12" friendlyPos="true" lines="2"/>
+    <busStop id="5887905548" name="청량리" lane="405403200#0_0" startPos="114.21" endPos="214.21" friendlyPos="true" lines="G·J GC">
+        <access lane="416580152_0" pos="72.34" length="131.99" friendlyPos="1"/>
+        <access lane="416580153_0" pos="102.93" length="111.49" friendlyPos="1"/>
+        <access lane="538210514_0" pos="129.30" length="163.92" friendlyPos="1"/>
+        <access lane="550974490_0" pos="49.82" length="112.97" friendlyPos="1"/>
+        <access lane="550974493_0" pos="34.61" length="100.33" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5887905549" name="청량리" lane="405047378#1_0" startPos="0.00" endPos="190.26" friendlyPos="true" lines="G·J GC">
+        <access lane="416580152_0" pos="72.62" length="117.45" friendlyPos="1"/>
+        <access lane="416580153_0" pos="99.45" length="97.13" friendlyPos="1"/>
+        <access lane="550481003_0" pos="64.54" length="156.36" friendlyPos="1"/>
+        <access lane="550974490_0" pos="49.82" length="107.85" friendlyPos="1"/>
+        <access lane="550974493_0" pos="24.45" length="101.42" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5887905550" name="회기" lane="405047363_0" startPos="315.16" endPos="515.16" friendlyPos="true" lines="G·J GC">
+        <access lane="-323040147#0_0" pos="0.00" length="13.88" friendlyPos="1"/>
+        <access lane="-323040147#1_0" pos="93.55" length="17.48" friendlyPos="1"/>
+        <access lane="-416506123_0" pos="0.00" length="1.08" friendlyPos="1"/>
+        <access lane="323040147#0_0" pos="44.81" length="17.67" friendlyPos="1"/>
+        <access lane="416506123_0" pos="32.89" length="3.75" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5887905551" name="회기" lane="405403206_0" startPos="697.73" endPos="897.73" friendlyPos="true" lines="G·J GC">
+        <access lane="-669801029#0_0" pos="0.00" length="31.96" friendlyPos="1"/>
+        <access lane="-669801029#1_0" pos="176.22" length="34.54" friendlyPos="1"/>
+        <access lane="669801029#0_0" pos="42.61" length="36.67" friendlyPos="1"/>
+        <access lane="669801029#1_0" pos="0.00" length="38.95" friendlyPos="1"/>
+        <access lane="669801032_0" pos="0.00" length="44.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5890636978" name="응봉" lane="778783886#4_0" startPos="940.19" endPos="1140.19" friendlyPos="true" lines="G·J">
+        <access lane="-158659440#0_0" pos="193.17" length="226.16" friendlyPos="1"/>
+        <access lane="-26965302_0" pos="260.15" length="221.69" friendlyPos="1"/>
+        <access lane="-476100286#1_0" pos="0.00" length="284.54" friendlyPos="1"/>
+        <access lane="158659440#0_0" pos="238.25" length="221.36" friendlyPos="1"/>
+        <access lane="26965306_0" pos="452.12" length="216.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5890636979" name="왕십리" lane="405431935#3_0" startPos="312.79" endPos="512.79" friendlyPos="true" lines="G·J">
+        <access lane="-419735655#1_0" pos="22.15" length="83.13" friendlyPos="1"/>
+        <access lane="188174600_0" pos="52.11" length="45.17" friendlyPos="1"/>
+        <access lane="247789680#0_0" pos="60.76" length="50.06" friendlyPos="1"/>
+        <access lane="247789712_0" pos="113.61" length="33.25" friendlyPos="1"/>
+        <access lane="419735655#1_0" pos="69.65" length="87.93" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5890636980" name="왕십리" lane="778783886#1_0" startPos="215.51" endPos="415.51" friendlyPos="true" lines="G·J">
+        <access lane="-419735655#0_0" pos="123.83" length="69.72" friendlyPos="1"/>
+        <access lane="188174589#1_0" pos="113.63" length="65.41" friendlyPos="1"/>
+        <access lane="188174594_0" pos="22.64" length="51.34" friendlyPos="1"/>
+        <access lane="188174597_0" pos="23.76" length="60.71" friendlyPos="1"/>
+        <access lane="188174605_0" pos="0.00" length="72.70" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527461" name="동묘앞" lane="379994098_0" startPos="268.91" endPos="368.91" friendlyPos="true" lines="1">
+        <access lane="-379730403#4_0" pos="0.00" length="28.83" friendlyPos="1"/>
+        <access lane="183521185#0_0" pos="62.32" length="19.81" friendlyPos="1"/>
+        <access lane="183521185#1_0" pos="0.00" length="27.83" friendlyPos="1"/>
+        <access lane="379730403#4_0" pos="17.33" length="31.17" friendlyPos="1"/>
+        <access lane="518362762#7_0" pos="5.69" length="14.32" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527462" name="신설동" lane="192247534#0_0" startPos="0.00" endPos="125.92" friendlyPos="true">
+        <access lane="-218660683#3_0" pos="0.00" length="22.20" friendlyPos="1"/>
+        <access lane="-518362761#0_0" pos="14.74" length="3.74" friendlyPos="1"/>
+        <access lane="183521037#1_0" pos="11.85" length="3.51" friendlyPos="1"/>
+        <access lane="183521054#0_0" pos="0.75" length="17.59" friendlyPos="1"/>
+        <access lane="518362761#0_0" pos="2.42" length="8.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527463" name="신설동" lane="180192151#3_0" startPos="0.00" endPos="34.82" friendlyPos="true">
+        <access lane="-318883566_0" pos="0.00" length="31.73" friendlyPos="1"/>
+        <access lane="183521201#2_0" pos="7.75" length="11.35" friendlyPos="1"/>
+        <access lane="318883566_0" pos="38.54" length="28.09" friendlyPos="1"/>
+        <access lane="379589786_0" pos="0.00" length="32.14" friendlyPos="1"/>
+        <access lane="538878501#4_0" pos="76.82" length="17.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527464" name="신설동" lane="782891445#2_0" startPos="0.00" endPos="131.50" friendlyPos="true" lines="1">
+        <access lane="-629928365#7_0" pos="0.00" length="31.45" friendlyPos="1"/>
+        <access lane="183521130#6_0" pos="123.06" length="28.03" friendlyPos="1"/>
+        <access lane="218838669#1_0" pos="30.66" length="21.89" friendlyPos="1"/>
+        <access lane="535747502_0" pos="15.09" length="48.99" friendlyPos="1"/>
+        <access lane="629928365#7_0" pos="32.41" length="32.29" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527477" name="회기" lane="712248060#1_0" startPos="288.56" endPos="488.56" friendlyPos="true" lines="1">
+        <access lane="-323040147#0_0" pos="0.00" length="36.81" friendlyPos="1"/>
+        <access lane="-323040147#1_0" pos="93.55" length="39.91" friendlyPos="1"/>
+        <access lane="-416506123_0" pos="17.24" length="4.79" friendlyPos="1"/>
+        <access lane="379739025#1_0" pos="22.92" length="39.03" friendlyPos="1"/>
+        <access lane="416506123_0" pos="15.66" length="9.59" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527478" name="회기" lane="405047385#0_0" startPos="573.20" endPos="773.20" friendlyPos="true" lines="1">
+        <access lane="-505884870#6_0" pos="0.00" length="27.05" friendlyPos="1"/>
+        <access lane="-516636553#3_0" pos="0.00" length="38.25" friendlyPos="1"/>
+        <access lane="379782002#0_0" pos="0.00" length="40.92" friendlyPos="1"/>
+        <access lane="505884870#6_0" pos="51.31" length="31.85" friendlyPos="1"/>
+        <access lane="516636553#3_0" pos="44.52" length="34.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527479" name="외대앞" lane="712248060#0_0" startPos="660.05" endPos="860.05" friendlyPos="true" lines="1">
+        <access lane="-37401788#7_0" pos="0.00" length="231.74" friendlyPos="1"/>
+        <access lane="-793384557#0_0" pos="154.46" length="124.68" friendlyPos="1"/>
+        <access lane="37401788#7_0" pos="98.67" length="235.26" friendlyPos="1"/>
+        <access lane="379782008#1_0" pos="74.45" length="228.95" friendlyPos="1"/>
+        <access lane="793384557#0_0" pos="0.00" length="124.40" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5899527480" name="외대앞" lane="405047385#1_0" startPos="626.64" endPos="826.64" friendlyPos="true" lines="1"/>
+    <busStop id="5902125881" name="제기동" lane="768714278#2_0" startPos="619.15" endPos="819.15" friendlyPos="true" lines="1">
+        <access lane="-37400668#5_0" pos="0.00" length="14.67" friendlyPos="1"/>
+        <access lane="183521143#11_0" pos="0.94" length="11.58" friendlyPos="1"/>
+        <access lane="37400668#5_0" pos="387.86" length="9.95" friendlyPos="1"/>
+        <access lane="550974509_0" pos="0.00" length="23.49" friendlyPos="1"/>
+        <access lane="816487877_0" pos="0.79" length="5.23" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5902125882" name="동묘앞" lane="768714278#4_0" startPos="485.93" endPos="685.93" friendlyPos="true" lines="1">
+        <access lane="-517323577#0_0" pos="18.09" length="34.90" friendlyPos="1"/>
+        <access lane="183521185#0_0" pos="2.53" length="12.46" friendlyPos="1"/>
+        <access lane="333725872#5_0" pos="68.27" length="33.97" friendlyPos="1"/>
+        <access lane="517323577#0_0" pos="0.00" length="31.68" friendlyPos="1"/>
+        <access lane="518362762#7_0" pos="67.01" length="21.26" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5902127690" name="청량리" lane="768714278#0_0" startPos="0.00" endPos="100.00" friendlyPos="true" lines="1">
+        <access lane="-379724030#0_0" pos="42.07" length="29.28" friendlyPos="1"/>
+        <access lane="183521154#2_0" pos="58.07" length="11.45" friendlyPos="1"/>
+        <access lane="379724030#0_0" pos="0.00" length="30.17" friendlyPos="1"/>
+        <access lane="516643230#3_0" pos="30.36" length="26.68" friendlyPos="1"/>
+        <access lane="516643230#4_0" pos="0.00" length="20.82" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5902127698" name="신설동" lane="768714278#2_0" startPos="1629.30" endPos="1745.55" friendlyPos="true" lines="1">
+        <access lane="-629928365#7_0" pos="0.00" length="37.60" friendlyPos="1"/>
+        <access lane="183521130#6_0" pos="123.06" length="32.50" friendlyPos="1"/>
+        <access lane="218838669#1_0" pos="31.50" length="13.51" friendlyPos="1"/>
+        <access lane="535747502_0" pos="15.09" length="49.97" friendlyPos="1"/>
+        <access lane="629928365#7_0" pos="32.41" length="39.15" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5914829686" name="한성대입구(삼선교)" lane="379994121#1_0" startPos="0.00" endPos="113.46" friendlyPos="true" lines="4">
+        <access lane="536149361#5_0" pos="15.30" length="16.24" friendlyPos="1"/>
+        <access lane="632698279#0_0" pos="0.00" length="20.70" friendlyPos="1"/>
+        <access lane="632698280#3_0" pos="0.15" length="21.07" friendlyPos="1"/>
+        <access lane="632698280#4_0" pos="1.83" length="18.82" friendlyPos="1"/>
+        <access lane="632698280#5_0" pos="0.00" length="21.67" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5916874385" name="응암" lane="469657938_0" startPos="0.00" endPos="100.00" friendlyPos="true"/>
+    <busStop id="5916874386" name="응암" lane="641568132_0" startPos="28613.05" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="5916874393" name="공덕" lane="469657938_0" startPos="9735.97" endPos="9935.97" friendlyPos="true"/>
+    <busStop id="5919544688" name="디지털미디어시티" lane="469657938_0" startPos="2746.47" endPos="2946.47" friendlyPos="true"/>
+    <busStop id="5925991074" name="왕십리" lane="779278180#0_0" startPos="0.00" endPos="41.21" friendlyPos="true" lines="272">
+        <access lane="-379944918#2_0" pos="0.00" length="63.25" friendlyPos="1"/>
+        <access lane="-419735653#0_0" pos="0.00" length="60.43" friendlyPos="1"/>
+        <access lane="-419735655#0_0" pos="127.34" length="45.31" friendlyPos="1"/>
+        <access lane="379944918#2_0" pos="19.71" length="58.64" friendlyPos="1"/>
+        <access lane="419735655#0_0" pos="6.59" length="50.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5930698986" name="을지로3가 역" lane="379994119_0" startPos="12255.82" endPos="12455.82" friendlyPos="true">
+        <access lane="184083181#4_0" pos="167.95" length="14.18" friendlyPos="1"/>
+        <access lane="184083183#0_0" pos="0.00" length="14.77" friendlyPos="1"/>
+        <access lane="770894972_0" pos="1424.77" length="1.19" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5930698987" name="을지로3가" lane="672454243#1_0" startPos="1080.17" endPos="1280.17" friendlyPos="true">
+        <access lane="184083181#4_0" pos="167.95" length="190.38" friendlyPos="1"/>
+        <access lane="184083183#0_0" pos="0.00" length="192.11" friendlyPos="1"/>
+        <access lane="770894972_0" pos="1547.81" length="3.34" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5930698988" name="독립문" lane="379994119_0" startPos="7928.89" endPos="8128.89" friendlyPos="true"/>
+    <busStop id="5930698992" name="불광" lane="379994119_0" startPos="3223.59" endPos="3423.59" friendlyPos="true"/>
+    <busStop id="5933687059" name="강변" lane="625534094_0" startPos="5592.12" endPos="5222.81" friendlyPos="true" lines="2"/>
+    <busStop id="5933687293" name="구의(광진구청)" lane="625534094_0" startPos="4671.50" endPos="4871.50" friendlyPos="true" lines="2"/>
+    <busStop id="5933687362" name="건대입구" lane="625534094_0" startPos="3137.81" endPos="3337.81" friendlyPos="true" lines="2"/>
+    <busStop id="5933896996" name="충무로" lane="379994119_0" startPos="12847.74" endPos="13047.74" friendlyPos="true">
+        <access lane="218773869#6_0" pos="102.69" length="6.29" friendlyPos="1"/>
+        <access lane="768088525#0_0" pos="29.44" length="25.97" friendlyPos="1"/>
+        <access lane="768088525#1_0" pos="68.19" length="65.10" friendlyPos="1"/>
+        <access lane="773159859#2_0" pos="51.15" length="78.72" friendlyPos="1"/>
+        <access lane="785130598#0_0" pos="81.30" length="25.27" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5933896997" name="충무로" lane="379994123#0_0" startPos="29.06" endPos="220.49" friendlyPos="true">
+        <access lane="218773869#6_0" pos="107.39" length="0.99" friendlyPos="1"/>
+        <access lane="768088525#0_0" pos="29.44" length="34.48" friendlyPos="1"/>
+        <access lane="768088525#1_0" pos="68.19" length="73.40" friendlyPos="1"/>
+        <access lane="773159859#2_0" pos="51.15" length="82.20" friendlyPos="1"/>
+        <access lane="785130598#0_0" pos="76.95" length="17.53" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5933896999" name="약수" lane="379994119_0" startPos="14605.66" endPos="13398.80" friendlyPos="true">
+        <access lane="-218681380#6_0" pos="0.00" length="8.53" friendlyPos="1"/>
+        <access lane="-218960891#14_0" pos="0.00" length="18.20" friendlyPos="1"/>
+        <access lane="218681380#6_0" pos="15.98" length="5.76" friendlyPos="1"/>
+        <access lane="218910324#0_0" pos="0.00" length="18.72" friendlyPos="1"/>
+        <access lane="218960891#14_0" pos="31.50" length="15.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935554434" name="한양대" lane="625534096_0" startPos="1921.46" endPos="1791.63" friendlyPos="true">
+        <access lane="175357623#4_0" pos="60.76" length="44.58" friendlyPos="1"/>
+        <access lane="187161239_0" pos="19.34" length="25.28" friendlyPos="1"/>
+        <access lane="187162276_0" pos="26.95" length="34.25" friendlyPos="1"/>
+        <access lane="227120061_0" pos="9.45" length="20.89" friendlyPos="1"/>
+        <access lane="392606140#1_0" pos="193.74" length="26.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935554435" name="한양대" lane="625534094_0" startPos="0.00" endPos="139.28" friendlyPos="true" lines="2">
+        <access lane="175357623#4_0" pos="60.79" length="39.29" friendlyPos="1"/>
+        <access lane="187161239_0" pos="19.34" length="21.42" friendlyPos="1"/>
+        <access lane="187162276_0" pos="26.95" length="38.96" friendlyPos="1"/>
+        <access lane="227120061_0" pos="9.45" length="24.81" friendlyPos="1"/>
+        <access lane="392606140#1_0" pos="193.71" length="21.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935554448" name="뚝섬" lane="625534094_0" startPos="1020.66" endPos="1220.66" friendlyPos="true" lines="2">
+        <access lane="-248406291_0" pos="376.57" length="157.59" friendlyPos="1"/>
+        <access lane="248406291_0" pos="470.54" length="152.79" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935554449" name="뚝섬" lane="625534096_0" startPos="843.14" endPos="1043.14" friendlyPos="true">
+        <access lane="-248406291_0" pos="379.20" length="154.87" friendlyPos="1"/>
+        <access lane="248406291_0" pos="467.90" length="150.07" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935554451" name="성수" lane="625534094_0" startPos="1847.15" endPos="2047.15" friendlyPos="true" lines="2"/>
+    <busStop id="5935554452" name="성수" lane="625534096_0" startPos="16.66" endPos="216.66" friendlyPos="true"/>
+    <busStop id="5935738062" name="시청" lane="628671362_0" startPos="0.00" endPos="100.00" friendlyPos="true" lines="2"/>
+    <busStop id="5935738065" name="을지로4가" lane="396816939_0" startPos="8722.28" endPos="7902.45" friendlyPos="true">
+        <access lane="117784420_0" pos="13.47" length="38.62" friendlyPos="1"/>
+        <access lane="117784422_0" pos="51.85" length="35.15" friendlyPos="1"/>
+        <access lane="184083252_0" pos="27.21" length="3.68" friendlyPos="1"/>
+        <access lane="218769257_0" pos="0.00" length="38.71" friendlyPos="1"/>
+        <access lane="218960897#4_0" pos="48.47" length="34.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738066" name="을지로4가 역" lane="628671362_0" startPos="1972.86" endPos="2172.86" friendlyPos="true" lines="2">
+        <access lane="184083183#3_0" pos="127.65" length="1.02" friendlyPos="1"/>
+        <access lane="218769257_0" pos="5.32" length="18.83" friendlyPos="1"/>
+        <access lane="218923184#0_0" pos="0.00" length="25.56" friendlyPos="1"/>
+        <access lane="333555370#0_0" pos="0.00" length="20.20" friendlyPos="1"/>
+        <access lane="770894972_0" pos="945.67" length="6.96" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738069" name="동대문역사문화공원" lane="628671362_0" startPos="2890.24" endPos="3090.24" friendlyPos="true" lines="2">
+        <access lane="-651694689_0" pos="0.00" length="11.35" friendlyPos="1"/>
+        <access lane="218923178#0_0" pos="33.40" length="6.31" friendlyPos="1"/>
+        <access lane="218923178#1_0" pos="0.00" length="13.45" friendlyPos="1"/>
+        <access lane="651694689_0" pos="83.71" length="13.12" friendlyPos="1"/>
+        <access lane="800229256#2_0" pos="0.00" length="25.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738070" name="동대문역사문화공원" lane="168498720#2_0" startPos="1625.50" endPos="1698.40" friendlyPos="true">
+        <access lane="-651694689_0" pos="0.00" length="17.10" friendlyPos="1"/>
+        <access lane="218923178#0_0" pos="33.40" length="12.12" friendlyPos="1"/>
+        <access lane="218923178#1_0" pos="0.00" length="16.69" friendlyPos="1"/>
+        <access lane="651694689_0" pos="83.71" length="18.15" friendlyPos="1"/>
+        <access lane="800229256#2_0" pos="0.00" length="19.71" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738081" name="을지로입구" lane="628671362_0" startPos="610.27" endPos="810.27" friendlyPos="true" lines="2">
+        <access lane="770894972_0" pos="2308.63" length="5.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738082" name="을지로3가" lane="628671362_0" startPos="1370.40" endPos="1570.40" friendlyPos="true" lines="2">
+        <access lane="184083181#4_0" pos="167.95" length="191.50" friendlyPos="1"/>
+        <access lane="184083183#0_0" pos="0.00" length="192.13" friendlyPos="1"/>
+        <access lane="770894972_0" pos="1548.13" length="4.79" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738291" name="왕십리(성동구청)" lane="628671362_0" startPos="5585.23" endPos="5785.23" friendlyPos="true" lines="2">
+        <access lane="226903434-AddedOnRampEdge_0" pos="93.87" length="29.35" friendlyPos="1"/>
+        <access lane="226903434_0" pos="10.91" length="2.72" friendlyPos="1"/>
+        <access lane="247789686#3_0" pos="23.15" length="24.62" friendlyPos="1"/>
+        <access lane="247789689#0_0" pos="28.94" length="9.04" friendlyPos="1"/>
+        <access lane="247789695#1_0" pos="117.46" length="14.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738300" name="신당" lane="628671362_0" startPos="3936.68" endPos="4136.68" friendlyPos="true" lines="2">
+        <access lane="-117770547#0_0" pos="43.41" length="15.63" friendlyPos="1"/>
+        <access lane="-218684411#8_0" pos="68.17" length="11.67" friendlyPos="1"/>
+        <access lane="117770547#0_0" pos="0.00" length="20.43" friendlyPos="1"/>
+        <access lane="218684411#8_0" pos="4.94" length="6.87" friendlyPos="1"/>
+        <access lane="229028006#0_0" pos="0.00" length="26.67" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5935738307" name="상왕십리" lane="628671362_0" startPos="4781.55" endPos="4981.55" friendlyPos="true" lines="2">
+        <access lane="-218684409#0_0" pos="69.67" length="8.11" friendlyPos="1"/>
+        <access lane="-379962854#1_0" pos="0.00" length="64.90" friendlyPos="1"/>
+        <access lane="-420073636_0" pos="99.75" length="66.21" friendlyPos="1"/>
+        <access lane="218684409#0_0" pos="73.50" length="12.91" friendlyPos="1"/>
+        <access lane="379962854#1_0" pos="38.29" length="69.67" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5937884704" name="시청" lane="672454243#1_0" startPos="2553.32" endPos="2552.54" friendlyPos="true" lines="2"/>
+    <busStop id="6033544411" name="금호" lane="640473006#2_0" startPos="1873.36" endPos="2073.36" friendlyPos="true">
+        <access lane="97537672_0" pos="0.00" length="213.11" friendlyPos="1"/>
+        <access lane="97537673_0" pos="348.06" length="207.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6033544415" name="약수" lane="640473006#2_0" startPos="978.12" endPos="1178.12" friendlyPos="true">
+        <access lane="-218681380#6_0" pos="0.00" length="4.86" friendlyPos="1"/>
+        <access lane="-218960891#14_0" pos="0.00" length="10.26" friendlyPos="1"/>
+        <access lane="218681380#6_0" pos="15.98" length="9.64" friendlyPos="1"/>
+        <access lane="218960891#14_0" pos="31.50" length="5.49" friendlyPos="1"/>
+        <access lane="519097168#3_0" pos="16.97" length="29.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6033544418" name="동대입구" lane="640473006#2_0" startPos="319.20" endPos="519.20" friendlyPos="true">
+        <access lane="-218662402_0" pos="66.14" length="5.49" friendlyPos="1"/>
+        <access lane="-37403487#0_0" pos="32.90" length="11.57" friendlyPos="1"/>
+        <access lane="-37928420#0_0" pos="23.49" length="16.81" friendlyPos="1"/>
+        <access lane="218662402_0" pos="0.00" length="7.33" friendlyPos="1"/>
+        <access lane="37403487#0_0" pos="0.00" length="8.86" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6033544421" name="충무로" lane="640473006#0_0" startPos="12845.69" endPos="10791.63" friendlyPos="true">
+        <access lane="218773869#6_0" pos="96.04" length="11.41" friendlyPos="1"/>
+        <access lane="768088525#0_0" pos="29.44" length="15.87" friendlyPos="1"/>
+        <access lane="768088525#1_0" pos="68.19" length="54.60" friendlyPos="1"/>
+        <access lane="773159859#2_0" pos="51.15" length="72.80" friendlyPos="1"/>
+        <access lane="785130598#0_0" pos="87.70" length="31.06" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6033544425" name="안국" lane="640473006#0_0" startPos="10673.08" endPos="10791.63" friendlyPos="true"/>
+    <busStop id="6033544430" name="경복궁" lane="640473006#0_0" startPos="9526.28" endPos="9726.28" friendlyPos="true"/>
+    <busStop id="6033544433" name="독립문" lane="640473006#0_0" startPos="7925.29" endPos="8125.29" friendlyPos="true"/>
+    <busStop id="6033544441" name="무악재" lane="640473006#0_0" startPos="6829.96" endPos="7029.96" friendlyPos="true"/>
+    <busStop id="6033544469" name="불광" lane="640473006#0_0" startPos="3221.44" endPos="3421.44" friendlyPos="true"/>
+    <busStop id="6033544483" name="연신내" lane="379994119_0" startPos="1860.82" endPos="2060.82" friendlyPos="true"/>
+    <busStop id="6033544618" name="을지로3가 역" lane="640473006#0_0" startPos="12260.05" endPos="10791.63" friendlyPos="true">
+        <access lane="-381456453#0_0" pos="50.47" length="293.61" friendlyPos="1"/>
+        <access lane="184083181#4_0" pos="163.21" length="13.68" friendlyPos="1"/>
+        <access lane="184083183#0_0" pos="3.76" length="12.78" friendlyPos="1"/>
+        <access lane="381456453#0_0" pos="0.00" length="295.39" friendlyPos="1"/>
+        <access lane="770894972_0" pos="1416.36" length="0.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6033544620" name="종로3가" lane="640473006#0_0" startPos="11626.36" endPos="10791.63" friendlyPos="true"/>
+    <busStop id="6033544670" name="홍제" lane="640473006#0_0" startPos="5932.58" endPos="6132.58" friendlyPos="true"/>
+    <busStop id="6033544681" name="녹번" lane="640473006#0_0" startPos="4343.22" endPos="4543.22" friendlyPos="true"/>
+    <busStop id="6033544692" name="연신내" lane="640473006#0_0" startPos="1857.60" endPos="2057.60" friendlyPos="true"/>
+    <busStop id="6033544706" name="구파발" lane="640473006#0_0" startPos="0.00" endPos="100.00" friendlyPos="true"/>
+    <busStop id="6036160322" name="한성대입구" lane="640794440#1_0" startPos="0.00" endPos="114.28" friendlyPos="true">
+        <access lane="183521064#0_0" pos="0.00" length="26.11" friendlyPos="1"/>
+        <access lane="536149361#5_0" pos="14.74" length="22.07" friendlyPos="1"/>
+        <access lane="632698279#0_0" pos="0.00" length="26.67" friendlyPos="1"/>
+        <access lane="632698280#4_0" pos="20.90" length="22.61" friendlyPos="1"/>
+        <access lane="632698280#5_0" pos="0.20" length="22.98" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6036160329" name="동대문" lane="640794402_0" startPos="98.34" endPos="298.34" friendlyPos="true">
+        <access lane="183272548#2_0" pos="0.00" length="24.36" friendlyPos="1"/>
+        <access lane="760127120#1_0" pos="42.79" length="15.88" friendlyPos="1"/>
+        <access lane="770890583#2_0" pos="27.72" length="22.43" friendlyPos="1"/>
+        <access lane="773060741#0_0" pos="0.00" length="19.71" friendlyPos="1"/>
+        <access lane="800200228#6_0" pos="37.00" length="19.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6036160332" name="동대문역사문화공원" lane="640794409#0_0" startPos="443.05" endPos="643.05" friendlyPos="true">
+        <access lane="-218923171#0_0" pos="0.00" length="48.88" friendlyPos="1"/>
+        <access lane="-218923171#1_0" pos="86.80" length="50.55" friendlyPos="1"/>
+        <access lane="-651694689_0" pos="56.27" length="21.83" friendlyPos="1"/>
+        <access lane="218923171#0_0" pos="52.44" length="53.68" friendlyPos="1"/>
+        <access lane="651694689_0" pos="24.01" length="17.03" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6036160335" name="충무로" lane="640794419_0" startPos="20.86" endPos="220.86" friendlyPos="true">
+        <access lane="218773869#6_0" pos="107.60" length="8.63" friendlyPos="1"/>
+        <access lane="768088525#0_0" pos="30.63" length="37.78" friendlyPos="1"/>
+        <access lane="768088525#1_0" pos="68.19" length="75.83" friendlyPos="1"/>
+        <access lane="773159859#2_0" pos="51.70" length="80.14" friendlyPos="1"/>
+        <access lane="785130598#0_0" pos="77.08" length="9.88" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6036160827" name="쌍문" lane="640794440#0_0" startPos="763.72" endPos="963.72" friendlyPos="true"/>
+    <busStop id="6036160831" name="수유" lane="640794440#0_0" startPos="2172.32" endPos="2372.32" friendlyPos="true"/>
+    <busStop id="6036160836" name="미아" lane="640794440#0_0" startPos="3555.91" endPos="3755.91" friendlyPos="true"/>
+    <busStop id="6036160839" name="미아사거리" lane="640794440#0_0" startPos="5088.60" endPos="5288.60" friendlyPos="true"/>
+    <busStop id="6036160849" name="길음" lane="640794440#0_0" startPos="6360.06" endPos="6560.06" friendlyPos="true"/>
+    <busStop id="6036160858" name="성신여대입구" lane="640794440#0_0" startPos="7770.29" endPos="7708.13" friendlyPos="true">
+        <access lane="-37401789_0" pos="7.16" length="24.62" friendlyPos="1"/>
+        <access lane="-536149444#0_0" pos="0.00" length="12.20" friendlyPos="1"/>
+        <access lane="-536149445#0_0" pos="31.68" length="23.64" friendlyPos="1"/>
+        <access lane="536149444#0_0" pos="15.99" length="14.24" friendlyPos="1"/>
+        <access lane="536149445#0_0" pos="0.00" length="21.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6036160873" name="혜화" lane="640794440#1_0" startPos="842.91" endPos="1042.91" friendlyPos="true">
+        <access lane="-232594130#6_0" pos="0.00" length="39.49" friendlyPos="1"/>
+        <access lane="-517641042#5_0" pos="15.18" length="4.89" friendlyPos="1"/>
+        <access lane="232594130#6_0" pos="91.06" length="35.39" friendlyPos="1"/>
+        <access lane="517641042#5_0" pos="38.74" length="0.09" friendlyPos="1"/>
+        <access lane="517641042#6_0" pos="0.00" length="44.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039313614" name="군자" lane="396816939_0" startPos="0.00" endPos="100.00" friendlyPos="true">
+        <access lane="-396816938#0_0" pos="56.92" length="33.97" friendlyPos="1"/>
+        <access lane="-520474641#0_0" pos="59.00" length="28.20" friendlyPos="1"/>
+        <access lane="396816938#0_0" pos="0.00" length="34.18" friendlyPos="1"/>
+        <access lane="473592397#0_0" pos="0.00" length="36.93" friendlyPos="1"/>
+        <access lane="520474641#0_0" pos="0.00" length="20.23" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039313615" name="군자" lane="396816937_0" startPos="15481.66" endPos="15681.66" friendlyPos="true">
+        <access lane="-396816938#0_0" pos="56.92" length="40.98" friendlyPos="1"/>
+        <access lane="-520474641#0_0" pos="59.00" length="33.31" friendlyPos="1"/>
+        <access lane="396816938#0_0" pos="0.00" length="40.70" friendlyPos="1"/>
+        <access lane="473592397#0_0" pos="0.00" length="29.20" friendlyPos="1"/>
+        <access lane="520474641#0_0" pos="0.00" length="12.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039313620" name="답십리" lane="641231861_0" startPos="2568.62" endPos="2768.62" friendlyPos="true">
+        <access lane="-416599157#0_0" pos="37.15" length="24.76" friendlyPos="1"/>
+        <access lane="-516643190#0_0" pos="61.18" length="1.02" friendlyPos="1"/>
+        <access lane="375139588#1_0" pos="47.18" length="28.52" friendlyPos="1"/>
+        <access lane="416599157#0_0" pos="0.00" length="20.38" friendlyPos="1"/>
+        <access lane="516643190#0_0" pos="6.50" length="13.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039313636" name="왕십리" lane="641231861_0" startPos="4491.43" endPos="4691.43" friendlyPos="true">
+        <access lane="226903402#0_0" pos="12.61" length="8.43" friendlyPos="1"/>
+        <access lane="226903402#1_0" pos="0.00" length="0.53" friendlyPos="1"/>
+        <access lane="247789695#1_0" pos="0.00" length="7.55" friendlyPos="1"/>
+        <access lane="247789704#0_0" pos="1.29" length="6.85" friendlyPos="1"/>
+        <access lane="247789704#1_0" pos="0.00" length="5.57" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039313639" name="신금호" lane="641231861_0" startPos="6082.82" endPos="6282.82" friendlyPos="true">
+        <access lane="-381730930#0_0" pos="0.00" length="33.46" friendlyPos="1"/>
+        <access lane="-381730930#1_0" pos="56.54" length="32.97" friendlyPos="1"/>
+        <access lane="-519066140#0_0" pos="67.63" length="0.12" friendlyPos="1"/>
+        <access lane="37400066#0_0" pos="9.58" length="34.13" friendlyPos="1"/>
+        <access lane="519066140#0_0" pos="19.36" length="4.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039313640" name="청구" lane="469657938_0" startPos="17486.30" endPos="15647.11" friendlyPos="true">
+        <access lane="-183272309#10_0" pos="0.00" length="16.31" friendlyPos="1"/>
+        <access lane="-218960895#0_0" pos="41.89" length="10.05" friendlyPos="1"/>
+        <access lane="-37399924#7_0" pos="0.00" length="2.00" friendlyPos="1"/>
+        <access lane="218960895#0_0" pos="0.00" length="13.83" friendlyPos="1"/>
+        <access lane="37399924#7_0" pos="46.92" length="6.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039313641" name="을지로4가" lane="641231861_0" startPos="8732.84" endPos="7902.74" friendlyPos="true">
+        <access lane="117784420_0" pos="17.34" length="32.87" friendlyPos="1"/>
+        <access lane="117784422_0" pos="55.55" length="41.14" friendlyPos="1"/>
+        <access lane="184083252_0" pos="27.46" length="4.48" friendlyPos="1"/>
+        <access lane="218769257_0" pos="0.00" length="36.36" friendlyPos="1"/>
+        <access lane="218960897#4_0" pos="48.47" length="36.58" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039314290" name="군자" lane="641231861_0" startPos="0.00" endPos="100.00" friendlyPos="true">
+        <access lane="-396816938#0_0" pos="56.92" length="26.43" friendlyPos="1"/>
+        <access lane="-520474641#0_0" pos="59.00" length="21.75" friendlyPos="1"/>
+        <access lane="396816938#0_0" pos="0.00" length="26.75" friendlyPos="1"/>
+        <access lane="520474641#0_0" pos="0.00" length="27.14" friendlyPos="1"/>
+        <access lane="842101756#0_0" pos="90.00" length="40.17" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039314293" name="장한평" lane="641231861_0" startPos="1314.82" endPos="1514.82" friendlyPos="true">
+        <access lane="-175357581#6_0" pos="0.00" length="17.20" friendlyPos="1"/>
+        <access lane="-175357581#7_0" pos="56.52" length="8.17" friendlyPos="1"/>
+        <access lane="-175357637#1_0" pos="0.00" length="11.61" friendlyPos="1"/>
+        <access lane="175357581#7_0" pos="0.00" length="13.72" friendlyPos="1"/>
+        <access lane="175357637#1_0" pos="50.98" length="13.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039314301" name="마장" lane="641231861_0" startPos="3645.66" endPos="3845.66" friendlyPos="true">
+        <access lane="-218797184#1_0" pos="42.66" length="6.60" friendlyPos="1"/>
+        <access lane="-379923356_0" pos="0.00" length="69.05" friendlyPos="1"/>
+        <access lane="-379923387#2_0" pos="39.81" length="71.41" friendlyPos="1"/>
+        <access lane="218797184#1_0" pos="39.45" length="1.80" friendlyPos="1"/>
+        <access lane="379923359#1_0" pos="36.94" length="68.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039314304" name="행당" lane="641231861_0" startPos="5132.30" endPos="5332.30" friendlyPos="true">
+        <access lane="-519066123#1_0" pos="0.00" length="10.68" friendlyPos="1"/>
+        <access lane="-519066123#2_0" pos="32.09" length="12.99" friendlyPos="1"/>
+        <access lane="379962802#3_0" pos="191.35" length="13.78" friendlyPos="1"/>
+        <access lane="519066123#1_0" pos="15.53" length="9.12" friendlyPos="1"/>
+        <access lane="519066123#2_0" pos="0.00" length="11.72" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039314320" name="청구" lane="641231861_0" startPos="7009.01" endPos="7209.01" friendlyPos="true">
+        <access lane="-183272309#10_0" pos="1.00" length="8.51" friendlyPos="1"/>
+        <access lane="-218960891#0_0" pos="19.77" length="16.28" friendlyPos="1"/>
+        <access lane="183272309#10_0" pos="69.16" length="3.71" friendlyPos="1"/>
+        <access lane="218960891#0_0" pos="0.00" length="11.97" friendlyPos="1"/>
+        <access lane="37399924#7_0" pos="46.92" length="19.79" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6039314328" name="동대문역사문화공원" lane="641231861_0" startPos="7751.93" endPos="7902.74" friendlyPos="true">
+        <access lane="-218773868#0_0" pos="28.29" length="9.17" friendlyPos="1"/>
+        <access lane="-520307306#10_0" pos="0.00" length="15.78" friendlyPos="1"/>
+        <access lane="218773868#0_0" pos="0.00" length="8.26" friendlyPos="1"/>
+        <access lane="218923171#2_0" pos="33.95" length="15.16" friendlyPos="1"/>
+        <access lane="381447835_0" pos="0.00" length="12.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041673024" name="태릉입구" lane="641568132_0" startPos="1488.80" endPos="1688.80" friendlyPos="true">
+        <access lane="-183272444#0_0" pos="2617.78" length="188.02" friendlyPos="1"/>
+        <access lane="183272444#0_0" pos="46.93" length="183.22" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041673025" name="태릉입구" lane="469657938_0" startPos="27029.31" endPos="15647.11" friendlyPos="true">
+        <access lane="-183272444#0_0" pos="2617.58" length="180.56" friendlyPos="1"/>
+        <access lane="183272444#0_0" pos="47.12" length="175.76" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041673057" name="약수" lane="641568132_0" startPos="11780.99" endPos="11980.99" friendlyPos="true">
+        <access lane="-218910324#1_0" pos="4.06" length="5.54" friendlyPos="1"/>
+        <access lane="-458731949_0" pos="89.31" length="20.31" friendlyPos="1"/>
+        <access lane="218910324#1_0" pos="16.96" length="0.74" friendlyPos="1"/>
+        <access lane="218910324#2_0" pos="0.00" length="27.49" friendlyPos="1"/>
+        <access lane="458731949_0" pos="0.00" length="23.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041674908" name="망원" lane="641568132_0" startPos="23159.28" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041674940" name="봉화산" lane="641568132_0" startPos="0.00" endPos="100.00" friendlyPos="true"/>
+    <busStop id="6041674945" name="화랑대" lane="641568132_0" startPos="625.58" endPos="825.58" friendlyPos="true"/>
+    <busStop id="6041674953" name="석계" lane="641568132_0" startPos="2305.27" endPos="2505.27" friendlyPos="true"/>
+    <busStop id="6041674958" name="돌곶이" lane="641568132_0" startPos="3263.93" endPos="3463.93" friendlyPos="true"/>
+    <busStop id="6041674959" name="상월곡" lane="641568132_0" startPos="4135.14" endPos="4335.14" friendlyPos="true"/>
+    <busStop id="6041674963" name="월곡" lane="641568132_0" startPos="4907.09" endPos="5107.09" friendlyPos="true"/>
+    <busStop id="6041674970" name="고려대" lane="641568132_0" startPos="6300.57" endPos="6500.57" friendlyPos="true">
+        <access lane="-218975374#1_0" pos="64.04" length="23.80" friendlyPos="1"/>
+        <access lane="218975374#0_0" pos="80.15" length="17.20" friendlyPos="1"/>
+        <access lane="218975374#1_0" pos="0.00" length="12.29" friendlyPos="1"/>
+        <access lane="560435745_0" pos="0.00" length="8.72" friendlyPos="1"/>
+        <access lane="810622932#3_0" pos="109.96" length="11.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041674976" name="안암" lane="641568132_0" startPos="7133.55" endPos="7333.55" friendlyPos="true">
+        <access lane="-172670186#5_0" pos="0.00" length="10.71" friendlyPos="1"/>
+        <access lane="-518705243#8_0" pos="0.00" length="14.50" friendlyPos="1"/>
+        <access lane="172670186#5_0" pos="5.73" length="8.54" friendlyPos="1"/>
+        <access lane="183895344#6_0" pos="6.95" length="11.88" friendlyPos="1"/>
+        <access lane="816482161#0_0" pos="0.20" length="15.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041674984" name="보문" lane="641568132_0" startPos="8046.21" endPos="8246.21" friendlyPos="true">
+        <access lane="-518702967#2_0" pos="0.00" length="12.94" friendlyPos="1"/>
+        <access lane="183895353#2_0" pos="32.88" length="11.23" friendlyPos="1"/>
+        <access lane="183895355#0_0" pos="0.00" length="8.49" friendlyPos="1"/>
+        <access lane="218769245#0_0" pos="0.00" length="14.97" friendlyPos="1"/>
+        <access lane="518702967#2_0" pos="117.49" length="9.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041674992" name="창신" lane="641568132_0" startPos="8829.23" endPos="9029.23" friendlyPos="true">
+        <access lane="183895309#1_0" pos="83.02" length="17.53" friendlyPos="1"/>
+        <access lane="183895309#2_0" pos="0.00" length="22.15" friendlyPos="1"/>
+        <access lane="183895351_0" pos="69.33" length="0.23" friendlyPos="1"/>
+        <access lane="183895354_0" pos="14.77" length="6.75" friendlyPos="1"/>
+        <access lane="37399642#0_0" pos="17.01" length="21.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041674999" name="동묘앞" lane="641568132_0" startPos="9626.07" endPos="9826.07" friendlyPos="true">
+        <access lane="-333725872#5_0" pos="26.66" length="1.06" friendlyPos="1"/>
+        <access lane="180192153#6_0" pos="150.55" length="46.86" friendlyPos="1"/>
+        <access lane="183521185#0_0" pos="0.00" length="60.31" friendlyPos="1"/>
+        <access lane="333725872#5_0" pos="41.61" length="5.86" friendlyPos="1"/>
+        <access lane="788674858_0" pos="0.00" length="64.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041675002" name="신당" lane="641568132_0" startPos="10317.35" endPos="10517.35" friendlyPos="true">
+        <access lane="-218684408#0_0" pos="0.00" length="6.18" friendlyPos="1"/>
+        <access lane="-218684408#1_0" pos="26.15" length="15.35" friendlyPos="1"/>
+        <access lane="218684408#0_0" pos="105.44" length="8.34" friendlyPos="1"/>
+        <access lane="218684408#1_0" pos="0.00" length="16.37" friendlyPos="1"/>
+        <access lane="229028340#0_0" pos="0.00" length="15.35" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041675006" name="청구" lane="641568132_0" startPos="11037.05" endPos="11237.05" friendlyPos="true">
+        <access lane="-183272309#10_0" pos="0.00" length="10.75" friendlyPos="1"/>
+        <access lane="-218960895#0_0" pos="41.89" length="15.75" friendlyPos="1"/>
+        <access lane="-37399924#7_0" pos="0.00" length="5.52" friendlyPos="1"/>
+        <access lane="183272309#10_0" pos="70.16" length="14.42" friendlyPos="1"/>
+        <access lane="37399924#7_0" pos="46.92" length="1.43" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041675013" name="버티고개" lane="641568132_0" startPos="12565.06" endPos="12765.06" friendlyPos="true">
+        <access lane="-218910324#5_0" pos="239.52" length="4.19" friendlyPos="1"/>
+        <access lane="-239357573#0_0" pos="248.99" length="231.76" friendlyPos="1"/>
+        <access lane="218910324#5_0" pos="320.40" length="0.61" friendlyPos="1"/>
+        <access lane="239357573#0_0" pos="0.00" length="232.65" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6041675023" name="한강진" lane="641568132_0" startPos="13741.83" endPos="13941.83" friendlyPos="true"/>
+    <busStop id="6041675034" name="이태원" lane="641568132_0" startPos="14737.46" endPos="14937.46" friendlyPos="true"/>
+    <busStop id="6041675038" name="녹사평" lane="641568132_0" startPos="15448.69" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675042" name="삼각지" lane="641568132_0" startPos="16602.29" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675046" name="효창공원앞" lane="641568132_0" startPos="17785.60" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675047" name="공덕" lane="641568132_0" startPos="18781.58" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675048" name="대흥" lane="641568132_0" startPos="19708.92" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675068" name="광흥창" lane="641568132_0" startPos="20674.51" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675069" name="상수" lane="641568132_0" startPos="21476.32" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675072" name="합정" lane="641568132_0" startPos="22340.70" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675075" name="마포구청" lane="641568132_0" startPos="24186.08" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675080" name="월드컵경기장" lane="641568132_0" startPos="25049.24" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675084" name="디지털미디어시티" lane="641568132_0" startPos="25763.87" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675085" name="증산" lane="641568132_0" startPos="26914.12" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6041675090" name="새절" lane="641568132_0" startPos="27953.95" endPos="15639.23" friendlyPos="true"/>
+    <busStop id="6046633859" name="어린이대공원" lane="396816937_0" startPos="16640.99" endPos="16685.53" friendlyPos="true">
+        <access lane="-396816938#9_0" pos="47.01" length="7.24" friendlyPos="1"/>
+        <access lane="101170964#3_0" pos="8.52" length="252.02" friendlyPos="1"/>
+        <access lane="396816938#9_0" pos="165.04" length="2.44" friendlyPos="1"/>
+        <access lane="520407909#8_0" pos="132.16" length="51.73" friendlyPos="1"/>
+        <access lane="842101756#2_0" pos="519.50" length="29.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6046633860" name="어린이대공원" lane="642221668_0" startPos="16645.08" endPos="16689.09" friendlyPos="true">
+        <access lane="-396816938#9_0" pos="47.09" length="1.97" friendlyPos="1"/>
+        <access lane="396816938#9_0" pos="164.96" length="2.83" friendlyPos="1"/>
+        <access lane="520407909#8_0" pos="132.16" length="53.62" friendlyPos="1"/>
+        <access lane="842101756#2_0" pos="519.80" length="24.49" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6046633866" name="상봉" lane="396816937_0" startPos="11030.93" endPos="11230.93" friendlyPos="true"/>
+    <busStop id="6046633867" name="상봉" lane="642221668_0" startPos="11032.25" endPos="11232.25" friendlyPos="true"/>
+    <busStop id="6046633872" name="태릉입구" lane="642221668_0" startPos="8195.38" endPos="8395.38" friendlyPos="true"/>
+    <busStop id="6046633873" name="태릉입구" lane="396816937_0" startPos="8193.92" endPos="8393.92" friendlyPos="true"/>
+    <busStop id="6046633878" name="노원" lane="396816937_0" startPos="3995.85" endPos="4195.85" friendlyPos="true"/>
+    <busStop id="6046633879" name="노원" lane="642221668_0" startPos="3997.38" endPos="4197.38" friendlyPos="true"/>
+    <busStop id="6046634585" name="건대입구" lane="642221668_0" startPos="17495.05" endPos="16689.09" friendlyPos="true"/>
+    <busStop id="6046634591" name="군자" lane="642221668_0" startPos="15485.41" endPos="15685.41" friendlyPos="true">
+        <access lane="-396816938#0_0" pos="56.92" length="40.71" friendlyPos="1"/>
+        <access lane="-520474641#0_0" pos="59.00" length="34.96" friendlyPos="1"/>
+        <access lane="396816938#0_0" pos="0.00" length="41.05" friendlyPos="1"/>
+        <access lane="473592397#0_0" pos="0.00" length="32.39" friendlyPos="1"/>
+        <access lane="520474641#0_0" pos="0.00" length="15.75" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6046634592" name="중곡" lane="642221668_0" startPos="14387.69" endPos="14587.69" friendlyPos="true"/>
+    <busStop id="6046634606" name="용마산" lane="642221668_0" startPos="13487.81" endPos="13687.81" friendlyPos="true"/>
+    <busStop id="6046634612" name="사가정" lane="642221668_0" startPos="12724.31" endPos="12924.31" friendlyPos="true"/>
+    <busStop id="6046634639" name="면목" lane="642221668_0" startPos="11856.68" endPos="12056.68" friendlyPos="true"/>
+    <busStop id="6046634651" name="중화" lane="642221668_0" startPos="10114.86" endPos="10314.86" friendlyPos="true"/>
+    <busStop id="6046634652" name="먹골" lane="642221668_0" startPos="9014.06" endPos="9214.06" friendlyPos="true"/>
+    <busStop id="6046634656" name="공릉" lane="642221668_0" startPos="7389.29" endPos="7589.29" friendlyPos="true"/>
+    <busStop id="6046634660" name="하계" lane="642221668_0" startPos="6163.33" endPos="6363.33" friendlyPos="true"/>
+    <busStop id="6046634663" name="중계" lane="642221668_0" startPos="5036.11" endPos="5236.11" friendlyPos="true"/>
+    <busStop id="6046634670" name="마들" lane="642221668_0" startPos="2859.83" endPos="3059.83" friendlyPos="true"/>
+    <busStop id="6046634676" name="수락산" lane="642221668_0" startPos="1306.84" endPos="1506.84" friendlyPos="true"/>
+    <busStop id="6046634697" name="수락산" lane="396816937_0" startPos="1304.50" endPos="1504.50" friendlyPos="true"/>
+    <busStop id="6046634703" name="마들" lane="396816937_0" startPos="2858.23" endPos="3058.23" friendlyPos="true"/>
+    <busStop id="6046634707" name="하계" lane="396816937_0" startPos="6162.22" endPos="6362.22" friendlyPos="true"/>
+    <busStop id="6046634708" name="공릉" lane="396816937_0" startPos="7388.10" endPos="7588.10" friendlyPos="true"/>
+    <busStop id="6046634710" name="먹골" lane="396816937_0" startPos="9012.36" endPos="9212.36" friendlyPos="true"/>
+    <busStop id="6046634712" name="면목" lane="396816937_0" startPos="11855.17" endPos="12055.17" friendlyPos="true"/>
+    <busStop id="6046634739" name="사가정" lane="396816937_0" startPos="12721.56" endPos="12921.56" friendlyPos="true"/>
+    <busStop id="6046634750" name="중곡" lane="396816937_0" startPos="14383.96" endPos="14583.96" friendlyPos="true"/>
+    <busStop id="6046634756" name="건대입구" lane="396816937_0" startPos="17491.47" endPos="16685.53" friendlyPos="true"/>
+    <busStop id="6049150844" name="신설동" lane="642603943#2_0" startPos="49.19" endPos="149.18" friendlyPos="true" lines="2">
+        <access lane="-416556423_0" pos="59.16" length="21.72" friendlyPos="1"/>
+        <access lane="183521201#1_0" pos="32.33" length="17.50" friendlyPos="1"/>
+        <access lane="416556423_0" pos="0.00" length="23.99" friendlyPos="1"/>
+        <access lane="538878501#6_0" pos="17.49" length="24.67" friendlyPos="1"/>
+        <access lane="538878501#7_0" pos="0.25" length="11.22" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6049150853" name="용두" lane="642603943#0_0" startPos="378.72" endPos="578.72" friendlyPos="true" lines="2">
+        <access lane="-218835375_0" pos="0.20" length="14.42" friendlyPos="1"/>
+        <access lane="-669138354#6_0" pos="0.00" length="23.16" friendlyPos="1"/>
+        <access lane="218835375_0" pos="0.00" length="12.44" friendlyPos="1"/>
+        <access lane="669138354#6_0" pos="0.25" length="21.88" friendlyPos="1"/>
+        <access lane="802402472#0_0" pos="0.00" length="22.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6049150862" name="신답" lane="598334266#8_0" startPos="18.74" endPos="218.74" friendlyPos="true" lines="2">
+        <access lane="183521197#0-AddedOffRampEdge_0" pos="64.75" length="95.83" friendlyPos="1"/>
+        <access lane="203491742#3_0" pos="119.01" length="65.00" friendlyPos="1"/>
+        <access lane="238163917_0" pos="130.94" length="28.28" friendlyPos="1"/>
+        <access lane="482140286#1_0" pos="76.75" length="100.55" friendlyPos="1"/>
+        <access lane="482140286#2_0" pos="0.00" length="98.29" friendlyPos="1"/>
+    </busStop>
+    <busStop id="660871450" name="종각" lane="637016283_0" startPos="1028.28" endPos="1228.28" friendlyPos="true" lines="1">
+        <access lane="732213463#14_0" pos="1100.16" length="199.40" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7271361461" name="청량리" lane="405404110_0" startPos="0.00" endPos="94.11" friendlyPos="true" lines="272">
+        <access lane="416580152_0" pos="72.62" length="90.89" friendlyPos="1"/>
+        <access lane="416580153_0" pos="95.93" length="70.71" friendlyPos="1"/>
+        <access lane="550481003_0" pos="64.54" length="139.62" friendlyPos="1"/>
+        <access lane="550974490_0" pos="49.82" length="104.22" friendlyPos="1"/>
+        <access lane="550974493_0" pos="5.59" length="103.88" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7625662318" name="고대병원" lane="816482169#2_0" startPos="46.34" endPos="61.34" friendlyPos="true"/>
+    <busStop id="7625662319" name="고대병원" lane="803710525#0_0" startPos="123.00" endPos="138.00" friendlyPos="true"/>
+    <busStop id="7746266267" name="왕십리" lane="405479643#1_0" startPos="167.78" endPos="267.77" friendlyPos="true" lines="272">
+        <access lane="-419735655#1_0" pos="14.77" length="58.09" friendlyPos="1"/>
+        <access lane="-519066144_0" pos="1.16" length="65.35" friendlyPos="1"/>
+        <access lane="188174600_0" pos="35.06" length="35.38" friendlyPos="1"/>
+        <access lane="247789712_0" pos="130.70" length="23.66" friendlyPos="1"/>
+        <access lane="419735655#1_0" pos="77.04" length="62.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7986364917" name="도선고등학교.꽃재교회" lane="781996420#0_0" startPos="194.79" endPos="209.79" friendlyPos="true">
+        <access lane="-519068807#1_0" pos="86.85" length="24.79" friendlyPos="1"/>
+        <access lane="-641456424#1_0" pos="47.14" length="139.13" friendlyPos="1"/>
+        <access lane="519068807#1_0" pos="148.41" length="19.99" friendlyPos="1"/>
+        <access lane="641456424#1_0" pos="0.00" length="143.91" friendlyPos="1"/>
+        <access lane="861291000#1_0" pos="271.76" length="53.14" friendlyPos="1"/>
+    </busStop>
+</additional>

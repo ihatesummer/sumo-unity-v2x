@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-10-30 17:35:02.942749 by osmWebWizard.py v1_7_0+0000-714814baed
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_subway_272:4" edges="779278180#0" >
+        <stop busStop="5925991074" duration="30.00" until="31.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_272:0" edges="405451628 778783889 778783883 -778783887 405453026#0 405453026#1 405453024 627723647 779278180#0 779278180#1" >
+        <stop busStop="5925991074" duration="30.00" until="103.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_272:3" edges="405451628 778783889 778783883 -778783887 405453026#0 405453026#1 405453024 627723647 779278180#0 779278180#1" >
+        <stop busStop="5925991074" duration="30.00" until="127.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_272:1" edges="405479640 405479643#1 782655749 405479644 778783887 -778783883 -778783889 -405451628 778783888 405430939#1 405430939#2 405404112 778783895 405404110" >
+        <stop busStop="7746266267" duration="30.00" until="100.0"/> <!-- 왕십리 -->
+        <stop busStop="7271361461" duration="30.00" until="230.0"/> <!-- 청량리 -->
+    </route>
+    <route id="pt_subway_272:2" edges="405479640 405479643#1 782655749 405479644 778783887 -778783883 -778783889 -405451628 778783888 405430939#1 405430939#2 405404112 778783895 405404110" >
+        <stop busStop="7746266267" duration="30.00" until="133.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_272:5" edges="405451628 778783889 778783883 -778783887 405453026#0 405453026#1 405453024 627723647 779278180#0 779278180#1" >
+        <stop busStop="5925991074" duration="30.00" until="113.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_272:7" edges="405479640 405479643#1" >
+        <stop busStop="7746266267" duration="30.00" until="100.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_272:6" edges="405479640 405479643#1 782655749 405479644 778783887 -778783883 -778783889 -405451628 778783888 405430939#1 405430939#2 405404112 778783895 405404110" >
+        <stop busStop="7746266267" duration="30.00" until="106.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_bus_2220:0" edges="280210083#0 280210083#1 247789699#0 -379953366#1 -379953368 280210086 -37401411#5 -37401411#4 -37401411#3 -37401411#2 -37401411#1 -37401411#0 218781561#0 218781561#1 218781561#2 218781561#3 519066111#0 519066111#1 218655250#0 218655250#1" >
+    </route>
+    <route id="pt_subway_272:10" edges="405479640 405479643#1" >
+        <stop busStop="7746266267" duration="30.00" until="100.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_bus_507:0" edges="183272584 180368918#0 180368918#3 180368918#4 180368918#6 180368918#7 180368918#8 218773868#0 218773868#1 218773868#2 218773868#3 218773868#4 218773868#5 218773868#6 428260105 428260110 785130600#0 785130600#1 785130600#2 785130600#3 219094151#1 218773869#1 218773869#3 218773869#4 218773869#5 218773869#6" >
+        <stop busStop="5548859163" duration="30.00" until="55.0"/> <!-- 광희문.광희동사거리 -->
+        <stop busStop="357858137" duration="30.00" until="158.0"/> <!-- 퇴계로5가 -->
+        <stop busStop="357849854" duration="30.00" until="221.0"/> <!-- 대한극장앞 -->
+    </route>
+    <route id="pt_subway_1:0" edges="768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="5902127690" duration="30.00" until="31.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="115.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="201.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="284.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="355.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="429.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="512.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="593.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_2:0" edges="625534096 628671359 168498720#0 168498720#1 168498720#2 672454243#0 672454243#1" >
+        <stop busStop="5937884704" duration="30.00" until="371.0"/> <!-- 시청 -->
+    </route>
+    <route id="pt_subway_1:1" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="355.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="436.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="526.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="605.0"/> <!-- 청량리 -->
+    </route>
+    <route id="pt_subway_1:10" edges="637016278 379994109" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+    </route>
+    <route id="pt_subway_1:2" edges="768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="5902127690" duration="30.00" until="31.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="117.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="204.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="288.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="359.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="433.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="516.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="597.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_1:3" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="356.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="437.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="527.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="606.0"/> <!-- 청량리 -->
+    </route>
+    <route id="pt_bus_507:1" edges="-218773868#6 -218773868#5 -218773868#4 -218773868#3 -218773868#2 -218773868#1 -218773868#0 -218923171#2 -218923171#1 -218923171#0 218923178#0 218923178#1 218923178#2 218923178#3" >
+        <stop busStop="-357860122" duration="30.00" until="43.0"/> <!-- 퇴계로6가 -->
+        <stop busStop="-5549718797" duration="30.00" until="115.0"/> <!-- 광희동 -->
+        <stop busStop="357868774" duration="30.00" until="170.0"/> <!-- 동대문역사문화공원 -->
+    </route>
+    <route id="pt_light_rail_W:1" edges="192247534#0 192247534#1" >
+        <stop busStop="5899527462" duration="30.00" until="31.0"/> <!-- 신설동 -->
+        <stop busStop="287323400" duration="30.00" until="122.0"/> <!-- None -->
+        <stop busStop="5754623761" duration="30.00" until="202.0"/> <!-- 성신여대입구 -->
+    </route>
+    <route id="pt_subway_GC:0" edges="405047378#0 405047378#1 405403197#0 405403197#1 405403191 405047371#0 405047371#1 405403206 405047362" >
+        <stop busStop="5887905549" duration="30.00" until="64.0"/> <!-- 청량리 -->
+        <stop busStop="5887905551" duration="30.00" until="162.0"/> <!-- 회기 -->
+    </route>
+    <route id="pt_subway_2:1" edges="-180192151#3 -180192151#2 -180192151#1 -180192151#0 623046654#0 623046654#1 623046654#2 623046654#3 623046654#4" >
+        <stop busStop="-5899527463" duration="30.00" until="31.0"/> <!-- 신설동 -->
+        <stop busStop="-355172924" duration="30.00" until="120.0"/> <!-- 용두 -->
+        <stop busStop="5694832466" duration="30.00" until="202.0"/> <!-- 신답 -->
+        <stop busStop="5856128334" duration="30.00" until="283.0"/> <!-- 용답 -->
+    </route>
+    <route id="pt_subway_1:11" edges="768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="5902127690" duration="30.00" until="31.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="115.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="201.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="284.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="355.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="429.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="512.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="593.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_272:8" edges="779278180#0 779278180#0 779278180#1" >
+        <stop busStop="5925991074" duration="30.00" until="31.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_2:2" edges="619733912 598334266#0 598334266#1 598334266#2 598334266#3 598334266#4 598334266#5 598334266#6 598334266#7 598334266#8 642603943#0 642603943#1 642603943#2" >
+        <stop busStop="5864568510" duration="30.00" until="66.0"/> <!-- 성수 -->
+        <stop busStop="5694839797" duration="30.00" until="198.0"/> <!-- 용답 -->
+        <stop busStop="6049150862" duration="30.00" until="277.0"/> <!-- 신답 -->
+        <stop busStop="6049150853" duration="30.00" until="359.0"/> <!-- 용두 -->
+        <stop busStop="6049150844" duration="30.00" until="447.0"/> <!-- 신설동 -->
+    </route>
+    <route id="pt_subway_G·J:1" edges="405431935#0 405431935#1 405431935#2 405431935#3 405431935#4 405431935#5 778783888 405430939#1 405430939#2 778783896 405430422#1 405047378#0 405047378#1 405403197#0 405403197#1 405403191 405047371#0 405047371#1 405403206 405047362" >
+        <stop busStop="4076814733" duration="30.00" until="108.0"/> <!-- 응봉 -->
+        <stop busStop="5890636979" duration="30.00" until="211.0"/> <!-- 왕십리 -->
+        <stop busStop="5887905549" duration="30.00" until="340.0"/> <!-- 청량리 -->
+        <stop busStop="5887905551" duration="30.00" until="438.0"/> <!-- 회기 -->
+    </route>
+    <route id="pt_subway_1:6" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="356.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="437.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="527.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="606.0"/> <!-- 청량리 -->
+        <stop busStop="5899527478" duration="30.00" until="719.0"/> <!-- 회기 -->
+        <stop busStop="5899527480" duration="30.00" until="801.0"/> <!-- 외대앞 -->
+    </route>
+    <route id="pt_subway_1:7" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="356.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="437.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="527.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="606.0"/> <!-- 청량리 -->
+        <stop busStop="5899527478" duration="30.00" until="719.0"/> <!-- 회기 -->
+        <stop busStop="5899527480" duration="30.00" until="802.0"/> <!-- 외대앞 -->
+    </route>
+    <route id="pt_subway_1:8" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="356.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="437.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="527.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="606.0"/> <!-- 청량리 -->
+        <stop busStop="5899527478" duration="30.00" until="719.0"/> <!-- 회기 -->
+        <stop busStop="5899527480" duration="30.00" until="802.0"/> <!-- 외대앞 -->
+    </route>
+    <route id="pt_subway_1:9" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="356.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="437.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="527.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="606.0"/> <!-- 청량리 -->
+        <stop busStop="5899527478" duration="30.00" until="719.0"/> <!-- 회기 -->
+        <stop busStop="5899527480" duration="30.00" until="802.0"/> <!-- 외대앞 -->
+    </route>
+    <route id="pt_subway_4:0" edges="379994121#0 379994121#1 -379994122 -785130604 -379994120#1 -379994120#0 -379994123#0" >
+        <stop busStop="355173148" duration="30.00" until="80.0"/> <!-- 쌍문 -->
+        <stop busStop="355173138" duration="30.00" until="179.0"/> <!-- 수유(강북구청) -->
+        <stop busStop="355173140" duration="30.00" until="277.0"/> <!-- 미아(서울사이버대학) -->
+        <stop busStop="3835922764" duration="30.00" until="380.0"/> <!-- 미아사거리 -->
+        <stop busStop="353186868" duration="30.00" until="474.0"/> <!-- 길음 -->
+        <stop busStop="287321417" duration="30.00" until="563.0"/> <!-- 성신여대입구(돈암) -->
+        <stop busStop="5914829686" duration="30.00" until="657.0"/> <!-- 한성대입구(삼선교) -->
+        <stop busStop="355173201" duration="30.00" until="739.0"/> <!-- 혜화(서울대학교병원) -->
+        <stop busStop="-3833429765" duration="30.00" until="842.0"/> <!-- 동대문 -->
+        <stop busStop="-355173208" duration="30.00" until="913.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-5933896997" duration="30.00" until="1009.0"/> <!-- 충무로 -->
+    </route>
+    <route id="pt_subway_272:9" edges="779278180#0 779278180#0 779278180#1" >
+        <stop busStop="5925991074" duration="30.00" until="31.0"/> <!-- 왕십리 -->
+    </route>
+    <route id="pt_subway_4:3" edges="-640794419 -640794409#1 -640794409#0 -640794402 -640794440#1 -640794440#0" >
+        <stop busStop="-6036160335" duration="30.00" until="48.0"/> <!-- 충무로 -->
+        <stop busStop="-6036160332" duration="30.00" until="144.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-6036160329" duration="30.00" until="215.0"/> <!-- 동대문 -->
+        <stop busStop="-6036160873" duration="30.00" until="318.0"/> <!-- 혜화 -->
+        <stop busStop="-6036160322" duration="30.00" until="396.0"/> <!-- 한성대입구 -->
+        <stop busStop="-6036160858" duration="30.00" until="484.0"/> <!-- 성신여대입구 -->
+        <stop busStop="-6036160849" duration="30.00" until="583.0"/> <!-- 길음 -->
+        <stop busStop="-6036160839" duration="30.00" until="677.0"/> <!-- 미아사거리 -->
+        <stop busStop="-6036160836" duration="30.00" until="780.0"/> <!-- 미아 -->
+        <stop busStop="-6036160831" duration="30.00" until="878.0"/> <!-- 수유 -->
+        <stop busStop="-6036160827" duration="30.00" until="977.0"/> <!-- 쌍문 -->
+    </route>
+    <route id="pt_subway_1:4" edges="712248060#0 712248060#1 768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="4246459937" duration="30.00" until="45.0"/> <!-- 신이문 -->
+        <stop busStop="5899527479" duration="30.00" until="117.0"/> <!-- 외대앞 -->
+        <stop busStop="5899527477" duration="30.00" until="199.0"/> <!-- 회기 -->
+        <stop busStop="5902127690" duration="30.00" until="565.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="648.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="734.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="817.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="888.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="962.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="1045.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="1126.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_4:1" edges="379994121#0 379994121#1 -379994122 -785130604 -379994120#1 -379994120#0 -379994123#0" >
+        <stop busStop="355173148" duration="30.00" until="76.0"/> <!-- 쌍문 -->
+        <stop busStop="355173138" duration="30.00" until="175.0"/> <!-- 수유(강북구청) -->
+        <stop busStop="355173140" duration="30.00" until="273.0"/> <!-- 미아(서울사이버대학) -->
+        <stop busStop="3835922764" duration="30.00" until="376.0"/> <!-- 미아사거리 -->
+        <stop busStop="353186868" duration="30.00" until="470.0"/> <!-- 길음 -->
+        <stop busStop="287321417" duration="30.00" until="596.0"/> <!-- 성신여대입구(돈암) -->
+        <stop busStop="5914829686" duration="30.00" until="692.0"/> <!-- 한성대입구(삼선교) -->
+        <stop busStop="355173201" duration="30.00" until="774.0"/> <!-- 혜화(서울대학교병원) -->
+        <stop busStop="-3833429765" duration="30.00" until="878.0"/> <!-- 동대문 -->
+        <stop busStop="-355173208" duration="30.00" until="949.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-5933896997" duration="30.00" until="1045.0"/> <!-- 충무로 -->
+    </route>
+    <route id="pt_subway_4:4" edges="-640794419 -640794409#1 -640794409#0 -640794402 -640794440#1 -640794440#0" >
+        <stop busStop="-6036160335" duration="30.00" until="35.0"/> <!-- 충무로 -->
+        <stop busStop="-6036160332" duration="30.00" until="131.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-6036160329" duration="30.00" until="202.0"/> <!-- 동대문 -->
+        <stop busStop="-6036160873" duration="30.00" until="305.0"/> <!-- 혜화 -->
+        <stop busStop="-6036160322" duration="30.00" until="428.0"/> <!-- 한성대입구 -->
+        <stop busStop="-6036160858" duration="30.00" until="517.0"/> <!-- 성신여대입구 -->
+        <stop busStop="-6036160849" duration="30.00" until="617.0"/> <!-- 길음 -->
+        <stop busStop="-6036160839" duration="30.00" until="711.0"/> <!-- 미아사거리 -->
+        <stop busStop="-6036160836" duration="30.00" until="815.0"/> <!-- 미아 -->
+        <stop busStop="-6036160831" duration="30.00" until="913.0"/> <!-- 수유 -->
+        <stop busStop="-6036160827" duration="30.00" until="1012.0"/> <!-- 쌍문 -->
+    </route>
+    <route id="pt_subway_5:0" edges="396816939" >
+        <stop busStop="6039313614" duration="30.00" until="31.0"/> <!-- 군자 -->
+        <stop busStop="355173372" duration="30.00" until="130.0"/> <!-- 장한평 -->
+        <stop busStop="355173370" duration="30.00" until="223.0"/> <!-- 답십리 -->
+        <stop busStop="355173368" duration="30.00" until="310.0"/> <!-- 마장 -->
+        <stop busStop="5801302007" duration="30.00" until="388.0"/> <!-- 왕십리 -->
+        <stop busStop="355173365" duration="30.00" until="459.0"/> <!-- 행당 -->
+        <stop busStop="355173364" duration="30.00" until="541.0"/> <!-- 신금호 -->
+        <stop busStop="355173445" duration="30.00" until="622.0"/> <!-- 청구 -->
+        <stop busStop="3438345419" duration="30.00" until="695.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="5935738065" duration="30.00" until="726.0"/> <!-- 을지로4가 -->
+    </route>
+    <route id="pt_subway_G·J:0" edges="405047353 405047363 405403200#0 405403200#1 405403200#2 405403200#3 405430402#0 405430402#1 405430421#1 405430421#2 405430421#3 405430421#4 778783889 778783886#0 778783886#1 778783886#2 778783886#3 778783886#4" >
+        <stop busStop="5887905550" duration="30.00" until="104.0"/> <!-- 회기 -->
+        <stop busStop="5887905548" duration="30.00" until="485.0"/> <!-- 청량리 -->
+        <stop busStop="5890636980" duration="30.00" until="627.0"/> <!-- 왕십리 -->
+        <stop busStop="5890636978" duration="30.00" until="725.0"/> <!-- 응봉 -->
+    </route>
+    <route id="pt_light_rail_W:0" edges="192247534#1 -192247534#1 -192247534#0 192247534#0 192247534#1 -192247534#1 -192247534#0 192247534#0 192247534#1 -192247534#1 -192247534#0" >
+        <stop busStop="4852979526" duration="30.00" until="200.0"/> <!-- 북한산보국문 -->
+        <stop busStop="5754623761" duration="30.00" until="498.0"/> <!-- 성신여대입구 -->
+        <stop busStop="287323400" duration="30.00" until="682.0"/> <!-- None -->
+        <stop busStop="-5899527462" duration="30.00" until="774.0"/> <!-- 신설동 -->
+    </route>
+    <route id="pt_subway_4:2" edges="379994121#0 379994121#1 -379994122 -785130604 -379994120#1 -379994120#0 -379994123#0" >
+        <stop busStop="355173148" duration="30.00" until="116.0"/> <!-- 쌍문 -->
+        <stop busStop="355173138" duration="30.00" until="216.0"/> <!-- 수유(강북구청) -->
+        <stop busStop="355173140" duration="30.00" until="315.0"/> <!-- 미아(서울사이버대학) -->
+        <stop busStop="3835922764" duration="30.00" until="418.0"/> <!-- 미아사거리 -->
+        <stop busStop="353186868" duration="30.00" until="512.0"/> <!-- 길음 -->
+        <stop busStop="287321417" duration="30.00" until="629.0"/> <!-- 성신여대입구(돈암) -->
+        <stop busStop="5914829686" duration="30.00" until="726.0"/> <!-- 한성대입구(삼선교) -->
+        <stop busStop="355173201" duration="30.00" until="809.0"/> <!-- 혜화(서울대학교병원) -->
+        <stop busStop="-3833429765" duration="30.00" until="913.0"/> <!-- 동대문 -->
+        <stop busStop="-355173208" duration="30.00" until="985.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-5933896997" duration="30.00" until="1081.0"/> <!-- 충무로 -->
+    </route>
+    <route id="pt_subway_GC:1" edges="405047353 405047363 405403200#0 405403200#1 405403200#2 405403200#3" >
+        <stop busStop="5887905550" duration="30.00" until="104.0"/> <!-- 회기 -->
+        <stop busStop="5887905548" duration="30.00" until="712.0"/> <!-- 청량리 -->
+    </route>
+    <route id="pt_subway_4:5" edges="-640794419 -640794409#1 -640794409#0 -640794402 -640794440#1 -640794440#0" >
+        <stop busStop="-6036160335" duration="30.00" until="48.0"/> <!-- 충무로 -->
+        <stop busStop="-6036160332" duration="30.00" until="144.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-6036160329" duration="30.00" until="215.0"/> <!-- 동대문 -->
+        <stop busStop="-6036160873" duration="30.00" until="318.0"/> <!-- 혜화 -->
+        <stop busStop="-6036160322" duration="30.00" until="427.0"/> <!-- 한성대입구 -->
+        <stop busStop="-6036160858" duration="30.00" until="517.0"/> <!-- 성신여대입구 -->
+        <stop busStop="-6036160849" duration="30.00" until="617.0"/> <!-- 길음 -->
+        <stop busStop="-6036160839" duration="30.00" until="712.0"/> <!-- 미아사거리 -->
+        <stop busStop="-6036160836" duration="30.00" until="816.0"/> <!-- 미아 -->
+        <stop busStop="-6036160831" duration="30.00" until="914.0"/> <!-- 수유 -->
+        <stop busStop="-6036160827" duration="30.00" until="1013.0"/> <!-- 쌍문 -->
+    </route>
+    <route id="pt_subway_4:6" edges="379994121#0 379994121#1 -379994122 -785130604 -379994120#1 -379994120#0 -379994123#0" >
+        <stop busStop="355173148" duration="30.00" until="80.0"/> <!-- 쌍문 -->
+        <stop busStop="355173138" duration="30.00" until="179.0"/> <!-- 수유(강북구청) -->
+        <stop busStop="355173140" duration="30.00" until="277.0"/> <!-- 미아(서울사이버대학) -->
+        <stop busStop="3835922764" duration="30.00" until="380.0"/> <!-- 미아사거리 -->
+        <stop busStop="353186868" duration="30.00" until="474.0"/> <!-- 길음 -->
+        <stop busStop="287321417" duration="30.00" until="563.0"/> <!-- 성신여대입구(돈암) -->
+        <stop busStop="5914829686" duration="30.00" until="657.0"/> <!-- 한성대입구(삼선교) -->
+        <stop busStop="355173201" duration="30.00" until="739.0"/> <!-- 혜화(서울대학교병원) -->
+        <stop busStop="-3833429765" duration="30.00" until="842.0"/> <!-- 동대문 -->
+        <stop busStop="-355173208" duration="30.00" until="913.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-5933896997" duration="30.00" until="1009.0"/> <!-- 충무로 -->
+    </route>
+    <route id="pt_subway_1:13" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="355.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="436.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="526.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="605.0"/> <!-- 청량리 -->
+        <stop busStop="5899527478" duration="30.00" until="718.0"/> <!-- 회기 -->
+        <stop busStop="5899527480" duration="30.00" until="800.0"/> <!-- 외대앞 -->
+    </route>
+    <route id="pt_subway_1:15" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1" >
+        <stop busStop="5852580182" duration="30.00" until="31.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="112.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="195.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="269.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="376.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="458.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="548.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="628.0"/> <!-- 청량리 -->
+        <stop busStop="5899527478" duration="30.00" until="741.0"/> <!-- 회기 -->
+        <stop busStop="5899527480" duration="30.00" until="824.0"/> <!-- 외대앞 -->
+    </route>
+    <route id="pt_subway_4:7" edges="-640794419 -640794409#1 -640794409#0 -640794402 -640794440#1 -640794440#0" >
+        <stop busStop="-6036160335" duration="30.00" until="48.0"/> <!-- 충무로 -->
+        <stop busStop="-6036160332" duration="30.00" until="144.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="-6036160329" duration="30.00" until="215.0"/> <!-- 동대문 -->
+        <stop busStop="-6036160873" duration="30.00" until="318.0"/> <!-- 혜화 -->
+        <stop busStop="-6036160322" duration="30.00" until="396.0"/> <!-- 한성대입구 -->
+        <stop busStop="-6036160858" duration="30.00" until="484.0"/> <!-- 성신여대입구 -->
+        <stop busStop="-6036160849" duration="30.00" until="583.0"/> <!-- 길음 -->
+        <stop busStop="-6036160839" duration="30.00" until="677.0"/> <!-- 미아사거리 -->
+        <stop busStop="-6036160836" duration="30.00" until="780.0"/> <!-- 미아 -->
+        <stop busStop="-6036160831" duration="30.00" until="878.0"/> <!-- 수유 -->
+        <stop busStop="-6036160827" duration="30.00" until="977.0"/> <!-- 쌍문 -->
+    </route>
+    <route id="pt_subway_1:16" edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 787885254#0 -787885255#0 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1" >
+        <stop busStop="5852580182" duration="30.00" until="48.0"/> <!-- 종각 -->
+        <stop busStop="3833430103" duration="30.00" until="129.0"/> <!-- 종로3가 -->
+        <stop busStop="3833430104" duration="30.00" until="212.0"/> <!-- 종로5가 -->
+        <stop busStop="3833430100" duration="30.00" until="286.0"/> <!-- 동대문역 -->
+        <stop busStop="5899527461" duration="30.00" until="379.0"/> <!-- 동묘앞 -->
+        <stop busStop="5899527464" duration="30.00" until="462.0"/> <!-- 신설동 -->
+        <stop busStop="3426724596" duration="30.00" until="552.0"/> <!-- 제기동 -->
+        <stop busStop="3426724601" duration="30.00" until="632.0"/> <!-- 청량리 -->
+        <stop busStop="5899527478" duration="30.00" until="746.0"/> <!-- 회기 -->
+        <stop busStop="5899527480" duration="30.00" until="829.0"/> <!-- 외대앞 -->
+    </route>
+    <route id="pt_subway_1:5" edges="712248060#0 712248060#1 768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="4246459937" duration="30.00" until="45.0"/> <!-- 신이문 -->
+        <stop busStop="5899527479" duration="30.00" until="117.0"/> <!-- 외대앞 -->
+        <stop busStop="5899527477" duration="30.00" until="199.0"/> <!-- 회기 -->
+        <stop busStop="5902127690" duration="30.00" until="831.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="914.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="1000.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="1083.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="1154.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="1228.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="1311.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="1392.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_2:3" edges="628671362 625534094" >
+        <stop busStop="5935738062" duration="30.00" until="31.0"/> <!-- 시청 -->
+        <stop busStop="5935738081" duration="30.00" until="105.0"/> <!-- 을지로입구 -->
+        <stop busStop="5935738082" duration="30.00" until="180.0"/> <!-- 을지로3가 -->
+        <stop busStop="5935738066" duration="30.00" until="250.0"/> <!-- 을지로4가 역 -->
+        <stop busStop="5935738069" duration="30.00" until="331.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="5935738300" duration="30.00" until="417.0"/> <!-- 신당 -->
+        <stop busStop="5935738307" duration="30.00" until="495.0"/> <!-- 상왕십리 -->
+        <stop busStop="5935738291" duration="30.00" until="572.0"/> <!-- 왕십리(성동구청) -->
+        <stop busStop="5935554435" duration="30.00" until="658.0"/> <!-- 한양대 -->
+        <stop busStop="5935554448" duration="30.00" until="745.0"/> <!-- 뚝섬 -->
+        <stop busStop="5935554451" duration="30.00" until="823.0"/> <!-- 성수 -->
+        <stop busStop="5933687362" duration="30.00" until="917.0"/> <!-- 건대입구 -->
+        <stop busStop="5933687293" duration="30.00" until="1020.0"/> <!-- 구의(광진구청) -->
+        <stop busStop="5933687059" duration="30.00" until="1080.0"/> <!-- 강변 -->
+    </route>
+    <route id="pt_subway_7:0" edges="396816937" >
+        <stop busStop="6046634697" duration="30.00" until="99.0"/> <!-- 수락산 -->
+        <stop busStop="6046634703" duration="30.00" until="203.0"/> <!-- 마들 -->
+        <stop busStop="6046633878" duration="30.00" until="292.0"/> <!-- 노원 -->
+        <stop busStop="2111825348" duration="30.00" until="377.0"/> <!-- 중계 -->
+        <stop busStop="6046634707" duration="30.00" until="466.0"/> <!-- 하계 -->
+        <stop busStop="6046634708" duration="30.00" until="558.0"/> <!-- 공릉 -->
+        <stop busStop="6046633873" duration="30.00" until="635.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634710" duration="30.00" until="712.0"/> <!-- 먹골 -->
+        <stop busStop="4706526694" duration="30.00" until="800.0"/> <!-- 중화 -->
+        <stop busStop="6046633866" duration="30.00" until="881.0"/> <!-- 상봉 -->
+        <stop busStop="6046634712" duration="30.00" until="959.0"/> <!-- 면목 -->
+        <stop busStop="6046634739" duration="30.00" until="1038.0"/> <!-- 사가정 -->
+        <stop busStop="3823777524" duration="30.00" until="1113.0"/> <!-- 용마산 -->
+        <stop busStop="6046634750" duration="30.00" until="1193.0"/> <!-- 중곡 -->
+        <stop busStop="6039313615" duration="30.00" until="1281.0"/> <!-- 군자 -->
+        <stop busStop="6046633859" duration="30.00" until="1365.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634756" duration="30.00" until="1396.0"/> <!-- 건대입구 -->
+    </route>
+    <route id="pt_subway_6:0" edges="641568132" >
+        <stop busStop="6041674940" duration="30.00" until="31.0"/> <!-- 봉화산 -->
+        <stop busStop="6041674945" duration="30.00" until="105.0"/> <!-- 화랑대 -->
+        <stop busStop="6041673024" duration="30.00" until="184.0"/> <!-- 태릉입구 -->
+        <stop busStop="6041674953" duration="30.00" until="261.0"/> <!-- 석계 -->
+        <stop busStop="6041674958" duration="30.00" until="344.0"/> <!-- 돌곶이 -->
+        <stop busStop="6041674959" duration="30.00" until="423.0"/> <!-- 상월곡 -->
+    </route>
+    <route id="pt_subway_7:1" edges="396816937" >
+        <stop busStop="6046634697" duration="30.00" until="95.0"/> <!-- 수락산 -->
+        <stop busStop="6046634703" duration="30.00" until="199.0"/> <!-- 마들 -->
+        <stop busStop="6046633878" duration="30.00" until="288.0"/> <!-- 노원 -->
+        <stop busStop="2111825348" duration="30.00" until="373.0"/> <!-- 중계 -->
+        <stop busStop="6046634707" duration="30.00" until="462.0"/> <!-- 하계 -->
+        <stop busStop="6046634708" duration="30.00" until="554.0"/> <!-- 공릉 -->
+        <stop busStop="6046633873" duration="30.00" until="631.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634710" duration="30.00" until="708.0"/> <!-- 먹골 -->
+        <stop busStop="4706526694" duration="30.00" until="796.0"/> <!-- 중화 -->
+        <stop busStop="6046633866" duration="30.00" until="877.0"/> <!-- 상봉 -->
+        <stop busStop="6046634712" duration="30.00" until="955.0"/> <!-- 면목 -->
+        <stop busStop="6046634739" duration="30.00" until="1034.0"/> <!-- 사가정 -->
+        <stop busStop="3823777524" duration="30.00" until="1109.0"/> <!-- 용마산 -->
+        <stop busStop="6046634750" duration="30.00" until="1189.0"/> <!-- 중곡 -->
+        <stop busStop="6039313615" duration="30.00" until="1277.0"/> <!-- 군자 -->
+        <stop busStop="6046633859" duration="30.00" until="1429.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634756" duration="30.00" until="1460.0"/> <!-- 건대입구 -->
+    </route>
+    <route id="pt_subway_6:1" edges="641568132" >
+        <stop busStop="5916874386" duration="30.00" until="739.0"/> <!-- 응암 -->
+    </route>
+    <route id="pt_subway_3:0" edges="379994119" >
+        <stop busStop="5281680295" duration="30.00" until="31.0"/> <!-- 구파발 -->
+        <stop busStop="6033544483" duration="30.00" until="150.0"/> <!-- 연신내 -->
+        <stop busStop="5930698992" duration="30.00" until="247.0"/> <!-- 불광 -->
+        <stop busStop="355173021" duration="30.00" until="335.0"/> <!-- 녹번 -->
+        <stop busStop="355173018" duration="30.00" until="440.0"/> <!-- 홍제 -->
+        <stop busStop="355173026" duration="30.00" until="520.0"/> <!-- 무악재 -->
+        <stop busStop="5930698988" duration="30.00" until="608.0"/> <!-- 독립문 -->
+        <stop busStop="355173059" duration="30.00" until="714.0"/> <!-- 경복궁 -->
+        <stop busStop="414685965" duration="30.00" until="803.0"/> <!-- 안국 -->
+        <stop busStop="3833429767" duration="30.00" until="885.0"/> <!-- 종로3가 -->
+        <stop busStop="5930698986" duration="30.00" until="956.0"/> <!-- 을지로3가 역 -->
+        <stop busStop="5933896996" duration="30.00" until="1025.0"/> <!-- 충무로 -->
+        <stop busStop="355173044" duration="30.00" until="1085.0"/> <!-- 동대입구 -->
+        <stop busStop="5933896999" duration="30.00" until="1116.0"/> <!-- 약수 -->
+        <stop busStop="355173067" duration="30.00" until="1147.0"/> <!-- 금호 -->
+    </route>
+    <route id="pt_subway_7:2" edges="396816937" >
+        <stop busStop="6046634697" duration="30.00" until="130.0"/> <!-- 수락산 -->
+        <stop busStop="6046634703" duration="30.00" until="235.0"/> <!-- 마들 -->
+        <stop busStop="6046633878" duration="30.00" until="325.0"/> <!-- 노원 -->
+        <stop busStop="2111825348" duration="30.00" until="411.0"/> <!-- 중계 -->
+        <stop busStop="6046634707" duration="30.00" until="500.0"/> <!-- 하계 -->
+        <stop busStop="6046634708" duration="30.00" until="592.0"/> <!-- 공릉 -->
+        <stop busStop="6046633873" duration="30.00" until="669.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634710" duration="30.00" until="746.0"/> <!-- 먹골 -->
+        <stop busStop="4706526694" duration="30.00" until="834.0"/> <!-- 중화 -->
+        <stop busStop="6046633866" duration="30.00" until="915.0"/> <!-- 상봉 -->
+        <stop busStop="6046634712" duration="30.00" until="993.0"/> <!-- 면목 -->
+        <stop busStop="6046634739" duration="30.00" until="1072.0"/> <!-- 사가정 -->
+        <stop busStop="3823777524" duration="30.00" until="1147.0"/> <!-- 용마산 -->
+        <stop busStop="6046634750" duration="30.00" until="1227.0"/> <!-- 중곡 -->
+        <stop busStop="6039313615" duration="30.00" until="1315.0"/> <!-- 군자 -->
+        <stop busStop="6046633859" duration="30.00" until="1488.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634756" duration="30.00" until="1519.0"/> <!-- 건대입구 -->
+    </route>
+    <route id="pt_subway_7:6" edges="396816937" >
+        <stop busStop="6046634697" duration="30.00" until="99.0"/> <!-- 수락산 -->
+        <stop busStop="6046634703" duration="30.00" until="203.0"/> <!-- 마들 -->
+        <stop busStop="6046633878" duration="30.00" until="292.0"/> <!-- 노원 -->
+        <stop busStop="2111825348" duration="30.00" until="377.0"/> <!-- 중계 -->
+        <stop busStop="6046634707" duration="30.00" until="466.0"/> <!-- 하계 -->
+        <stop busStop="6046634708" duration="30.00" until="558.0"/> <!-- 공릉 -->
+        <stop busStop="6046633873" duration="30.00" until="635.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634710" duration="30.00" until="712.0"/> <!-- 먹골 -->
+        <stop busStop="4706526694" duration="30.00" until="800.0"/> <!-- 중화 -->
+        <stop busStop="6046633866" duration="30.00" until="881.0"/> <!-- 상봉 -->
+        <stop busStop="6046634712" duration="30.00" until="959.0"/> <!-- 면목 -->
+        <stop busStop="6046634739" duration="30.00" until="1038.0"/> <!-- 사가정 -->
+        <stop busStop="3823777524" duration="30.00" until="1113.0"/> <!-- 용마산 -->
+        <stop busStop="6046634750" duration="30.00" until="1193.0"/> <!-- 중곡 -->
+        <stop busStop="6039313615" duration="30.00" until="1281.0"/> <!-- 군자 -->
+        <stop busStop="6046633859" duration="30.00" until="1365.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634756" duration="30.00" until="1396.0"/> <!-- 건대입구 -->
+    </route>
+    <route id="pt_subway_1:12" edges="712248060#0 712248060#1 768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="4246459937" duration="30.00" until="45.0"/> <!-- 신이문 -->
+        <stop busStop="5899527479" duration="30.00" until="117.0"/> <!-- 외대앞 -->
+        <stop busStop="5899527477" duration="30.00" until="199.0"/> <!-- 회기 -->
+        <stop busStop="5902127690" duration="30.00" until="715.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="798.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="884.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="967.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="1038.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="1112.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="1195.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="1276.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_3:1" edges="640473006#2 -640473006#2 -640473006#1 -640473006#0 640473006#0 640473006#1 640473006#2 -640473006#2 -640473006#1 -640473006#0 640473006#0 640473006#1 640473006#2 -640473006#2 -640473006#1 -640473006#0" >
+        <stop busStop="6033544411" duration="30.00" until="120.0"/> <!-- 금호 -->
+        <stop busStop="6033544415" duration="30.00" until="350.0"/> <!-- 약수 -->
+        <stop busStop="6033544418" duration="30.00" until="525.0"/> <!-- 동대입구 -->
+        <stop busStop="-6033544421" duration="30.00" until="617.0"/> <!-- 충무로 -->
+        <stop busStop="-6033544618" duration="30.00" until="686.0"/> <!-- 을지로3가 역 -->
+        <stop busStop="-6033544620" duration="30.00" until="757.0"/> <!-- 종로3가 -->
+        <stop busStop="-6033544425" duration="30.00" until="839.0"/> <!-- 안국 -->
+        <stop busStop="-6033544430" duration="30.00" until="928.0"/> <!-- 경복궁 -->
+        <stop busStop="-6033544433" duration="30.00" until="1034.0"/> <!-- 독립문 -->
+        <stop busStop="-6033544441" duration="30.00" until="1121.0"/> <!-- 무악재 -->
+        <stop busStop="-6033544670" duration="30.00" until="1201.0"/> <!-- 홍제 -->
+        <stop busStop="-6033544681" duration="30.00" until="1306.0"/> <!-- 녹번 -->
+        <stop busStop="-6033544469" duration="30.00" until="1394.0"/> <!-- 불광 -->
+        <stop busStop="-6033544692" duration="30.00" until="1491.0"/> <!-- 연신내 -->
+        <stop busStop="-6033544706" duration="30.00" until="1606.0"/> <!-- 구파발 -->
+    </route>
+    <route id="pt_subway_1:14" edges="712248060#0 712248060#1 768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="4246459937" duration="30.00" until="45.0"/> <!-- 신이문 -->
+        <stop busStop="5899527479" duration="30.00" until="117.0"/> <!-- 외대앞 -->
+        <stop busStop="5899527477" duration="30.00" until="199.0"/> <!-- 회기 -->
+        <stop busStop="5902127690" duration="30.00" until="981.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="1064.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="1150.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="1233.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="1304.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="1378.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="1461.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="1542.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_1:17" edges="712248060#0 712248060#1 768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="4246459937" duration="30.00" until="31.0"/> <!-- 신이문 -->
+        <stop busStop="5899527479" duration="30.00" until="103.0"/> <!-- 외대앞 -->
+        <stop busStop="5899527477" duration="30.00" until="185.0"/> <!-- 회기 -->
+        <stop busStop="5902127690" duration="30.00" until="1282.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="1365.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="1451.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="1534.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="1605.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="1679.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="1762.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="1843.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_1:18" edges="712248060#0 712248060#1 768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="4246459937" duration="30.00" until="45.0"/> <!-- 신이문 -->
+        <stop busStop="5899527479" duration="30.00" until="117.0"/> <!-- 외대앞 -->
+        <stop busStop="5899527477" duration="30.00" until="199.0"/> <!-- 회기 -->
+        <stop busStop="5902127690" duration="30.00" until="1553.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="1636.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="1722.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="1805.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="1876.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="1950.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="2033.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="2114.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_6:2" edges="641568132" >
+        <stop busStop="6041674940" duration="30.00" until="31.0"/> <!-- 봉화산 -->
+        <stop busStop="6041674945" duration="30.00" until="105.0"/> <!-- 화랑대 -->
+        <stop busStop="6041673024" duration="30.00" until="184.0"/> <!-- 태릉입구 -->
+        <stop busStop="6041674953" duration="30.00" until="261.0"/> <!-- 석계 -->
+        <stop busStop="6041674958" duration="30.00" until="344.0"/> <!-- 돌곶이 -->
+        <stop busStop="6041674959" duration="30.00" until="423.0"/> <!-- 상월곡 -->
+        <stop busStop="6041674963" duration="30.00" until="499.0"/> <!-- 월곡 -->
+        <stop busStop="6041674970" duration="30.00" until="597.0"/> <!-- 고려대 -->
+        <stop busStop="6041674976" duration="30.00" until="675.0"/> <!-- 안암 -->
+        <stop busStop="6041674984" duration="30.00" until="756.0"/> <!-- 보문 -->
+        <stop busStop="6041674992" duration="30.00" until="832.0"/> <!-- 창신 -->
+        <stop busStop="6041674999" duration="30.00" until="909.0"/> <!-- 동묘앞 -->
+        <stop busStop="6041675002" duration="30.00" until="982.0"/> <!-- 신당 -->
+        <stop busStop="6041675006" duration="30.00" until="1056.0"/> <!-- 청구 -->
+        <stop busStop="6041673057" duration="30.00" until="1131.0"/> <!-- 약수 -->
+        <stop busStop="6041675013" duration="30.00" until="1207.0"/> <!-- 버티고개 -->
+        <stop busStop="6041675023" duration="30.00" until="1297.0"/> <!-- 한강진 -->
+        <stop busStop="6041675034" duration="30.00" until="1381.0"/> <!-- 이태원 -->
+        <stop busStop="6041675038" duration="30.00" until="1454.0"/> <!-- 녹사평 -->
+        <stop busStop="6041675042" duration="30.00" until="1485.0"/> <!-- 삼각지 -->
+        <stop busStop="6041675046" duration="30.00" until="1516.0"/> <!-- 효창공원앞 -->
+        <stop busStop="6041675047" duration="30.00" until="1547.0"/> <!-- 공덕 -->
+        <stop busStop="6041675048" duration="30.00" until="1578.0"/> <!-- 대흥 -->
+        <stop busStop="6041675068" duration="30.00" until="1609.0"/> <!-- 광흥창 -->
+        <stop busStop="6041675069" duration="30.00" until="1640.0"/> <!-- 상수 -->
+        <stop busStop="6041675072" duration="30.00" until="1671.0"/> <!-- 합정 -->
+        <stop busStop="6041674908" duration="30.00" until="1702.0"/> <!-- 망원 -->
+        <stop busStop="6041675075" duration="30.00" until="1733.0"/> <!-- 마포구청 -->
+        <stop busStop="6041675080" duration="30.00" until="1764.0"/> <!-- 월드컵경기장 -->
+        <stop busStop="6041675084" duration="30.00" until="1795.0"/> <!-- 디지털미디어시티 -->
+        <stop busStop="6041675085" duration="30.00" until="1826.0"/> <!-- 증산 -->
+        <stop busStop="6041675090" duration="30.00" until="1857.0"/> <!-- 새절 -->
+        <stop busStop="5916874386" duration="30.00" until="1888.0"/> <!-- 응암 -->
+    </route>
+    <route id="pt_subway_1:19" edges="712248060#0 712248060#1 768714278#0 -787885254#1 787885255#1 768714278#2 768714278#3 768714278#4 637016283" >
+        <stop busStop="4246459937" duration="30.00" until="45.0"/> <!-- 신이문 -->
+        <stop busStop="5899527479" duration="30.00" until="117.0"/> <!-- 외대앞 -->
+        <stop busStop="5899527477" duration="30.00" until="249.0"/> <!-- 회기 -->
+        <stop busStop="5902127690" duration="30.00" until="1819.0"/> <!-- 청량리 -->
+        <stop busStop="5902125881" duration="30.00" until="1902.0"/> <!-- 제기동 -->
+        <stop busStop="5902127698" duration="30.00" until="1988.0"/> <!-- 신설동 -->
+        <stop busStop="5902125882" duration="30.00" until="2071.0"/> <!-- 동묘앞 -->
+        <stop busStop="5767417129" duration="30.00" until="2142.0"/> <!-- 동대문역 -->
+        <stop busStop="355172742" duration="30.00" until="2216.0"/> <!-- 종로5가 -->
+        <stop busStop="3426724597" duration="30.00" until="2299.0"/> <!-- 종로3가 -->
+        <stop busStop="660871450" duration="30.00" until="2380.0"/> <!-- 종각 -->
+    </route>
+    <route id="pt_subway_5:1" edges="641231861 641231861 641231861 641231861 641231861 641231861 641231861 641231861 641231861" >
+        <stop busStop="6039313641" duration="30.00" until="330.0"/> <!-- 을지로4가 -->
+        <stop busStop="6039314328" duration="30.00" until="361.0"/> <!-- 동대문역사문화공원 -->
+        <stop busStop="6039314320" duration="30.00" until="1037.0"/> <!-- 청구 -->
+        <stop busStop="6039313639" duration="30.00" until="1705.0"/> <!-- 신금호 -->
+        <stop busStop="6039314304" duration="30.00" until="2372.0"/> <!-- 행당 -->
+        <stop busStop="6039313636" duration="30.00" until="3050.0"/> <!-- 왕십리 -->
+        <stop busStop="6039314301" duration="30.00" until="3720.0"/> <!-- 마장 -->
+        <stop busStop="6039313620" duration="30.00" until="4382.0"/> <!-- 답십리 -->
+        <stop busStop="6039314293" duration="30.00" until="5038.0"/> <!-- 장한평 -->
+        <stop busStop="6039314290" duration="30.00" until="5684.0"/> <!-- 군자 -->
+    </route>
+    <route id="pt_subway_7:3" edges="642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668" >
+        <stop busStop="6046634585" duration="30.00" until="646.0"/> <!-- 건대입구 -->
+        <stop busStop="6046633860" duration="30.00" until="677.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634591" duration="30.00" until="1640.0"/> <!-- 군자 -->
+        <stop busStop="6046634592" duration="30.00" until="2873.0"/> <!-- 중곡 -->
+        <stop busStop="6046634606" duration="30.00" until="4112.0"/> <!-- 용마산 -->
+        <stop busStop="6046634612" duration="30.00" until="5357.0"/> <!-- 사가정 -->
+        <stop busStop="6046634639" duration="30.00" until="6597.0"/> <!-- 면목 -->
+        <stop busStop="6046633867" duration="30.00" until="7840.0"/> <!-- 상봉 -->
+        <stop busStop="6046634651" duration="30.00" until="9079.0"/> <!-- 중화 -->
+        <stop busStop="6046634652" duration="30.00" until="10311.0"/> <!-- 먹골 -->
+        <stop busStop="6046633872" duration="30.00" until="11554.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634656" duration="30.00" until="12797.0"/> <!-- 공릉 -->
+        <stop busStop="6046634660" duration="30.00" until="14024.0"/> <!-- 하계 -->
+        <stop busStop="6046634663" duration="30.00" until="15256.0"/> <!-- 중계 -->
+        <stop busStop="6046633879" duration="30.00" until="16491.0"/> <!-- 노원 -->
+        <stop busStop="6046634670" duration="30.00" until="17722.0"/> <!-- 마들 -->
+        <stop busStop="6046634676" duration="30.00" until="18938.0"/> <!-- 수락산 -->
+    </route>
+    <route id="pt_subway_7:4" edges="642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668" >
+        <stop busStop="6046634585" duration="30.00" until="710.0"/> <!-- 건대입구 -->
+        <stop busStop="6046633860" duration="30.00" until="741.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634591" duration="30.00" until="1943.0"/> <!-- 군자 -->
+        <stop busStop="6046634592" duration="30.00" until="3176.0"/> <!-- 중곡 -->
+        <stop busStop="6046634606" duration="30.00" until="4415.0"/> <!-- 용마산 -->
+        <stop busStop="6046634612" duration="30.00" until="5660.0"/> <!-- 사가정 -->
+        <stop busStop="6046634639" duration="30.00" until="6900.0"/> <!-- 면목 -->
+        <stop busStop="6046633867" duration="30.00" until="8143.0"/> <!-- 상봉 -->
+        <stop busStop="6046634651" duration="30.00" until="9382.0"/> <!-- 중화 -->
+        <stop busStop="6046634652" duration="30.00" until="10614.0"/> <!-- 먹골 -->
+        <stop busStop="6046633872" duration="30.00" until="11857.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634656" duration="30.00" until="13100.0"/> <!-- 공릉 -->
+        <stop busStop="6046634660" duration="30.00" until="14327.0"/> <!-- 하계 -->
+        <stop busStop="6046634663" duration="30.00" until="15559.0"/> <!-- 중계 -->
+        <stop busStop="6046633879" duration="30.00" until="16794.0"/> <!-- 노원 -->
+        <stop busStop="6046634670" duration="30.00" until="18025.0"/> <!-- 마들 -->
+        <stop busStop="6046634676" duration="30.00" until="19241.0"/> <!-- 수락산 -->
+    </route>
+    <route id="pt_subway_7:5" edges="642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668" >
+        <stop busStop="6046634585" duration="30.00" until="774.0"/> <!-- 건대입구 -->
+        <stop busStop="6046633860" duration="30.00" until="805.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634591" duration="30.00" until="2246.0"/> <!-- 군자 -->
+        <stop busStop="6046634592" duration="30.00" until="3479.0"/> <!-- 중곡 -->
+        <stop busStop="6046634606" duration="30.00" until="4718.0"/> <!-- 용마산 -->
+        <stop busStop="6046634612" duration="30.00" until="5963.0"/> <!-- 사가정 -->
+        <stop busStop="6046634639" duration="30.00" until="7203.0"/> <!-- 면목 -->
+        <stop busStop="6046633867" duration="30.00" until="8446.0"/> <!-- 상봉 -->
+        <stop busStop="6046634651" duration="30.00" until="9685.0"/> <!-- 중화 -->
+        <stop busStop="6046634652" duration="30.00" until="10917.0"/> <!-- 먹골 -->
+        <stop busStop="6046633872" duration="30.00" until="12160.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634656" duration="30.00" until="13403.0"/> <!-- 공릉 -->
+        <stop busStop="6046634660" duration="30.00" until="14630.0"/> <!-- 하계 -->
+        <stop busStop="6046634663" duration="30.00" until="15862.0"/> <!-- 중계 -->
+        <stop busStop="6046633879" duration="30.00" until="17097.0"/> <!-- 노원 -->
+        <stop busStop="6046634670" duration="30.00" until="18328.0"/> <!-- 마들 -->
+        <stop busStop="6046634676" duration="30.00" until="19544.0"/> <!-- 수락산 -->
+    </route>
+    <route id="pt_subway_7:7" edges="642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668 642221668" >
+        <stop busStop="6046634585" duration="30.00" until="646.0"/> <!-- 건대입구 -->
+        <stop busStop="6046633860" duration="30.00" until="677.0"/> <!-- 어린이대공원 -->
+        <stop busStop="6046634591" duration="30.00" until="2276.0"/> <!-- 군자 -->
+        <stop busStop="6046634592" duration="30.00" until="3509.0"/> <!-- 중곡 -->
+        <stop busStop="6046634606" duration="30.00" until="4748.0"/> <!-- 용마산 -->
+        <stop busStop="6046634612" duration="30.00" until="5993.0"/> <!-- 사가정 -->
+        <stop busStop="6046634639" duration="30.00" until="7233.0"/> <!-- 면목 -->
+        <stop busStop="6046633867" duration="30.00" until="8476.0"/> <!-- 상봉 -->
+        <stop busStop="6046634651" duration="30.00" until="9715.0"/> <!-- 중화 -->
+        <stop busStop="6046634652" duration="30.00" until="10947.0"/> <!-- 먹골 -->
+        <stop busStop="6046633872" duration="30.00" until="12190.0"/> <!-- 태릉입구 -->
+        <stop busStop="6046634656" duration="30.00" until="13433.0"/> <!-- 공릉 -->
+        <stop busStop="6046634660" duration="30.00" until="14660.0"/> <!-- 하계 -->
+        <stop busStop="6046634663" duration="30.00" until="15892.0"/> <!-- 중계 -->
+        <stop busStop="6046633879" duration="30.00" until="17127.0"/> <!-- 노원 -->
+        <stop busStop="6046634670" duration="30.00" until="18358.0"/> <!-- 마들 -->
+        <stop busStop="6046634676" duration="30.00" until="19574.0"/> <!-- 수락산 -->
+    </route>
+    <!--flow id="pt_subway_272:4" type="pt_subway" route="pt_subway_272:4" begin="160.0" end="3760.0" period="600" line="272:4" >
+        <param key="name" value="수도권 전철 분당선: 왕십리 → 죽전"/>
+        <param key="completeness" value="0.50"/>
+    </flow>
+    <flow id="pt_subway_272:0" type="pt_subway" route="pt_subway_272:0" begin="136.0" end="3736.0" period="600" line="272:0" >
+        <param key="name" value="수도권 전철 수인분당선: 청량리 → 고색"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_subway_272:3" type="pt_subway" route="pt_subway_272:3" begin="160.0" end="3760.0" period="600" line="272:3" >
+        <param key="name" value="수도권 전철 수인분당선: 청량리 → 죽전"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_subway_272:1" type="pt_subway" route="pt_subway_272:1" begin="137.0" end="3737.0" period="600" line="272:1" >
+        <param key="name" value="수도권 전철 수인분당선: 고색 → 청량리"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_subway_272:2" type="pt_subway" route="pt_subway_272:2" begin="152.0" end="3752.0" period="600" line="272:2" >
+        <param key="name" value="수도권 전철 수인분당선: 죽전 → 청량리"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_subway_272:5" type="pt_subway" route="pt_subway_272:5" begin="222.0" end="3822.0" period="600" line="272:5" >
+        <param key="name" value="수도권 전철 수인분당선: 청량리 → 인천"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_subway_272:7" type="pt_subway" route="pt_subway_272:7" begin="321.0" end="3921.0" period="600" line="272:7" >
+        <param key="name" value="수도권 전철 수인분당선: 고색 → 왕십리"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_subway_272:6" type="pt_subway" route="pt_subway_272:6" begin="227.0" end="3827.0" period="600" line="272:6" >
+        <param key="name" value="수도권 전철 수인분당선: 인천 → 청량리"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_2220:0" type="pt_bus" route="pt_bus_2220:0" begin="346.0" end="3946.0" period="600" line="2220:0" >
+        <param key="name" value="2220"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_subway_272:10" type="pt_subway" route="pt_subway_272:10" begin="437.0" end="4037.0" period="600" line="272:10" >
+        <param key="name" value="수도권 전철 수인분당선 급행: 고색 → 왕십리"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_507:0" type="pt_bus" route="pt_bus_507:0" begin="334.0" end="3934.0" period="600" line="507:0" >
+        <param key="name" value="서울 버스 507"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_subway_1:0" type="pt_subway" route="pt_subway_1:0" begin="3.0" end="3603.0" period="600" line="1:0" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 청량리 → 천안 급행"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_subway_2:0" type="pt_subway" route="pt_subway_2:0" begin="227.0" end="3827.0" period="600" line="2:0" >
+        <param key="name" value="서울 지하철 2호선: 외선순환"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_subway_1:1" type="pt_subway" route="pt_subway_1:1" begin="15.0" end="3615.0" period="600" line="1:1" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 천안 → 청량리 급행"/>
+        <param key="completeness" value="0.26"/>
+    </flow>
+    <flow id="pt_subway_1:10" type="pt_subway" route="pt_subway_1:10" begin="315.0" end="3915.0" period="600" line="1:10" >
+        <param key="name" value="수도권 전철 1호선 : 인천 → 동묘앞"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_subway_1:2" type="pt_subway" route="pt_subway_1:2" begin="49.0" end="3649.0" period="600" line="1:2" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 청량리 → 신창 급행"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_subway_1:3" type="pt_subway" route="pt_subway_1:3" begin="65.0" end="3665.0" period="600" line="1:3" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 신창 → 청량리 급행"/>
+        <param key="completeness" value="0.21"/>
+    </flow>
+    <flow id="pt_bus_507:1" type="pt_bus" route="pt_bus_507:1" begin="484.0" end="4084.0" period="600" line="507:1" >
+        <param key="name" value="서울 버스 507"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_light_rail_W:1" type="pt_light_rail" route="pt_light_rail_W:1" begin="441.0" end="4041.0" period="600" line="W:1" >
+        <param key="name" value="서울 경전철 우이신설선: 신설동 → 북한산우이"/>
+        <param key="completeness" value="0.46"/>
+    </flow>
+    <flow id="pt_subway_GC:0" type="pt_subway" route="pt_subway_GC:0" begin="485.0" end="4085.0" period="600" line="GC:0" >
+        <param key="name" value="수도권 전철 경춘선: 청량리 → 춘천"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_subway_2:1" type="pt_subway" route="pt_subway_2:1" begin="365.0" end="3965.0" period="600" line="2:1" >
+        <param key="name" value="서울 지하철 2호선 성수지선: 신설동 → 성수"/>
+        <param key="completeness" value="0.80"/>
+    </flow>
+    <flow id="pt_subway_1:11" type="pt_subway" route="pt_subway_1:11" begin="201.0" end="3801.0" period="600" line="1:11" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 청량리 → 천안"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_subway_272:8" type="pt_subway" route="pt_subway_272:8" begin="418.0" end="4018.0" period="600" line="272:8" >
+        <param key="name" value="수도권 전철 수인분당선: 왕십리 → 고색"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_subway_2:2" type="pt_subway" route="pt_subway_2:2" begin="371.0" end="3971.0" period="600" line="2:2" >
+        <param key="name" value="서울 지하철 2호선 성수지선: 성수 → 신설동"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_subway_G·J:1" type="pt_subway" route="pt_subway_G·J:1" begin="410.0" end="4010.0" period="600" line="G·J:1" >
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_subway_1:6" type="pt_subway" route="pt_subway_1:6" begin="115.0" end="3715.0" period="600" line="1:6" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 인천 → 양주"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_subway_1:7" type="pt_subway" route="pt_subway_1:7" begin="165.0" end="3765.0" period="600" line="1:7" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 인천 → 의정부"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_subway_1:8" type="pt_subway" route="pt_subway_1:8" begin="215.0" end="3815.0" period="600" line="1:8" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통 급행: 인천 → 동두천"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_subway_1:9" type="pt_subway" route="pt_subway_1:9" begin="265.0" end="3865.0" period="600" line="1:9" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 인천 → 동두천"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_subway_4:0" type="pt_subway" route="pt_subway_4:0" begin="98.0" end="3698.0" period="600" line="4:0" >
+        <param key="name" value="서울 지하철 4호선: 당고개 → 사당"/>
+        <param key="completeness" value="0.44"/>
+    </flow>
+    <flow id="pt_subway_272:9" type="pt_subway" route="pt_subway_272:9" begin="749.0" end="4349.0" period="600" line="272:9" >
+        <param key="name" value="수도권 전철 수인분당선 급행: 왕십리 → 고색"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_subway_4:3" type="pt_subway" route="pt_subway_4:3" begin="125.0" end="3725.0" period="600" line="4:3" >
+        <param key="name" value="서울 지하철 4호선: 오이도 → 당고개 급행"/>
+        <param key="completeness" value="0.26"/>
+    </flow>
+    <flow id="pt_subway_1:4" type="pt_subway" route="pt_subway_1:4" begin="19.0" end="3619.0" period="600" line="1:4" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 양주 → 구로"/>
+        <param key="completeness" value="0.32"/>
+    </flow>
+    <flow id="pt_subway_4:1" type="pt_subway" route="pt_subway_4:1" begin="113.0" end="3713.0" period="600" line="4:1" >
+        <param key="name" value="서울 지하철 4호선: 당고개 → 안산"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_subway_4:4" type="pt_subway" route="pt_subway_4:4" begin="141.0" end="3741.0" period="600" line="4:4" >
+        <param key="name" value="수도권 전철 4호선: 사당 → 당고개"/>
+        <param key="completeness" value="0.44"/>
+    </flow>
+    <flow id="pt_subway_5:0" type="pt_subway" route="pt_subway_5:0" begin="388.0" end="3988.0" period="600" line="5:0" >
+        <param key="name" value="서울 지하철 5호선: 상일동 → 방화"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_subway_G·J:0" type="pt_subway" route="pt_subway_G·J:0" begin="406.0" end="4006.0" period="600" line="G·J:0" >
+        <param key="name" value="수도권 전철 경의·중앙선: 지평 → 문산"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_light_rail_W:0" type="pt_light_rail" route="pt_light_rail_W:0" begin="437.0" end="4037.0" period="600" line="W:0" >
+        <param key="name" value="서울 경전철 우이신설선: 북한산우이 → 신설동"/>
+        <param key="completeness" value="0.46"/>
+    </flow>
+    <flow id="pt_subway_4:2" type="pt_subway" route="pt_subway_4:2" begin="128.0" end="3728.0" period="600" line="4:2" >
+        <param key="name" value="서울 지하철 4호선: 당고개 → 오이도 급행"/>
+        <param key="completeness" value="0.26"/>
+    </flow>
+    <flow id="pt_subway_GC:1" type="pt_subway" route="pt_subway_GC:1" begin="497.0" end="4097.0" period="600" line="GC:1" >
+        <param key="name" value="수도권 전철 경춘선: 춘천 → 청량리"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_subway_4:5" type="pt_subway" route="pt_subway_4:5" begin="190.0" end="3790.0" period="600" line="4:5" >
+        <param key="name" value="서울 지하철 4호선: 안산 → 당고개"/>
+        <param key="completeness" value="0.24"/>
+    </flow>
+    <flow id="pt_subway_4:6" type="pt_subway" route="pt_subway_4:6" begin="253.0" end="3853.0" period="600" line="4:6" >
+        <param key="name" value="서울 지하철 4호선: 당고개 → 오이도"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_subway_1:13" type="pt_subway" route="pt_subway_1:13" begin="508.0" end="4108.0" period="600" line="1:13" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 인천 → 소요산"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_subway_1:15" type="pt_subway" route="pt_subway_1:15" begin="535.0" end="4135.0" period="600" line="1:15" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 신창 → 광운대"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_subway_4:7" type="pt_subway" route="pt_subway_4:7" begin="383.0" end="3983.0" period="600" line="4:7" >
+        <param key="name" value="서울 지하철 4호선: 오이도 → 당고개"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_subway_1:16" type="pt_subway" route="pt_subway_1:16" begin="580.0" end="4180.0" period="600" line="1:16" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 서동탄 → 광운대"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_subway_1:5" type="pt_subway" route="pt_subway_1:5" begin="71.0" end="3671.0" period="600" line="1:5" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통 급행: 동두천 → 인천"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_subway_2:3" type="pt_subway" route="pt_subway_2:3" begin="381.0" end="3981.0" period="600" line="2:3" >
+        <param key="name" value="서울 지하철 2호선: 내선순환"/>
+        <param key="completeness" value="0.32"/>
+    </flow>
+    <flow id="pt_subway_7:0" type="pt_subway" route="pt_subway_7:0" begin="58.0" end="3658.0" period="600" line="7:0" >
+        <param key="name" value="서울 지하철 7호선: 도봉산 → 부평구청"/>
+        <param key="completeness" value="0.35"/>
+    </flow>
+    <flow id="pt_subway_6:0" type="pt_subway" route="pt_subway_6:0" begin="218.0" end="3818.0" period="600" line="6:0" >
+        <param key="name" value="서울 지하철 6호선: 신내 → 응암순환"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_subway_7:1" type="pt_subway" route="pt_subway_7:1" begin="73.0" end="3673.0" period="600" line="7:1" >
+        <param key="name" value="서울 지하철 7호선: 도봉산 → 온수"/>
+        <param key="completeness" value="0.41"/>
+    </flow>
+    <flow id="pt_subway_6:1" type="pt_subway" route="pt_subway_6:1" begin="362.0" end="3962.0" period="600" line="6:1" >
+        <param key="name" value="서울 지하철 6호선: 응암순환 → 봉화산"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_subway_3:0" type="pt_subway" route="pt_subway_3:0" begin="353.0" end="3953.0" period="600" line="3:0" >
+        <param key="name" value="서울 지하철 3호선: 대화 → 오금"/>
+        <param key="completeness" value="0.34"/>
+    </flow>
+    <flow id="pt_subway_7:2" type="pt_subway" route="pt_subway_7:2" begin="93.0" end="3693.0" period="600" line="7:2" >
+        <param key="name" value="서울 지하철 7호선: 장암 → 온수"/>
+        <param key="completeness" value="0.40"/>
+    </flow>
+    <flow id="pt_subway_7:6" type="pt_subway" route="pt_subway_7:6" begin="303.0" end="3903.0" period="600" line="7:6" >
+        <param key="name" value="서울 지하철 7호선: 장암 → 부평구청"/>
+        <param key="completeness" value="0.34"/>
+    </flow>
+    <flow id="pt_subway_1:12" type="pt_subway" route="pt_subway_1:12" begin="505.0" end="4105.0" period="600" line="1:12" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 소요산 → 인천"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_subway_3:1" type="pt_subway" route="pt_subway_3:1" begin="383.0" end="3983.0" period="600" line="3:1" >
+        <param key="name" value="서울 지하철 3호선: 오금 → 대화"/>
+        <param key="completeness" value="0.34"/>
+    </flow>
+    <flow id="pt_subway_1:14" type="pt_subway" route="pt_subway_1:14" begin="557.0" end="4157.0" period="600" line="1:14" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 광운대 → 신창"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_subway_1:17" type="pt_subway" route="pt_subway_1:17" begin="574.0" end="4174.0" period="600" line="1:17" >
+        <param key="name" value="수도권 전철 1호선 경부·장항 계통: 광운대 → 서동탄"/>
+        <param key="completeness" value="0.28"/>
+    </flow>
+    <flow id="pt_subway_1:18" type="pt_subway" route="pt_subway_1:18" begin="621.0" end="4221.0" period="600" line="1:18" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 의정부 → 인천"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_subway_6:2" type="pt_subway" route="pt_subway_6:2" begin="465.0" end="4065.0" period="600" line="6:2" >
+        <param key="name" value="서울 지하철 6호선: 봉화산 → 응암순환"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_subway_1:19" type="pt_subway" route="pt_subway_1:19" begin="673.0" end="4273.0" period="600" line="1:19" >
+        <param key="name" value="수도권 전철 1호선 경인·경원 계통: 양주 → 인천"/>
+        <param key="completeness" value="0.20"/>
+    </flow>
+    <flow id="pt_subway_5:1" type="pt_subway" route="pt_subway_5:1" begin="389.0" end="3989.0" period="600" line="5:1" >
+        <param key="name" value="서울 지하철 5호선: 방화 → 상일동"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_subway_7:3" type="pt_subway" route="pt_subway_7:3" begin="165.0" end="3765.0" period="600" line="7:3" >
+        <param key="name" value="서울 지하철 7호선: 부평구청 → 도봉산"/>
+        <param key="completeness" value="0.34"/>
+    </flow>
+    <flow id="pt_subway_7:4" type="pt_subway" route="pt_subway_7:4" begin="180.0" end="3780.0" period="600" line="7:4" >
+        <param key="name" value="서울 지하철 7호선: 온수 → 장암"/>
+        <param key="completeness" value="0.40"/>
+    </flow>
+    <flow id="pt_subway_7:5" type="pt_subway" route="pt_subway_7:5" begin="195.0" end="3795.0" period="600" line="7:5" >
+        <param key="name" value="서울 지하철 7호선: 온수 → 도봉산"/>
+        <param key="completeness" value="0.41"/>
+    </flow>
+    <flow id="pt_subway_7:7" type="pt_subway" route="pt_subway_7:7" begin="483.0" end="4083.0" period="600" line="7:7" >
+        <param key="name" value="서울 지하철 7호선: 부평구청 → 장암"/>
+        <param key="completeness" value="0.33"/>
+    </flow-->
+    <flow id="bus0" type="pt_bus" from="220027347#0" to="-379798248" begin="0" end="3600" number="100" line="W2E01" via="180192153#1 517323577#3 518705243#4">
+    </flow>
+    <flow id="bus1" type="pt_bus" from="-519060519" to="-563109702#0" begin="0" end="3600" number="100" line="N2S01" via="393310531#2 183895344#1 183895344#4 -518705249#5">
+    </flow>
+    <flow id="bus2" type="pt_bus" from="470868329#1" to="517641011#3" begin="0" end="3600" number="100" via="183521130#6">
+    </flow>
+    <flow id="bus3" type="pt_bus" from="470868329#1" to="26965306" begin="0" end="3600" number="100" via="-489813617#10 794254760 669138354#0">
+    </flow>
+    <flow id="bus4" type="pt_bus" from="-37401394#1" to="-520474641#0" begin="0" end="3600" number="100" via="-37401829#2 176922094#15">
+    </flow>
+    <flow id="bus5" type="pt_bus" from="785130598#0" to="218837475#4" begin="0" end="3600" number="100" via="-218684409#0">
+    </flow>
+    <flow id="bus6" type="pt_bus" from="-518705503#4" to="-37930777#0" begin="0" end="3600" number="100" via="37400220#4 -517641042#4 -268783056#0">
+    </flow>
+    <flow id="bus7" type="pt_bus" from="-175357614" to="248406291" begin="0" end="3600" number="100" via="416753704#11 -226903454#17">
+    </flow>
+    <!--flow id="" type="pt_bus" from="" to="" begin="0" end="3600" number="100" via="">
+    </flow-->
+</routes>

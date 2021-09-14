@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/30/20 17:34:44 by Eclipse SUMO netconvert Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Users\LICS\sumo-1.7.0\data\typemap\osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="10565519" name="수도권 전철 1호선 경부·장항 계통: 청량리 → 천안 급행" line="1" type="subway" vClass="rail_urban" completeness="0.25">
+        <route edges="768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="10565521" name="수도권 전철 1호선 경부·장항 계통: 천안 → 청량리 급행" line="1" type="subway" vClass="rail_urban" completeness="0.26">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+    </ptLine>
+    <ptLine id="10685370" name="수도권 전철 1호선 경부·장항 계통: 청량리 → 신창 급행" line="1" type="subway" vClass="rail_urban" completeness="0.22">
+        <route edges="768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="10685371" name="수도권 전철 1호선 경부·장항 계통: 신창 → 청량리 급행" line="1" type="subway" vClass="rail_urban" completeness="0.21">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+    </ptLine>
+    <ptLine id="10700967" name="수도권 전철 1호선 경인·경원 계통: 양주 → 구로" line="1" type="subway" vClass="rail_urban" completeness="0.32">
+        <route edges="712248060#0 712248060#1 405047381 379994108#0 379994108#1 768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="4246459937" name="신이문"/>
+        <busStop id="5899527479" name="외대앞"/>
+        <busStop id="5899527477" name="회기"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="10700968" name="수도권 전철 1호선 경인·경원 계통 급행: 동두천 → 인천" line="1" type="subway" vClass="rail_urban" completeness="0.22">
+        <route edges="712248060#0 712248060#1 405047381 379994108#0 379994108#1 768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="4246459937" name="신이문"/>
+        <busStop id="5899527479" name="외대앞"/>
+        <busStop id="5899527477" name="회기"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="10700978" name="수도권 전철 1호선 경인·경원 계통: 인천 → 양주" line="1" type="subway" vClass="rail_urban" completeness="0.18">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+        <busStop id="5899527478" name="회기"/>
+        <busStop id="5899527480" name="외대앞"/>
+    </ptLine>
+    <ptLine id="10700979" name="수도권 전철 1호선 경인·경원 계통: 인천 → 의정부" line="1" type="subway" vClass="rail_urban" completeness="0.19">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+        <busStop id="5899527478" name="회기"/>
+        <busStop id="5899527480" name="외대앞"/>
+    </ptLine>
+    <ptLine id="10713876" name="수도권 전철 1호선 경인·경원 계통 급행: 인천 → 동두천" line="1" type="subway" vClass="rail_urban" completeness="0.19">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+        <busStop id="5899527478" name="회기"/>
+        <busStop id="5899527480" name="외대앞"/>
+    </ptLine>
+    <ptLine id="10727491" name="서울 지하철 7호선: 도봉산 → 부평구청" line="7" type="subway" vClass="rail_urban" completeness="0.35">
+        <busStop id="6046634697" name="수락산"/>
+        <busStop id="6046634703" name="마들"/>
+        <busStop id="6046633878" name="노원"/>
+        <busStop id="2111825348" name="중계"/>
+        <busStop id="6046634707" name="하계"/>
+        <busStop id="6046634708" name="공릉"/>
+        <busStop id="6046633873" name="태릉입구"/>
+        <busStop id="6046634710" name="먹골"/>
+        <busStop id="4706526694" name="중화"/>
+        <busStop id="6046633866" name="상봉"/>
+        <busStop id="6046634712" name="면목"/>
+        <busStop id="6046634739" name="사가정"/>
+        <busStop id="3823777524" name="용마산"/>
+        <busStop id="6046634750" name="중곡"/>
+        <busStop id="6039313615" name="군자"/>
+        <busStop id="6046633859" name="어린이대공원"/>
+        <busStop id="6046634756" name="건대입구"/>
+    </ptLine>
+    <ptLine id="10727492" name="서울 지하철 7호선: 도봉산 → 온수" line="7" type="subway" vClass="rail_urban" completeness="0.41">
+        <busStop id="6046634697" name="수락산"/>
+        <busStop id="6046634703" name="마들"/>
+        <busStop id="6046633878" name="노원"/>
+        <busStop id="2111825348" name="중계"/>
+        <busStop id="6046634707" name="하계"/>
+        <busStop id="6046634708" name="공릉"/>
+        <busStop id="6046633873" name="태릉입구"/>
+        <busStop id="6046634710" name="먹골"/>
+        <busStop id="4706526694" name="중화"/>
+        <busStop id="6046633866" name="상봉"/>
+        <busStop id="6046634712" name="면목"/>
+        <busStop id="6046634739" name="사가정"/>
+        <busStop id="3823777524" name="용마산"/>
+        <busStop id="6046634750" name="중곡"/>
+        <busStop id="6039313615" name="군자"/>
+        <busStop id="6046633859" name="어린이대공원"/>
+        <busStop id="6046634756" name="건대입구"/>
+    </ptLine>
+    <ptLine id="10727493" name="서울 지하철 7호선: 장암 → 온수" line="7" type="subway" vClass="rail_urban" completeness="0.40">
+        <busStop id="6046634697" name="수락산"/>
+        <busStop id="6046634703" name="마들"/>
+        <busStop id="6046633878" name="노원"/>
+        <busStop id="2111825348" name="중계"/>
+        <busStop id="6046634707" name="하계"/>
+        <busStop id="6046634708" name="공릉"/>
+        <busStop id="6046633873" name="태릉입구"/>
+        <busStop id="6046634710" name="먹골"/>
+        <busStop id="4706526694" name="중화"/>
+        <busStop id="6046633866" name="상봉"/>
+        <busStop id="6046634712" name="면목"/>
+        <busStop id="6046634739" name="사가정"/>
+        <busStop id="3823777524" name="용마산"/>
+        <busStop id="6046634750" name="중곡"/>
+        <busStop id="6039313615" name="군자"/>
+        <busStop id="6046633859" name="어린이대공원"/>
+        <busStop id="6046634756" name="건대입구"/>
+    </ptLine>
+    <ptLine id="10727605" name="서울 지하철 4호선: 당고개 → 사당" line="4" type="subway" vClass="rail_urban" completeness="0.44">
+        <route edges="379994121#0 379994121#1"/>
+        <busStop id="355173148" name="쌍문"/>
+        <busStop id="355173138" name="수유(강북구청)"/>
+        <busStop id="355173140" name="미아(서울사이버대학)"/>
+        <busStop id="3835922764" name="미아사거리"/>
+        <busStop id="353186868" name="길음"/>
+        <busStop id="287321417" name="성신여대입구(돈암)"/>
+        <busStop id="5914829686" name="한성대입구(삼선교)"/>
+        <busStop id="355173201" name="혜화(서울대학교병원)"/>
+        <busStop id="-3833429765" name="동대문"/>
+        <busStop id="-355173208" name="동대문역사문화공원"/>
+        <busStop id="-5933896997" name="충무로"/>
+    </ptLine>
+    <ptLine id="10727606" name="서울 지하철 4호선: 당고개 → 안산" line="4" type="subway" vClass="rail_urban" completeness="0.25">
+        <route edges="379994121#0 379994121#1"/>
+        <busStop id="355173148" name="쌍문"/>
+        <busStop id="355173138" name="수유(강북구청)"/>
+        <busStop id="355173140" name="미아(서울사이버대학)"/>
+        <busStop id="3835922764" name="미아사거리"/>
+        <busStop id="353186868" name="길음"/>
+        <busStop id="287321417" name="성신여대입구(돈암)"/>
+        <busStop id="5914829686" name="한성대입구(삼선교)"/>
+        <busStop id="355173201" name="혜화(서울대학교병원)"/>
+        <busStop id="-3833429765" name="동대문"/>
+        <busStop id="-355173208" name="동대문역사문화공원"/>
+        <busStop id="-5933896997" name="충무로"/>
+    </ptLine>
+    <ptLine id="10727607" name="서울 지하철 4호선: 당고개 → 오이도 급행" line="4" type="subway" vClass="rail_urban" completeness="0.26">
+        <route edges="379994121#0 379994121#1"/>
+        <busStop id="355173148" name="쌍문"/>
+        <busStop id="355173138" name="수유(강북구청)"/>
+        <busStop id="355173140" name="미아(서울사이버대학)"/>
+        <busStop id="3835922764" name="미아사거리"/>
+        <busStop id="353186868" name="길음"/>
+        <busStop id="287321417" name="성신여대입구(돈암)"/>
+        <busStop id="5914829686" name="한성대입구(삼선교)"/>
+        <busStop id="355173201" name="혜화(서울대학교병원)"/>
+        <busStop id="-3833429765" name="동대문"/>
+        <busStop id="-355173208" name="동대문역사문화공원"/>
+        <busStop id="-5933896997" name="충무로"/>
+    </ptLine>
+    <ptLine id="10727608" name="서울 지하철 4호선: 오이도 → 당고개 급행" line="4" type="subway" vClass="rail_urban" completeness="0.26">
+        <busStop id="-6036160335" name="충무로"/>
+        <busStop id="-6036160332" name="동대문역사문화공원"/>
+        <busStop id="-6036160329" name="동대문"/>
+        <busStop id="-6036160873" name="혜화"/>
+        <busStop id="-6036160322" name="한성대입구"/>
+        <busStop id="-6036160858" name="성신여대입구"/>
+        <busStop id="-6036160849" name="길음"/>
+        <busStop id="-6036160839" name="미아사거리"/>
+        <busStop id="-6036160836" name="미아"/>
+        <busStop id="-6036160831" name="수유"/>
+        <busStop id="-6036160827" name="쌍문"/>
+    </ptLine>
+    <ptLine id="10746635" name="수도권 전철 4호선: 사당 → 당고개" line="4" type="subway" vClass="rail_urban" completeness="0.44">
+        <busStop id="-6036160335" name="충무로"/>
+        <busStop id="-6036160332" name="동대문역사문화공원"/>
+        <busStop id="-6036160329" name="동대문"/>
+        <busStop id="-6036160873" name="혜화"/>
+        <busStop id="-6036160322" name="한성대입구"/>
+        <busStop id="-6036160858" name="성신여대입구"/>
+        <busStop id="-6036160849" name="길음"/>
+        <busStop id="-6036160839" name="미아사거리"/>
+        <busStop id="-6036160836" name="미아"/>
+        <busStop id="-6036160831" name="수유"/>
+        <busStop id="-6036160827" name="쌍문"/>
+    </ptLine>
+    <ptLine id="10776760" name="수도권 전철 1호선 경인·경원 계통: 인천 → 동두천" line="1" type="subway" vClass="rail_urban" completeness="0.17">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+        <busStop id="5899527478" name="회기"/>
+        <busStop id="5899527480" name="외대앞"/>
+    </ptLine>
+    <ptLine id="10776761" name="수도권 전철 1호선 : 인천 → 동묘앞" line="1" type="subway" vClass="rail_urban" completeness="0.12">
+        <route edges="637016278 379994109 379994098"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+    </ptLine>
+    <ptLine id="10791318" name="수도권 전철 수인분당선: 청량리 → 고색" line="272" type="subway" vClass="rail_urban" completeness="0.03">
+        <route edges="405451628 778783889 778783883 405453026#0 405453026#1 405453024 627723647 779278180#0 779278180#1"/>
+        <busStop id="5925991074" name="왕십리"/>
+    </ptLine>
+    <ptLine id="10791319" name="수도권 전철 수인분당선: 고색 → 청량리" line="272" type="subway" vClass="rail_urban" completeness="0.05">
+        <route edges="405479640 405479643#1 782655749 405479644 778783887 778783888 405430939#1 405430939#2 405404112 778783895 405404110"/>
+        <busStop id="7746266267" name="왕십리"/>
+        <busStop id="7271361461" name="청량리"/>
+    </ptLine>
+    <ptLine id="10791320" name="수도권 전철 수인분당선: 죽전 → 청량리" line="272" type="subway" vClass="rail_urban" completeness="0.04">
+        <route edges="405479640 405479643#1 782655749 405479644 778783887 778783888 405430939#1 405430939#2 405404112 778783895 405404110"/>
+        <busStop id="7746266267" name="왕십리"/>
+    </ptLine>
+    <ptLine id="10791329" name="수도권 전철 수인분당선: 청량리 → 죽전" line="272" type="subway" vClass="rail_urban" completeness="0.04">
+        <route edges="405451628 778783889 778783883 405453026#0 405453026#1 405453024 627723647 779278180#0 779278180#1"/>
+        <busStop id="5925991074" name="왕십리"/>
+    </ptLine>
+    <ptLine id="10799694" name="수도권 전철 분당선: 왕십리 → 죽전" line="272" type="subway" vClass="rail_urban" completeness="0.50">
+        <busStop id="5925991074" name="왕십리"/>
+    </ptLine>
+    <ptLine id="10828125" name="서울 지하철 7호선: 부평구청 → 도봉산" line="7" type="subway" vClass="rail_urban" completeness="0.34">
+        <busStop id="6046634585" name="건대입구"/>
+        <busStop id="6046633860" name="어린이대공원"/>
+        <busStop id="6046634591" name="군자"/>
+        <busStop id="6046634592" name="중곡"/>
+        <busStop id="6046634606" name="용마산"/>
+        <busStop id="6046634612" name="사가정"/>
+        <busStop id="6046634639" name="면목"/>
+        <busStop id="6046633867" name="상봉"/>
+        <busStop id="6046634651" name="중화"/>
+        <busStop id="6046634652" name="먹골"/>
+        <busStop id="6046633872" name="태릉입구"/>
+        <busStop id="6046634656" name="공릉"/>
+        <busStop id="6046634660" name="하계"/>
+        <busStop id="6046634663" name="중계"/>
+        <busStop id="6046633879" name="노원"/>
+        <busStop id="6046634670" name="마들"/>
+        <busStop id="6046634676" name="수락산"/>
+    </ptLine>
+    <ptLine id="10828181" name="서울 지하철 7호선: 온수 → 장암" line="7" type="subway" vClass="rail_urban" completeness="0.40">
+        <busStop id="6046634585" name="건대입구"/>
+        <busStop id="6046633860" name="어린이대공원"/>
+        <busStop id="6046634591" name="군자"/>
+        <busStop id="6046634592" name="중곡"/>
+        <busStop id="6046634606" name="용마산"/>
+        <busStop id="6046634612" name="사가정"/>
+        <busStop id="6046634639" name="면목"/>
+        <busStop id="6046633867" name="상봉"/>
+        <busStop id="6046634651" name="중화"/>
+        <busStop id="6046634652" name="먹골"/>
+        <busStop id="6046633872" name="태릉입구"/>
+        <busStop id="6046634656" name="공릉"/>
+        <busStop id="6046634660" name="하계"/>
+        <busStop id="6046634663" name="중계"/>
+        <busStop id="6046633879" name="노원"/>
+        <busStop id="6046634670" name="마들"/>
+        <busStop id="6046634676" name="수락산"/>
+    </ptLine>
+    <ptLine id="10828182" name="서울 지하철 7호선: 온수 → 도봉산" line="7" type="subway" vClass="rail_urban" completeness="0.41">
+        <busStop id="6046634585" name="건대입구"/>
+        <busStop id="6046633860" name="어린이대공원"/>
+        <busStop id="6046634591" name="군자"/>
+        <busStop id="6046634592" name="중곡"/>
+        <busStop id="6046634606" name="용마산"/>
+        <busStop id="6046634612" name="사가정"/>
+        <busStop id="6046634639" name="면목"/>
+        <busStop id="6046633867" name="상봉"/>
+        <busStop id="6046634651" name="중화"/>
+        <busStop id="6046634652" name="먹골"/>
+        <busStop id="6046633872" name="태릉입구"/>
+        <busStop id="6046634656" name="공릉"/>
+        <busStop id="6046634660" name="하계"/>
+        <busStop id="6046634663" name="중계"/>
+        <busStop id="6046633879" name="노원"/>
+        <busStop id="6046634670" name="마들"/>
+        <busStop id="6046634676" name="수락산"/>
+    </ptLine>
+    <ptLine id="10947038" name="서울 지하철 4호선: 안산 → 당고개" line="4" type="subway" vClass="rail_urban" completeness="0.24">
+        <busStop id="-6036160335" name="충무로"/>
+        <busStop id="-6036160332" name="동대문역사문화공원"/>
+        <busStop id="-6036160329" name="동대문"/>
+        <busStop id="-6036160873" name="혜화"/>
+        <busStop id="-6036160322" name="한성대입구"/>
+        <busStop id="-6036160858" name="성신여대입구"/>
+        <busStop id="-6036160849" name="길음"/>
+        <busStop id="-6036160839" name="미아사거리"/>
+        <busStop id="-6036160836" name="미아"/>
+        <busStop id="-6036160831" name="수유"/>
+        <busStop id="-6036160827" name="쌍문"/>
+    </ptLine>
+    <ptLine id="11079448" name="수도권 전철 1호선 경부·장항 계통: 청량리 → 천안" line="1" type="subway" vClass="rail_urban" completeness="0.18">
+        <route edges="768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="11484080" name="광주 시내버스 119" line="119" type="bus" vClass="bus" completeness="0.01">
+        <busStop id="357890350" name="어린이대공원앞"/>
+    </ptLine>
+    <ptLine id="11509732" name="서울 지하철 6호선: 신내 → 응암순환" line="6" type="subway" vClass="rail_urban" completeness="1.00">
+        <busStop id="6041674940" name="봉화산"/>
+        <busStop id="6041674945" name="화랑대"/>
+        <busStop id="6041673024" name="태릉입구"/>
+        <busStop id="6041674953" name="석계"/>
+        <busStop id="6041674958" name="돌곶이"/>
+        <busStop id="6041674959" name="상월곡"/>
+    </ptLine>
+    <ptLine id="11625556" name="수도권 전철 수인분당선: 청량리 → 인천" line="272" type="subway" vClass="rail_urban" completeness="0.02">
+        <route edges="405451628 778783889 778783883 405453026#0 405453026#1 405453024 627723647 779278180#0 779278180#1"/>
+        <busStop id="5925991074" name="왕십리"/>
+    </ptLine>
+    <ptLine id="11634612" name="수도권 전철 수인분당선: 인천 → 청량리" line="272" type="subway" vClass="rail_urban" completeness="0.02">
+        <route edges="405479640 405479643#1 782655749 405479644 778783887 778783888 405430939#1 405430939#2 405404112 778783895 405404110"/>
+        <busStop id="7746266267" name="왕십리"/>
+    </ptLine>
+    <ptLine id="2404374" name="서울 지하철 2호선: 외선순환" line="2" type="subway" vClass="rail_urban" completeness="0.02">
+        <route edges="625534096 628671359 168498720#0 168498720#1 168498720#2 672454243#0 672454243#1"/>
+        <busStop id="5937884704" name="시청"/>
+    </ptLine>
+    <ptLine id="2718884" name="서울 지하철 4호선: 당고개 → 오이도" line="4" type="subway" vClass="rail_urban" completeness="0.23">
+        <route edges="379994121#0 379994121#1"/>
+        <busStop id="355173148" name="쌍문"/>
+        <busStop id="355173138" name="수유(강북구청)"/>
+        <busStop id="355173140" name="미아(서울사이버대학)"/>
+        <busStop id="3835922764" name="미아사거리"/>
+        <busStop id="353186868" name="길음"/>
+        <busStop id="287321417" name="성신여대입구(돈암)"/>
+        <busStop id="5914829686" name="한성대입구(삼선교)"/>
+        <busStop id="355173201" name="혜화(서울대학교병원)"/>
+        <busStop id="-3833429765" name="동대문"/>
+        <busStop id="-355173208" name="동대문역사문화공원"/>
+        <busStop id="-5933896997" name="충무로"/>
+    </ptLine>
+    <ptLine id="2718886" name="서울 지하철 7호선: 장암 → 부평구청" line="7" type="subway" vClass="rail_urban" completeness="0.34">
+        <busStop id="6046634697" name="수락산"/>
+        <busStop id="6046634703" name="마들"/>
+        <busStop id="6046633878" name="노원"/>
+        <busStop id="2111825348" name="중계"/>
+        <busStop id="6046634707" name="하계"/>
+        <busStop id="6046634708" name="공릉"/>
+        <busStop id="6046633873" name="태릉입구"/>
+        <busStop id="6046634710" name="먹골"/>
+        <busStop id="4706526694" name="중화"/>
+        <busStop id="6046633866" name="상봉"/>
+        <busStop id="6046634712" name="면목"/>
+        <busStop id="6046634739" name="사가정"/>
+        <busStop id="3823777524" name="용마산"/>
+        <busStop id="6046634750" name="중곡"/>
+        <busStop id="6039313615" name="군자"/>
+        <busStop id="6046633859" name="어린이대공원"/>
+        <busStop id="6046634756" name="건대입구"/>
+    </ptLine>
+    <ptLine id="2718887" name="수도권 전철 수인분당선: 고색 → 왕십리" line="272" type="subway" vClass="rail_urban" completeness="0.03">
+        <route edges="405479640 405479643#1"/>
+        <busStop id="7746266267" name="왕십리"/>
+    </ptLine>
+    <ptLine id="2894491" name="서울 간선버스 106" line="106" type="bus" vClass="bus" completeness="0.12">
+        <busStop id="357822823" name="돈암사거리.성신여대입구"/>
+        <busStop id="357828217" name="삼선교한성대학교"/>
+        <busStop id="7062517413" name="혜화동로터리.여운형활동터"/>
+        <busStop id="357821775" name="명륜3가.성대입구"/>
+        <busStop id="357875969" name="원남동"/>
+        <busStop id="357828447" name="종로5가.광장시장(중)"/>
+        <busStop id="357833047" name="종로5가.효제초등학교"/>
+        <busStop id="357876049" name="종로5가.효제동.김상옥의거터"/>
+        <busStop id="5809701437" name="통신대(이화장)"/>
+        <busStop id="357876015" name="혜화역.마로니에공원"/>
+        <busStop id="357822827" name="혜화역.동성중고(장면총리가옥)"/>
+    </ptLine>
+    <ptLine id="2894529" name="서울 간선버스 108번" line="108" type="bus" vClass="bus" completeness="0.08">
+        <busStop id="357822823" name="돈암사거리.성신여대입구"/>
+        <busStop id="357828217" name="삼선교한성대학교"/>
+        <busStop id="7062517413" name="혜화동로터리.여운형활동터"/>
+        <busStop id="357821775" name="명륜3가.성대입구"/>
+        <busStop id="357835162" name="현대그룹빌딩"/>
+        <busStop id="7279217286" name="이화동(이화장)"/>
+        <busStop id="357858942" name="충신동"/>
+        <busStop id="357821475" name="동대문"/>
+        <busStop id="357833047" name="종로5가.효제초등학교"/>
+        <busStop id="357876049" name="종로5가.효제동.김상옥의거터"/>
+        <busStop id="5809701437" name="통신대(이화장)"/>
+        <busStop id="357876015" name="혜화역.마로니에공원"/>
+        <busStop id="357822827" name="혜화역.동성중고(장면총리가옥)"/>
+    </ptLine>
+    <ptLine id="2899071" name="서울 버스 507" line="507" type="bus" vClass="bus" completeness="0.06">
+        <route edges="183272584 180368918#0 180368918#3 180368918#4 180368918#6 180368918#7 180368918#8 218773868#0 218773868#1 218773868#2 218773868#3 218773868#4 218773868#5 218773868#6 428260105 428260110 785130600#0 785130600#1 785130600#2 785130600#3 219094151#1 218773869#1 218773869#3 218773869#4 218773869#5 218773869#6"/>
+        <busStop id="5548859163" name="광희문.광희동사거리"/>
+        <busStop id="357858137" name="퇴계로5가"/>
+        <busStop id="357849854" name="대한극장앞"/>
+    </ptLine>
+    <ptLine id="3015494" name="2220" line="2220" type="bus" vClass="bus" completeness="1.00">
+        <route edges="280210083#0 280210083#1 247789699#0 247789699#1 247789699#2 247789699#3 218781561#0 218781561#1 218781561#2 218781561#3 519066111#0 519066111#1 218655250#0 218655250#1"/>
+        <busStop id="357874377" name="응봉역"/>
+        <busStop id="2356300126" name="왕십리민자역사"/>
+    </ptLine>
+    <ptLine id="443803" name="서울 지하철 3호선: 대화 → 오금" line="3" type="subway" vClass="rail_urban" completeness="0.34">
+        <busStop id="5281680295" name="구파발"/>
+        <busStop id="6033544483" name="연신내"/>
+        <busStop id="5930698992" name="불광"/>
+        <busStop id="355173021" name="녹번"/>
+        <busStop id="355173018" name="홍제"/>
+        <busStop id="355173026" name="무악재"/>
+        <busStop id="5930698988" name="독립문"/>
+        <busStop id="355173059" name="경복궁"/>
+        <busStop id="414685965" name="안국"/>
+        <busStop id="3833429767" name="종로3가"/>
+        <busStop id="5930698986" name="을지로3가 역"/>
+        <busStop id="5933896996" name="충무로"/>
+        <busStop id="355173044" name="동대입구"/>
+        <busStop id="5933896999" name="약수"/>
+        <busStop id="355173067" name="금호"/>
+    </ptLine>
+    <ptLine id="4727111" name="서울 지하철 6호선: 응암순환 → 봉화산" line="6" type="subway" vClass="rail_urban" completeness="0.03">
+        <busStop id="5916874386" name="응암"/>
+    </ptLine>
+    <ptLine id="4729405" name="서울 지하철 2호선 성수지선: 신설동 → 성수" line="2" type="subway" vClass="rail_urban" completeness="0.80">
+        <route edges="623046654#0 623046654#1 623046654#2 623046654#3 623046654#4"/>
+        <busStop id="-5899527463" name="신설동"/>
+        <busStop id="-355172924" name="용두"/>
+        <busStop id="5694832466" name="신답"/>
+        <busStop id="5856128334" name="용답"/>
+    </ptLine>
+    <ptLine id="4729406" name="서울 지하철 2호선 성수지선: 성수 → 신설동" line="2" type="subway" vClass="rail_urban" completeness="1.00">
+        <route edges="619733912 598334266#0 598334266#1 598334266#2 598334266#3 598334266#4 598334266#5 598334266#6 598334266#7 598334266#8 642603943#0 642603943#1 642603943#2"/>
+        <busStop id="5864568510" name="성수"/>
+        <busStop id="5694839797" name="용답"/>
+        <busStop id="6049150862" name="신답"/>
+        <busStop id="6049150853" name="용두"/>
+        <busStop id="6049150844" name="신설동"/>
+    </ptLine>
+    <ptLine id="4729409" name="서울 지하철 2호선: 내선순환" line="2" type="subway" vClass="rail_urban" completeness="0.32">
+        <route edges="628671362 625534094"/>
+        <busStop id="5935738062" name="시청"/>
+        <busStop id="5935738081" name="을지로입구"/>
+        <busStop id="5935738082" name="을지로3가"/>
+        <busStop id="5935738066" name="을지로4가 역"/>
+        <busStop id="5935738069" name="동대문역사문화공원"/>
+        <busStop id="5935738300" name="신당"/>
+        <busStop id="5935738307" name="상왕십리"/>
+        <busStop id="5935738291" name="왕십리(성동구청)"/>
+        <busStop id="5935554435" name="한양대"/>
+        <busStop id="5935554448" name="뚝섬"/>
+        <busStop id="5935554451" name="성수"/>
+        <busStop id="5933687362" name="건대입구"/>
+        <busStop id="5933687293" name="구의(광진구청)"/>
+        <busStop id="5933687059" name="강변"/>
+    </ptLine>
+    <ptLine id="4729445" name="서울 지하철 3호선: 오금 → 대화" line="3" type="subway" vClass="rail_urban" completeness="0.34">
+        <busStop id="6033544411" name="금호"/>
+        <busStop id="6033544415" name="약수"/>
+        <busStop id="6033544418" name="동대입구"/>
+        <busStop id="-6033544421" name="충무로"/>
+        <busStop id="-6033544618" name="을지로3가 역"/>
+        <busStop id="-6033544620" name="종로3가"/>
+        <busStop id="-6033544425" name="안국"/>
+        <busStop id="-6033544430" name="경복궁"/>
+        <busStop id="-6033544433" name="독립문"/>
+        <busStop id="-6033544441" name="무악재"/>
+        <busStop id="-6033544670" name="홍제"/>
+        <busStop id="-6033544681" name="녹번"/>
+        <busStop id="-6033544469" name="불광"/>
+        <busStop id="-6033544692" name="연신내"/>
+        <busStop id="-6033544706" name="구파발"/>
+    </ptLine>
+    <ptLine id="4744311" name="서울 지하철 4호선: 오이도 → 당고개" line="4" type="subway" vClass="rail_urban" completeness="0.23">
+        <busStop id="-6036160335" name="충무로"/>
+        <busStop id="-6036160332" name="동대문역사문화공원"/>
+        <busStop id="-6036160329" name="동대문"/>
+        <busStop id="-6036160873" name="혜화"/>
+        <busStop id="-6036160322" name="한성대입구"/>
+        <busStop id="-6036160858" name="성신여대입구"/>
+        <busStop id="-6036160849" name="길음"/>
+        <busStop id="-6036160839" name="미아사거리"/>
+        <busStop id="-6036160836" name="미아"/>
+        <busStop id="-6036160831" name="수유"/>
+        <busStop id="-6036160827" name="쌍문"/>
+    </ptLine>
+    <ptLine id="4744339" name="서울 지하철 5호선: 상일동 → 방화" line="5" type="subway" vClass="rail_urban" completeness="0.23">
+        <busStop id="6039313614" name="군자"/>
+        <busStop id="355173372" name="장한평"/>
+        <busStop id="355173370" name="답십리"/>
+        <busStop id="355173368" name="마장"/>
+        <busStop id="5801302007" name="왕십리"/>
+        <busStop id="355173365" name="행당"/>
+        <busStop id="355173364" name="신금호"/>
+        <busStop id="355173445" name="청구"/>
+        <busStop id="3438345419" name="동대문역사문화공원"/>
+        <busStop id="5935738065" name="을지로4가"/>
+    </ptLine>
+    <ptLine id="4744340" name="서울 지하철 5호선: 방화 → 상일동" line="5" type="subway" vClass="rail_urban" completeness="0.23">
+        <busStop id="6039313641" name="을지로4가"/>
+        <busStop id="6039314328" name="동대문역사문화공원"/>
+        <busStop id="6039314320" name="청구"/>
+        <busStop id="6039313639" name="신금호"/>
+        <busStop id="6039314304" name="행당"/>
+        <busStop id="6039313636" name="왕십리"/>
+        <busStop id="6039314301" name="마장"/>
+        <busStop id="6039313620" name="답십리"/>
+        <busStop id="6039314293" name="장한평"/>
+        <busStop id="6039314290" name="군자"/>
+    </ptLine>
+    <ptLine id="5993211" name="수도권 전철 경의·중앙선: 지평 → 문산" line="G·J" type="subway" vClass="rail_urban" completeness="0.08">
+        <route edges="405047353 405047363 405403204 405403198#0 405403198#1 545574703 405403200#0 405403200#1 405403200#2 405403200#3 405430402#0 405430402#1 405430421#1 405430421#2 405430421#3 405430421#4 778783889 778783886#0 778783886#1 778783886#2 778783886#3 778783886#4"/>
+        <busStop id="5887905550" name="회기"/>
+        <busStop id="5887905548" name="청량리"/>
+        <busStop id="5890636980" name="왕십리"/>
+        <busStop id="5890636978" name="응봉"/>
+    </ptLine>
+    <ptLine id="5993212" line="G·J" type="subway" vClass="rail_urban" completeness="0.08">
+        <route edges="405431935#0 405431935#1 405431935#2 405431935#3 405431935#4 405431935#5 778783888 405430939#1 405430939#2 778783896 405430422#1 405047378#0 405047378#1 405403197#0 405403197#1 405403191 405047371#0 405047371#1 405403206 405047362"/>
+        <busStop id="4076814733" name="응봉"/>
+        <busStop id="5890636979" name="왕십리"/>
+        <busStop id="5887905549" name="청량리"/>
+        <busStop id="5887905551" name="회기"/>
+    </ptLine>
+    <ptLine id="6064104" name="수도권 전철 수인분당선: 왕십리 → 고색" line="272" type="subway" vClass="rail_urban" completeness="0.03">
+        <route edges="779278180#0 779278180#1"/>
+        <busStop id="5925991074" name="왕십리"/>
+    </ptLine>
+    <ptLine id="6064114" name="수도권 전철 수인분당선 급행: 왕십리 → 고색" line="272" type="subway" vClass="rail_urban" completeness="0.03">
+        <route edges="779278180#0 779278180#1"/>
+        <busStop id="5925991074" name="왕십리"/>
+    </ptLine>
+    <ptLine id="6064115" name="수도권 전철 수인분당선 급행: 고색 → 왕십리" line="272" type="subway" vClass="rail_urban" completeness="0.03">
+        <route edges="405479640 405479643#1"/>
+        <busStop id="7746266267" name="왕십리"/>
+    </ptLine>
+    <ptLine id="7533582" name="서울 경전철 우이신설선: 북한산우이 → 신설동" line="W" type="light_rail" vClass="rail_urban" completeness="0.46">
+        <busStop id="4852989058" name="솔샘"/>
+        <busStop id="4852979526" name="북한산보국문"/>
+        <busStop id="4852979216" name="정릉"/>
+        <busStop id="5754623761" name="성신여대입구"/>
+        <busStop id="287323400" name=""/>
+        <busStop id="-5899527462" name="신설동"/>
+    </ptLine>
+    <ptLine id="7533583" name="서울 경전철 우이신설선: 신설동 → 북한산우이" line="W" type="light_rail" vClass="rail_urban" completeness="0.46">
+        <busStop id="5899527462" name="신설동"/>
+        <busStop id="287323400" name=""/>
+        <busStop id="5754623761" name="성신여대입구"/>
+        <busStop id="4852979216" name="정릉"/>
+        <busStop id="4852979526" name="북한산보국문"/>
+        <busStop id="4852989058" name="솔샘"/>
+    </ptLine>
+    <ptLine id="7919153" name="서울 지하철 6호선: 봉화산 → 응암순환" line="6" type="subway" vClass="rail_urban" completeness="1.00">
+        <busStop id="6041674940" name="봉화산"/>
+        <busStop id="6041674945" name="화랑대"/>
+        <busStop id="6041673024" name="태릉입구"/>
+        <busStop id="6041674953" name="석계"/>
+        <busStop id="6041674958" name="돌곶이"/>
+        <busStop id="6041674959" name="상월곡"/>
+        <busStop id="6041674963" name="월곡"/>
+        <busStop id="6041674970" name="고려대"/>
+        <busStop id="6041674976" name="안암"/>
+        <busStop id="6041674984" name="보문"/>
+        <busStop id="6041674992" name="창신"/>
+        <busStop id="6041674999" name="동묘앞"/>
+        <busStop id="6041675002" name="신당"/>
+        <busStop id="6041675006" name="청구"/>
+        <busStop id="6041673057" name="약수"/>
+        <busStop id="6041675013" name="버티고개"/>
+        <busStop id="6041675023" name="한강진"/>
+        <busStop id="6041675034" name="이태원"/>
+        <busStop id="6041675038" name="녹사평"/>
+        <busStop id="6041675042" name="삼각지"/>
+        <busStop id="6041675046" name="효창공원앞"/>
+        <busStop id="6041675047" name="공덕"/>
+        <busStop id="6041675048" name="대흥"/>
+        <busStop id="6041675068" name="광흥창"/>
+        <busStop id="6041675069" name="상수"/>
+        <busStop id="6041675072" name="합정"/>
+        <busStop id="6041674908" name="망원"/>
+        <busStop id="6041675075" name="마포구청"/>
+        <busStop id="6041675080" name="월드컵경기장"/>
+        <busStop id="6041675084" name="디지털미디어시티"/>
+        <busStop id="6041675085" name="증산"/>
+        <busStop id="6041675090" name="새절"/>
+        <busStop id="5916874386" name="응암"/>
+    </ptLine>
+    <ptLine id="7922928" name="서울 지하철 7호선: 부평구청 → 장암" line="7" type="subway" vClass="rail_urban" completeness="0.33">
+        <busStop id="6046634585" name="건대입구"/>
+        <busStop id="6046633860" name="어린이대공원"/>
+        <busStop id="6046634591" name="군자"/>
+        <busStop id="6046634592" name="중곡"/>
+        <busStop id="6046634606" name="용마산"/>
+        <busStop id="6046634612" name="사가정"/>
+        <busStop id="6046634639" name="면목"/>
+        <busStop id="6046633867" name="상봉"/>
+        <busStop id="6046634651" name="중화"/>
+        <busStop id="6046634652" name="먹골"/>
+        <busStop id="6046633872" name="태릉입구"/>
+        <busStop id="6046634656" name="공릉"/>
+        <busStop id="6046634660" name="하계"/>
+        <busStop id="6046634663" name="중계"/>
+        <busStop id="6046633879" name="노원"/>
+        <busStop id="6046634670" name="마들"/>
+        <busStop id="6046634676" name="수락산"/>
+    </ptLine>
+    <ptLine id="8195968" name="서울 버스 507" line="507" type="bus" vClass="bus" completeness="0.07">
+        <route edges="-218773868#6 -218773868#5 -218773868#4 -218773868#3 -218773868#2 -218773868#1 -218773868#0 -218923171#2 -218923171#1 -218923171#0 218923178#0 218923178#1 218923178#2 218923178#3"/>
+        <busStop id="357859585" name="퇴계로5가"/>
+        <busStop id="-357860122" name="퇴계로6가"/>
+        <busStop id="-5549718797" name="광희동"/>
+        <busStop id="357868774" name="동대문역사문화공원"/>
+    </ptLine>
+    <ptLine id="8656357" name="수도권 전철 경춘선: 청량리 → 춘천" line="GC" type="subway" vClass="rail_urban" completeness="0.08">
+        <route edges="405047378#0 405047378#1 405403197#0 405403197#1 405403191 405047371#0 405047371#1 405403206 405047362"/>
+        <busStop id="5887905549" name="청량리"/>
+        <busStop id="5887905551" name="회기"/>
+    </ptLine>
+    <ptLine id="8656358" name="수도권 전철 경춘선: 춘천 → 청량리" line="GC" type="subway" vClass="rail_urban" completeness="0.08">
+        <route edges="405047353 405047363 405403204 405403198#0 405403198#1 545574703 405403200#0 405403200#1 405403200#2 405403200#3"/>
+        <busStop id="5887905550" name="회기"/>
+        <busStop id="5887905548" name="청량리"/>
+    </ptLine>
+    <ptLine id="8691809" name="수도권 전철 1호선 경인·경원 계통: 소요산 → 인천" line="1" type="subway" vClass="rail_urban" completeness="0.18">
+        <route edges="712248060#0 712248060#1 405047381 379994108#0 379994108#1 768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="4246459937" name="신이문"/>
+        <busStop id="5899527479" name="외대앞"/>
+        <busStop id="5899527477" name="회기"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="8691898" name="수도권 전철 1호선 경인·경원 계통: 인천 → 소요산" line="1" type="subway" vClass="rail_urban" completeness="0.17">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+        <busStop id="5899527478" name="회기"/>
+        <busStop id="5899527480" name="외대앞"/>
+    </ptLine>
+    <ptLine id="8692707" name="수도권 전철 1호선 경부·장항 계통: 광운대 → 신창" line="1" type="subway" vClass="rail_urban" completeness="0.19">
+        <route edges="712248060#0 712248060#1 405047381 379994108#0 379994108#1 768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="4246459937" name="신이문"/>
+        <busStop id="5899527479" name="외대앞"/>
+        <busStop id="5899527477" name="회기"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="8692830" name="수도권 전철 1호선 경부·장항 계통: 신창 → 광운대" line="1" type="subway" vClass="rail_urban" completeness="0.18">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+        <busStop id="5899527478" name="회기"/>
+        <busStop id="5899527480" name="외대앞"/>
+    </ptLine>
+    <ptLine id="8692927" name="수도권 전철 1호선 경부·장항 계통: 서동탄 → 광운대" line="1" type="subway" vClass="rail_urban" completeness="0.25">
+        <route edges="637016278 379994109 379994098 782891445#0 782891445#1 782891445#2 782891445#3 782891445#4 180192149#0 180192149#1 405054041 405047385#0 405047385#1"/>
+        <busStop id="5852580182" name="종각"/>
+        <busStop id="3833430103" name="종로3가"/>
+        <busStop id="3833430104" name="종로5가"/>
+        <busStop id="3833430100" name="동대문역"/>
+        <busStop id="5899527461" name="동묘앞"/>
+        <busStop id="5899527464" name="신설동"/>
+        <busStop id="3426724596" name="제기동"/>
+        <busStop id="3426724601" name="청량리"/>
+        <busStop id="5899527478" name="회기"/>
+        <busStop id="5899527480" name="외대앞"/>
+    </ptLine>
+    <ptLine id="8692928" name="수도권 전철 1호선 경부·장항 계통: 광운대 → 서동탄" line="1" type="subway" vClass="rail_urban" completeness="0.28">
+        <route edges="712248060#0 712248060#1 405047381 379994108#0 379994108#1 768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="4246459937" name="신이문"/>
+        <busStop id="5899527479" name="외대앞"/>
+        <busStop id="5899527477" name="회기"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="9849062" name="수도권 전철 1호선 경인·경원 계통: 의정부 → 인천" line="1" type="subway" vClass="rail_urban" completeness="0.22">
+        <route edges="712248060#0 712248060#1 405047381 379994108#0 379994108#1 768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="4246459937" name="신이문"/>
+        <busStop id="5899527479" name="외대앞"/>
+        <busStop id="5899527477" name="회기"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+    <ptLine id="9849094" name="수도권 전철 1호선 경인·경원 계통: 양주 → 인천" line="1" type="subway" vClass="rail_urban" completeness="0.20">
+        <route edges="712248060#0 712248060#1 405047381 379994108#0 379994108#1 768714278#0 768714278#1 768714278#2 768714278#3 768714278#4 637016283"/>
+        <busStop id="4246459937" name="신이문"/>
+        <busStop id="5899527479" name="외대앞"/>
+        <busStop id="5899527477" name="회기"/>
+        <busStop id="5902127690" name="청량리"/>
+        <busStop id="5902125881" name="제기동"/>
+        <busStop id="5902127698" name="신설동"/>
+        <busStop id="5902125882" name="동묘앞"/>
+        <busStop id="5767417129" name="동대문역"/>
+        <busStop id="355172742" name="종로5가"/>
+        <busStop id="3426724597" name="종로3가"/>
+        <busStop id="660871450" name="종각"/>
+    </ptLine>
+</ptLines>
