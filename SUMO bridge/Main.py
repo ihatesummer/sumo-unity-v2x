@@ -1,41 +1,35 @@
 import time
 import matplotlib.pyplot as plt
+from os import getcwd 
+from os.path import join 
 from tcp_server import TcpServer
-from sumo_python_bridge import SumoClient
 from data_processor import DataProcessor
+from sumo_python_bridge import SumoClient
 from python_unity_bridge import UnityBridge
 from PlotPerformanceMetrics import PerformanceMetrics
 
 SUMO_DIRECTORY = "2021-09-14-14-21-47"
-
-
-def init_program(sumo_dir=SUMO_DIRECTORY, ip='127.0.0.1', port=4042):
-    sumo_client = SumoClient(sumo_dir, "osm.sumocfg")
-    sumo_client.start_sumo()
-    server = TcpServer(ip, port)
-    unity_client = server.boot()
-    print(f'Connected to Unity TCP Client : {server.wait_unity()}')
-
-    unity = UnityBridge()
-    unity.start_unity(unity_client)
-
-    data_processor = DataProcessor()
-
-    vehicles_id, traffic_lights_id = sumo_client.get_all_list()
-    veh_obj, tls_obj = data_processor.parse_obj(vehicles_id, traffic_lights_id)
-    return sumo_client, server, data_processor, veh_obj, tls_obj, unity
+IP = '127.0.0.1'
+PORT = 4042
 
 
 def main():
     global step_cnt, veh_obj, tls_obj
-    sumo_client, server, data_processor,\
-        veh_obj, tls_obj, unity\
-        = init_program(sumo_dir=SUMO_DIRECTORY)
+
+    SUMO_path = join(getcwd(), SUMO_DIRECTORY)
+
+    (sumo_client, unity,
+    server, data_processor,
+    veh_obj, tls_obj) = init_program(SUMO_path)
+
     unity.construct_msg(veh_obj, tls_obj)
-    # plt, fig, performance_metric,\
-    #     line_1, line_2, line_3, line_4, line_5, line_6,\
-    #     axes_1, axes_2, axes_3, axes_4, axes_5, axes_6\
-    #     = plotMetric()
+
+    # (plt, fig, performance_metric,
+    #  line_1, line_2, line_3,
+    #  line_4, line_5, line_6,
+    #  axes_1, axes_2, axes_3,
+    #  axes_4, axes_5, axes_6) = plotMetric()
+
     while step_cnt < MAX_STEP:
         if unity._queue.empty():
             #  print(f'main running; current step = {step_cnt}')
@@ -62,6 +56,29 @@ def main():
         step_cnt += 1
     close(sumo_client, unity, server)
     plt.show(block=True)
+
+
+def init_program(sumo_path):
+    sumo_client = SumoClient(sumo_path, "osm.sumocfg")
+    sumo_client.start_sumo()
+
+    server = TcpServer(IP, PORT)
+    unity_client_socket = server.boot()
+    print('Connected to Unity TCP Client: ' + \
+         f'{server.wait_unity()}')
+
+    unity = UnityBridge()
+    unity.start_unity(unity_client_socket)
+
+    (vehicles_id,
+     traffic_lights_id) = sumo_client.get_all_list()
+
+    data_processor = DataProcessor()
+    veh_obj, tls_obj = data_processor.parse_obj(vehicles_id, traffic_lights_id)
+    
+    return (sumo_client, unity,
+            server, data_processor,
+            veh_obj, tls_obj)
 
 
 def running(sumo_client, data_processor, unity):
@@ -116,9 +133,10 @@ def plotMetric():
 
 def close(sumo_client, unity, server):
     unity.is_running = False
-    server.send_msg('finish')
+    server.send_msg('Closing server...')
     sumo_client.close()
     server.shut_down()
+    print("Server closed.")
 
 
 if __name__ == '__main__':

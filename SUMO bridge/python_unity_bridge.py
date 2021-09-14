@@ -17,17 +17,22 @@ class UnityBridge:
         self.error_val_msg = ''
         self.recv_queue = Queue()
 
-    def start_unity(self, unity_client: socket.socket) -> None:
+    def start_unity(
+        self,
+        unity_client: socket.socket) -> None:
         self._is_running = True
         self._unity_event = threading.Event()
-        # Thread parameter 'args' is the argument tuple.
-        # make sure to pass tuple type.
         thread_arg = (unity_client, )
-        self.unity_thread = threading.Thread(target=self._send_msg, args=thread_arg)
+        # Thread parameter 'args' must be tuple.
+        self.unity_thread = threading.Thread(
+            target=self._send_msg,
+            args=thread_arg)
         self.unity_thread.start()
         self._unity_client_socket = unity_client
 
-    def _send_msg(self, client_socket: socket.socket) -> None:
+    def _send_msg(
+        self,
+        client_socket: socket.socket) -> None:
         while self._is_running:
             if self._queue.empty():
                 time.sleep(0.2)
@@ -41,20 +46,25 @@ class UnityBridge:
                     self._unity_event.set()
                     break
 
-    def construct_msg(self, vehicles: List[VehicleBridge], traffic_lights: List[TrafficLight]) -> None:
+    def construct_msg(
+        self,
+        vehicles: List[VehicleBridge],
+        traffic_lights: List[TrafficLight]) -> None:
         msg = "O1G"
         if len(vehicles) == 1:
             vehicles *= 2
         for veh in vehicles:
-            msg += f'{veh.vehID};{veh.pos_x_center:.3f};{veh.pos_y_center:.3f};' \
-                   f'{veh.pos_z_center:.3f};'\
-                   f'{veh.velocity:.2f};{veh.heading:.2f};' \
-                   f'{int(veh.stBrakePedal)};{veh.size};{veh.type}@'
-#            msg += f'{veh.vehID};{veh.pos_x_center:.3f};{veh.pos_y_center:.3f};' \
-#                   f'{veh.velocity:.2f};{veh.heading:.2f};' \
-#                   f'{int(veh.stBrakePedal)};{veh.size}@'
+            msg += (f'{veh.vehID};'
+                    f'{veh.pos_x_center:.3f};'
+                    f'{veh.pos_y_center:.3f};'
+                    f'{veh.pos_z_center:.3f};'
+                    f'{veh.velocity:.2f};'
+                    f'{veh.heading:.2f};' \
+                    f'{int(veh.stBrakePedal)};'
+                    f'{veh.size};'
+                    f'{veh.type}@')
 
-        for tls in traffic_lights:
+        for tl in traffic_lights:
             break
 
         msg = msg + "&\n"

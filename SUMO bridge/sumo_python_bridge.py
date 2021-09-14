@@ -1,50 +1,47 @@
-import os
-import sys
 import math
 from typing import List
 from typing import Tuple
 import traci
 from os.path import join
-from os import getcwd
 
 isGUI = False
 
 
 class SumoEnv:
-    def __init__(self, gui: bool = isGUI):
-        self.sumo_dir = "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\"
-        if gui:
-            self.sumo_binary = self.sumo_dir + "sumo-gui.exe"
+    def __init__(self, isGUI):
+        self.sumo_dir = ("C:\\Program Files (x86)"
+                         "\\Eclipse\\Sumo\\bin\\")
+        if isGUI:
+            self.sumo_binary = self.sumo_dir + \
+                "sumo-gui.exe"
         else:
-            self.sumo_binary = self.sumo_dir + "sumo.exe"
+            self.sumo_binary = self.sumo_dir + \
+                "sumo.exe"
 
 
 class SumoClient(SumoEnv):
-    def __init__(self, dir: str, config: str):
-        super(SumoClient, self).__init__()
-        self.dir = dir
-        self.config = config
-        self.__cmd = [self.sumo_binary, '-c', join(
-            getcwd(),
-            self.dir,
-            self.config)]
-
-    @property
-    def get_launch_cmd(self) -> List[str]:
-        return self.__cmd
+    def __init__(self, path: str, config_file: str):
+        super(SumoClient, self).__init__(isGUI)
+        self.path = path
+        self.config = config_file
+        self.__cmd = [self.sumo_binary,
+                      '-c',
+                      join(self.path,
+                           self.config)]
 
     def start_sumo(self) -> None:
-        print(f'Sumo is running')
         traci.start(self.__cmd)
+        print("TraCI started.")
 
     @staticmethod
     def next_step() -> None:
         traci.simulation.step()
-#        traci.simulationStep()
 
     @staticmethod
     def time() -> float:
-        return traci.simulation.getCurrentTime() * 0.001
+        time = traci.simulation.getCurrentTime()
+        time *= 0.001
+        return time
 
     @staticmethod
     def close() -> None:
@@ -58,7 +55,8 @@ class SumoClient(SumoEnv):
     def _get_all_traffic_lights() -> List[str]:
         return traci.trafficlight.getIDList()
 
-    def get_all_list(self) -> Tuple[List[str], List[str]]:
+    def get_all_list(self) -> Tuple[List[str],
+                                    List[str]]:
         vehicle_list = self._get_all_vehicles()
         tls_list = self._get_all_traffic_lights()
         return vehicle_list, tls_list
@@ -208,23 +206,7 @@ class TrafficLight:
 
 
 if __name__ == '__main__':
-    #sumo = SumoClient("2020-03-09-18-06-28", "osm.sumocfg")
-    sumo = SumoClient("2020-10-14-14-45-10", "osm.sumocfg")
-#    sumo_cmd = sumo.get_launch_cmd()
-#    traci.start(sumo_cmd)
-    sumo.start_sumo()
-    print(f'Network boundary = {traci.simulation.getNetBoundary()}')
-    step = 0
-    traffic_lights = []
-    tot_traffic_lights = traci.trafficlight.getIDList()
-#    for id in tot_traffic_lights:
-#        controlled_lanes = traci.trafficlight.getControlledLanes(id)
-#        traffic_lights.append(TrafficLight(id, controlled_lanes))
-    while step < 1000:
-        traci.simulationStep()
-        step += 1
-
-    traci.close(False)
+    pass
 
 
 

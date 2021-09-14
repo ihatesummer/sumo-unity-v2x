@@ -11,22 +11,27 @@ class TcpServer:
         self.client_addr = None
 
     def boot(self) -> socket.socket:
-        self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server_socket.bind((self.ip, self.port))
+        self.server_socket = socket.socket(
+            socket.AF_INET,
+            socket.SOCK_STREAM)
+        self.server_socket.bind(
+            (self.ip, self.port))
         self.server_socket.listen()
-        print(f'waiting for Unity Client')
-        self.client_socket, self.client_addr = self.server_socket.accept()
+        print(f'Waiting for Unity Client...')
+        (self.client_socket,
+         self.client_addr) = \
+             self.server_socket.accept()
         return self.client_socket
 
     def wait_unity(self) -> bool:
-        print(f'Connected by {self.client_addr}')
+        print(f'Unity client socket {self.client_addr} accepted.')
         while True:
             data = self.client_socket.recv(1024)
             if data.decode() == 'start':
                 self.client_socket.sendall(data)
                 return True
             else:
-                print(f'waiting for Unity Client')
+                print(f'Waiting for Unity Client...')
                 time.sleep(0.01)
 
     def send_msg(self, msg: str = 'hello_unity') -> None:
@@ -39,12 +44,4 @@ class TcpServer:
 
 
 if __name__ == '__main__':
-    IP = '127.0.0.1'
-    PORT = 4042
-    server = TcpServer(IP, PORT)
-    server.boot()
-    server.wait_unity()
-    server.send_msg()
-    while True:
-        server.send_msg(msg='psh')
-    server.shut_down()
+    pass
