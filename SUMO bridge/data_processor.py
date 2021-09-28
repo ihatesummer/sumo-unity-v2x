@@ -41,12 +41,16 @@ class DataProcessor:
             if new_id not in old_veh_id:
                 self._new_cars.append(new_id)
 
-    def parse_obj(self, veh_ids: List[str], tls_ids: List[str]) -> Tuple[List[VehicleBridge], List[TrafficLight]]:
+    def parse_obj(self,
+                  veh_ids: List[str],
+                  tls_ids: List[str]) -> Tuple[List[VehicleBridge],
+                                               List[TrafficLight]]:
         Vehicles = self._parse_veh(veh_ids)
         TrafficLights = self._parse_tls(tls_ids)
         return Vehicles, TrafficLights
 
-    def _parse_veh(self, id_list: List[str]) -> List[VehicleBridge]:
+    def _parse_veh(self,
+                   id_list: List[str]) -> List[VehicleBridge]:
         Vehicles = []
         vehicles_id = self._make_unique(id_list)
         for veh in vehicles_id:

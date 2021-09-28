@@ -8,7 +8,7 @@ from sumo_python_bridge import SumoClient
 from python_unity_bridge import UnityBridge
 from PlotPerformanceMetrics import PerformanceMetrics
 
-SUMO_DIRECTORY = "2021-09-14-14-21-47"
+SUMO_DIRECTORY = "2021-09-27-19-54-09"
 IP = '127.0.0.1'
 PORT = 4042
 

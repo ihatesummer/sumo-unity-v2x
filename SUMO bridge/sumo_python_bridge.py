@@ -71,33 +71,45 @@ class VehicleBridge:
             self.edge = traci.vehicle.getRoadID(self.vehID)
             self.length = traci.vehicle.getLength(self.vehID)
             self.width = traci.vehicle.getWidth(self.vehID)
-            self.size = self._category_veh()  # Vehicle size category
-            if traci.vehicle.getSignals(self.vehID) & 8 == 8:  # Bitmask - 8 for brake light
+            # Vehicle size category
+            self.size = self._category_veh()
+
+            # Bitmask - 8 for brake light
+            if traci.vehicle.getSignals(self.vehID) & 8 == 8:
                 self.stBrakePedal = True
             else:
                 self.stBrakePedal = False
-#            tmp_pos = traci.vehicle.getPosition(self.vehID)  # position: x,y
-#            self.pos_x_front_bumper = tmp_pos[0]  # X position (front bumper, meters)
-#            self.pos_y_front_bumper = tmp_pos[1]  # Y position (front bumper, meters)
-            #self._get_position()
-            self.pos_x_front_bumper, self.pos_y_front_bumper, self.pos_z_front_bumper = self._get_position()
+
+            (self.pos_x_front_bumper,
+             self.pos_y_front_bumper,
+             self.pos_z_front_bumper) = self._get_position()
+            print(f"init bumper pos (x,y,z): {self.pos_x_front_bumper, self.pos_y_front_bumper, self.pos_z_front_bumper}")
             self.velocity = traci.vehicle.getSpeed(self.vehID)
             self.heading = traci.vehicle.getAngle(self.vehID)
-            self.pos_x_center, self.pos_y_center = self._get_center_pos()
+            (self.pos_x_center,
+             self.pos_y_center) = self._get_center_pos()
+            print(f"init center pos (x,y): {self.pos_x_center, self.pos_y_center}")
         except:
-            print(f'Error : Fail to find initial information of {self.vehID} vehicle')
+            print(f'ERROR : Failed to find initial ' + \
+                'information of {self.vehID} vehicle')
 
     def _get_position(self) -> Tuple[float, float, float]:
-        tmp_pos = traci.vehicle.getPosition3D(self.vehID)  # position: x,y,z
-        pos_x_front_bumper = tmp_pos[0]  # X position (front bumper, meters)
-        pos_y_front_bumper = tmp_pos[1]  # Y position (front bumper, meters)
-        pos_z_front_bumper = tmp_pos[2]  # Z position (height, meters)
-        return pos_x_front_bumper, pos_y_front_bumper, pos_z_front_bumper
+        (pos_x_front_bumper,
+         pos_y_front_bumper,
+         pos_z_front_bumper) = traci.vehicle.getPosition3D(self.vehID)
+        return (pos_x_front_bumper,
+                pos_y_front_bumper,
+                pos_z_front_bumper)
 
     def _get_center_pos(self) -> Tuple[float, float]:
         self.pos_z_center = self.pos_z_front_bumper
-        return self.pos_x_front_bumper - (math.sin(math.radians(self.heading)) * (self.length / 2)), \
-               self.pos_y_front_bumper - (math.cos(math.radians(self.heading)) * (self.length / 2))
+        r = self.length / 2
+        offset_x = -math.sin(math.radians(self.heading)) * r
+        offset_y = -math.cos(math.radians(self.heading)) * r
+        pos_center_x = self.pos_x_front_bumper + offset_x
+        pos_center_y = self.pos_y_front_bumper + offset_y
+
+        return pos_center_x, pos_center_y
 
     #@staticmethod
     #def _get_lng_lat(pos_x, pos_y) -> Tuple[float, float]:
