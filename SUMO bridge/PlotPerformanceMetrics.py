@@ -1,7 +1,6 @@
 from queue import Queue
-import re
-
 from typing import List, Tuple
+import re
 
 
 class PerformanceMetrics:

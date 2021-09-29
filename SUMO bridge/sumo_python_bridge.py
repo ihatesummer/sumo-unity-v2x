@@ -83,12 +83,10 @@ class VehicleBridge:
             (self.pos_x_front_bumper,
              self.pos_y_front_bumper,
              self.pos_z_front_bumper) = self._get_position()
-            print(f"init bumper pos (x,y,z): {self.pos_x_front_bumper, self.pos_y_front_bumper, self.pos_z_front_bumper}")
             self.velocity = traci.vehicle.getSpeed(self.vehID)
             self.heading = traci.vehicle.getAngle(self.vehID)
             (self.pos_x_center,
              self.pos_y_center) = self._get_center_pos()
-            print(f"init center pos (x,y): {self.pos_x_center, self.pos_y_center}")
         except:
             print(f'ERROR : Failed to find initial ' + \
                 'information of {self.vehID} vehicle')
@@ -96,7 +94,8 @@ class VehicleBridge:
     def _get_position(self) -> Tuple[float, float, float]:
         (pos_x_front_bumper,
          pos_y_front_bumper,
-         pos_z_front_bumper) = traci.vehicle.getPosition3D(self.vehID)
+         pos_z_front_bumper) = traci.vehicle.getPosition3D(
+             self.vehID)
         return (pos_x_front_bumper,
                 pos_y_front_bumper,
                 pos_z_front_bumper)

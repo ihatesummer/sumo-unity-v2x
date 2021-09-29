@@ -1,7 +1,12 @@
-a = 99
-b = ("this is a "
-     "very long "
-     f"string {a} or "
-     "mayby it is not.")
+import re
 
-print(b)
+file = "2021-09-27-19-54-09\osm.passenger.trips.xml"
+
+with open (file, 'r+' ) as f:
+    content = f.read()
+    content_new = re.sub(
+        'trip id="veh',
+        'trip id="',
+        content)
+    f.seek(0)
+    f.write(content_new)

@@ -8,9 +8,11 @@ from sumo_python_bridge import SumoClient
 from python_unity_bridge import UnityBridge
 from PlotPerformanceMetrics import PerformanceMetrics
 
-SUMO_DIRECTORY = "2021-09-27-19-54-09"
+SUMO_DIRECTORY = "2021-09-28-19-38-49"
 IP = '127.0.0.1'
 PORT = 4042
+MAX_STEP = 3826
+DataProcessor.preproc_psg_trips(SUMO_DIRECTORY)
 
 
 def main():
@@ -21,7 +23,6 @@ def main():
     (sumo_client, unity,
     server, data_processor,
     veh_obj, tls_obj) = init_program(SUMO_path)
-
     unity.construct_msg(veh_obj, tls_obj)
 
     # (plt, fig, performance_metric,
@@ -32,7 +33,7 @@ def main():
 
     while step_cnt < MAX_STEP:
         if unity._queue.empty():
-            #  print(f'main running; current step = {step_cnt}')
+            # print(f'main() running; current step = {step_cnt}')
             running(sumo_client, data_processor, unity)
         # if unity.recv_queue.not_empty:
         #     performance_metric.extract_metrics(unity.recv_queue)
@@ -74,7 +75,8 @@ def init_program(sumo_path):
      traffic_lights_id) = sumo_client.get_all_list()
 
     data_processor = DataProcessor()
-    veh_obj, tls_obj = data_processor.parse_obj(vehicles_id, traffic_lights_id)
+    veh_obj, tls_obj = data_processor.parse_obj(
+        vehicles_id, traffic_lights_id)
     
     return (sumo_client, unity,
             server, data_processor,
@@ -85,7 +87,8 @@ def running(sumo_client, data_processor, unity):
     global veh_obj, tls_obj
     sumo_client.next_step()
     vehicles_id, _ = sumo_client.get_all_list()
-    veh_obj, tls_obj = data_processor.update_obj(veh_obj, vehicles_id, tls_obj)
+    veh_obj, tls_obj = data_processor.update_obj(
+        veh_obj, vehicles_id, tls_obj)
     unity.construct_msg(veh_obj, tls_obj)
     unity.recv_msg()
     time.sleep(0.1)
@@ -126,9 +129,11 @@ def plotMetric():
     axes_6.set_ylabel("m")
     axes_6.set_title("relative error : average")
     line_6, = axes_6.plot([], [])
-    return plt, fig, performance_metric,\
-        line_1, line_2, line_3, line_4, line_5, line_6,\
-        axes_1, axes_2, axes_3, axes_4, axes_5, axes_6
+    return (plt, fig, performance_metric,
+            line_1, line_2, line_3,
+            line_4, line_5, line_6,
+            axes_1, axes_2, axes_3,
+            axes_4, axes_5, axes_6)
 
 
 def close(sumo_client, unity, server):
@@ -140,7 +145,5 @@ def close(sumo_client, unity, server):
 
 
 if __name__ == '__main__':
-    MAX_STEP = 3826
     step_cnt = 0
-    veh_obj, tls_obj = None, None
     main()

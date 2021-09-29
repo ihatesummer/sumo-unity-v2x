@@ -78,8 +78,12 @@ class UnityBridge:
         if not self.error_val_msg:
             return False
         elif self.error_val_msg == "start":
-            self.recv_queue.put("absolute error (min) 0 absolute error (max) 0 absolute error (average) 0 "
-                                "relative error (min) 0 relative error (max) 0 relative error (average) 0")
+            self.recv_queue.put("absolute error (min) 0 "
+            "absolute error (max) 0 " 
+            "absolute error (average) 0 "
+            "relative error (min) 0 "
+            "relative error (max) 0 "
+            "relative error (average) 0")
         else:
             #print(f'{self.error_val_msg}')
             self.recv_queue.put(self.error_val_msg)
@@ -91,7 +95,3 @@ class UnityBridge:
     @is_running.setter
     def is_running(self, bool_val: bool):
         self._is_running = bool_val
-
-
-
-
